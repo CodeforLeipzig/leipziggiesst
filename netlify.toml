@@ -1,6 +1,6 @@
 [build]
 
-command = "node ./create-env.js && npm run build"
+command = "node ./create-env.js && npm run build --no-peer-deps"
 publish = "dist/"
 
 [build.environment]
