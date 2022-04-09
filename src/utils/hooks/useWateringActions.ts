@@ -44,6 +44,8 @@ export const useWateringActions = (
     deleteWatering: async (wateringId: string): Promise<void> => {
       if (!userData || !token) return;
 
+      console.log("waterings before delete: " + userData.waterings)
+
       setIsUpdatingWatering(true);
       await deleteWatering({ token, wateringId });
       setIsUpdatingWatering(false);
@@ -51,6 +53,8 @@ export const useWateringActions = (
       invalidateUserData();
       invalidateTreeData();
       invalidateCommunityData();
+
+      console.log("waterings after invalidate: " + userData.waterings)
     }
   };
 };
