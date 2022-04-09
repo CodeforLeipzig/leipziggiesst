@@ -17,7 +17,6 @@ import { ParticipateButton } from '../../ParticipateButton';
 import { useAccountActions } from '../../../utils/hooks/useAccountActions';
 import { useCanExportUserData } from '../../../utils/hooks/useCanExportUserData';
 import { useUserProfileActions } from '../../../utils/hooks/useUserProfileActions';
-import { useWateringActions } from '../../../utils/hooks/useWateringActions';
 import { UserProfile, UserDataType, Tree, WateringType } from '../../../common/interfaces';
 import { SidebarLoading } from '../SidebarLoading';
 import SmallParagraph from '../../SmallParagraph';
@@ -52,7 +51,6 @@ const SidebarProfile: FC<{
 }> = ({ userData: userDataProps, isLoading: isLoadingProps }) => {
   const csvLink = React.createRef();
   const [csvData, setCsvData] = useState<string | undefined>()
-  const { isUpdatingWatering } = useWateringActions(null);
   const { userData: userDataState } = useUserData();
   const { deleteAccount } = useAccountActions();
   const { canExportUserData } = useCanExportUserData();
@@ -134,7 +132,6 @@ const SidebarProfile: FC<{
       </>
     );
   }
-  console.log("waterings sidebar: " + userData.waterings.map(item => item.wateringId).join(", "))
 
   return (
     <>
@@ -157,10 +154,10 @@ const SidebarProfile: FC<{
           </>
         }
       >
-        ( !isUpdatingWatering && <UsersWateringsList
+        <UsersWateringsList
           waterings={userData.waterings}
           showTreeName={true}
-        /> )
+        />
       </ExpandablePanel>
       <UserCredentials 
         userId={userData.id} 

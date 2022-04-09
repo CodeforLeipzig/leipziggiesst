@@ -89,21 +89,10 @@ const UsersWateringsList: FC<{
   const surpassedMaxItems = waterings.length > MAX_ITEMS;
   const sortWaterings = (t1: WateringType, t2: WateringType) => t2.timestamp.localeCompare(t1.timestamp); 
   const listItems = isExpanded ? waterings : waterings.sort(sortWaterings).slice(0, MAX_ITEMS);
-  const [removedItems, setRemovedItems] = useState<string[]>([])
-
-  console.log("waterings user list: " + waterings.map(item => item.wateringId).join(", "))
-
-  const deleteWateringAsync = async (wateringId) => {
-    await deleteWatering(wateringId);
-    setRemovedItems((existing) => {
-      existing.push(wateringId)
-      return existing;
-    })
-  }
 
   return (
     <WrapperOuter>
-      {listItems.filter(item => !removedItems.includes(item.wateringId)).map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
+      {listItems.map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
         <Wrapper key={`Lastadopted-key-${id}-${index}`}  style={{ height: showTreeName ? "40px": "25px"}}>
           <FlexRow>
             { showTreeName ? <TreeButton
@@ -120,7 +109,7 @@ const UsersWateringsList: FC<{
           <SmallParagraph>{`${amount}l`}</SmallParagraph>
           <StyledIcon src={iconDrop} alt='Water drop icon' />
           { canUpdateWatering && !isUpdatingWatering && (
-            <div onClick={() => deleteWateringAsync(wateringId)} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
+            <div onClick={() => deleteWatering(wateringId)} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
               <Delete style={{ fontSize: 14 }} />
             </div>
           )}
