@@ -6,6 +6,7 @@ const parseRawWatering = (rawWatering: RawWateringType): WateringType => ({
   timestamp: rawWatering.timestamp,
   treeId: rawWatering.tree_id,
   username: rawWatering.username,
+  wateringId: rawWatering.watering_id,
 });
 
 export const parseRawWaterings = (

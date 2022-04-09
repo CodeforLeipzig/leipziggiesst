@@ -15,6 +15,7 @@ export interface RawWateringType {
   tree_id: string;
   username: string;
   uuid: string;
+  watering_id: string;
 }
 
 export interface WateringType {
