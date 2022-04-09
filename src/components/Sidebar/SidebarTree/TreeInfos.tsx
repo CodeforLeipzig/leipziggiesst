@@ -156,7 +156,7 @@ const TreeInfos: FC<{
     }
   };
 
-  console.log("tree sidebar: " + userData.waterings.map(item => item.wateringId).join(", "))
+  console.log("tree sidebar: " + (userData && userData.waterings.map(item => item.wateringId).join(", ")))
 
   return (
     <Wrapper>
