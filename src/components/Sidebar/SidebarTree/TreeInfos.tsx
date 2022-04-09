@@ -118,6 +118,7 @@ const TreeInfos: FC<{
   } = selectedTreeData;
 
   const [open, setOpen] = useState(false);
+  const [isUpdatingWatering, setIsUpdatingWatering] = useState<boolean>(false)
 
   const { userData } = useUserData();
   const {
@@ -256,7 +257,12 @@ const TreeInfos: FC<{
               </>
             }
           >
-            <UsersWateringsList waterings={waterings} />
+            <UsersWateringsList
+              waterings={waterings}
+              setIsUpdatingWatering={setIsUpdatingWatering}
+              isUpdatingWatering={isUpdatingWatering}
+              showTreeName={false}
+            />
           </ExpandablePanel>
         )}
 

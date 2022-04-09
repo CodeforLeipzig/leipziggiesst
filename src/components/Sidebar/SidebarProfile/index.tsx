@@ -51,6 +51,7 @@ const SidebarProfile: FC<{
 }> = ({ userData: userDataProps, isLoading: isLoadingProps }) => {
   const csvLink = React.createRef();
   const [csvData, setCsvData] = useState<string | undefined>()
+  const [isUpdatingWatering, setIsUpdatingWatering] = useState<boolean>(false)
   const { userData: userDataState } = useUserData();
   const { deleteAccount } = useAccountActions();
   const { canExportUserData } = useCanExportUserData();
@@ -70,7 +71,8 @@ const SidebarProfile: FC<{
     treeId: "" + (num % 5),
     username: "example",
     amount: Number.parseInt((Math.random() * 200).toPrecision(1)),
-    timestamp: "2021-05-25T09:15:00.000"
+    timestamp: "2021-05-25T09:15:00.000",
+    wateringId: "dummyWateringId"
   }))
   const localUserData = {
     id: "0815",
@@ -153,7 +155,12 @@ const SidebarProfile: FC<{
           </>
         }
       >
-        <UsersWateringsList waterings={userData.waterings} showTreeName={true} />
+        <UsersWateringsList
+          waterings={userData.waterings}
+          setIsUpdatingWatering={setIsUpdatingWatering}
+          isUpdatingWatering={isUpdatingWatering}
+          showTreeName={true}
+        />
       </ExpandablePanel>
       <UserCredentials 
         userId={userData.id} 

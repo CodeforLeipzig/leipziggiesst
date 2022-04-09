@@ -80,8 +80,10 @@ const MAX_ITEMS = 8;
 
 const UsersWateringsList: FC<{
   waterings: WateringType[];
+  isUpdatingWatering: boolean;
+  setIsUpdatingWatering: (boolean) => void;
   showTreeName: Boolean,
-}> = ({ waterings, showTreeName }) => {
+}> = ({ waterings, isUpdatingWatering, setIsUpdatingWatering, showTreeName }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
   const history = useHistory();
   const { canUpdateWatering } = useCanUpdateWatering();
@@ -91,6 +93,7 @@ const UsersWateringsList: FC<{
   const listItems = isExpanded ? waterings : waterings.sort(sortWaterings).slice(0, MAX_ITEMS);
 
   const deleteWateringAsync = async (wateringId) => {
+    setIsUpdatingWatering(true);
     await deleteWatering(wateringId);
   }
 
@@ -112,8 +115,8 @@ const UsersWateringsList: FC<{
           </FlexRow>
           <SmallParagraph>{`${amount}l`}</SmallParagraph>
           <StyledIcon src={iconDrop} alt='Water drop icon' />
-          { canUpdateWatering && (
-          <div onClick={() => deleteWateringAsync(wateringId)} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
+          { canUpdateWatering && !isUpdatingWatering && (
+          <div onClick={() => deleteWateringAsync(wateringId).finally(() => setIsUpdatingWatering(false))} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
             <Delete style={{ fontSize: 14 }} />
           </div>
           )}
