@@ -19,6 +19,7 @@ export const useUserData = (): {
   userData: UserDataType | undefined;
   error: Error | null;
   invalidate: () => void;
+  refetch: () => void;
 } => {
   const { user } = useAuth0();
   const token = useAuth0Token();
@@ -33,6 +34,13 @@ export const useUserData = (): {
   return {
     userData,
     error,
-    invalidate: () => queryClient.invalidateQueries(queryParams)
+    invalidate: () => queryClient.invalidateQueries(queryParams),
+    refetch: () => {
+      queryClient
+      .getQueryCache()
+      .findAll(queryParams)
+      .forEach((query) => query.setData(undefined));
+      queryClient.invalidateQueries(queryParams);
+    }
   };
 };

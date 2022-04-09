@@ -15,7 +15,7 @@ export const useWateringActions = (
   isUpdatingWatering: boolean;
 } => {
   const token = useAuth0Token();
-  const { userData, invalidate: invalidateUserData } = useUserData();
+  const { userData, invalidate: invalidateUserData, refetch: refetchUserData } = useUserData();
   const { invalidate: invalidateCommunityData } = useCommunityData();
   const { invalidate: invalidateTreeData } = useTreeData(treeId);
   const [isBeingWatered, setIsBeingWatered] = useState<boolean>(false);
@@ -50,7 +50,7 @@ export const useWateringActions = (
       await deleteWatering({ token, wateringId });
       setIsUpdatingWatering(false);
 
-      invalidateUserData();
+      refetchUserData();
       invalidateTreeData();
       invalidateCommunityData();
     }
