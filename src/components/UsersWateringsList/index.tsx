@@ -89,19 +89,16 @@ const UsersWateringsList: FC<{
   const surpassedMaxItems = waterings.length > MAX_ITEMS;
   const sortWaterings = (t1: WateringType, t2: WateringType) => t2.timestamp.localeCompare(t1.timestamp); 
   const listItems = isExpanded ? waterings : waterings.sort(sortWaterings).slice(0, MAX_ITEMS);
-  const [removedItems, setRemovedItems] = useState<string[]>([]);
 
   const deleteWateringAsync = async (wateringId) => {
     await deleteWatering(wateringId);
-    setRemovedItems((existing) => {
-      existing.push(wateringId)
-      return existing;
-    })
+    // TODO find a better solution
+    window.location.reload();
   }
 
   return (
     <WrapperOuter>
-    {listItems.filter(item => !removedItems.includes(item.wateringId)).map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
+    {listItems.map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
         <Wrapper key={`Lastadopted-key-${id}-${index}`}  style={{ height: showTreeName ? "40px": "25px"}}>
           <FlexRow>
             { showTreeName ? <TreeButton
