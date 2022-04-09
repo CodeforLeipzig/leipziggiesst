@@ -25,6 +25,7 @@ import { SelectedTreeType } from '../../../common/interfaces';
 import Icon from '../../Icons';
 import StackedBarChart from '../../StackedBarChart';
 import { useUserData } from '../../../utils/hooks/useUserData';
+import { useWateringActions } from '../../../utils/hooks/useWateringActions';
 import { ParticipateButton } from '../../ParticipateButton';
 import Paragraph from '../../Paragraph';
 import { NonVerfiedMailMessage } from '../../NonVerfiedMailMessage';
@@ -119,6 +120,8 @@ const TreeInfos: FC<{
 
   const [open, setOpen] = useState(false);
 
+  const { isUpdatingWatering } = useWateringActions(null);
+
   const { userData } = useUserData();
   const {
     unadoptTree,
@@ -152,6 +155,8 @@ const TreeInfos: FC<{
       setOpen(true)
     }
   };
+
+  console.log("tree sidebar: " + userData.waterings.map(item => item.wateringId).join(", "))
 
   return (
     <Wrapper>
@@ -256,10 +261,10 @@ const TreeInfos: FC<{
               </>
             }
           >
-            <UsersWateringsList
+            ( !isUpdatingWatering && <UsersWateringsList
               waterings={waterings}
               showTreeName={false}
-            />
+            /> )
           </ExpandablePanel>
         )}
 
