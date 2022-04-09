@@ -8,7 +8,16 @@ export const deleteWatering = async ({
   token: string;
   wateringId: string;
 }): Promise<boolean> => {
-  const urlWaterings = createAPIUrl(`/delete?queryType=watering-delete&uuid=${wateringId}`);
-  await requests<string>(urlWaterings, { token });
+  const urlWaterings = createAPIUrl(`/delete`);
+  await requests<undefined, { method: 'DELETE'; body: string }>(urlWaterings, {
+    token,
+    override: {
+      method: 'DELETE',
+      body: JSON.stringify({
+        queryType: 'watering-delete',
+        uuid: wateringId,
+      }),
+    },
+  });
   return true;
 };
