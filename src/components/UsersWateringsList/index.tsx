@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import React, { FC, useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Delete from '@material-ui/icons/Delete'
 import { useHistory } from 'react-router';
@@ -89,14 +89,19 @@ const UsersWateringsList: FC<{
   const surpassedMaxItems = waterings.length > MAX_ITEMS;
   const sortWaterings = (t1: WateringType, t2: WateringType) => t2.timestamp.localeCompare(t1.timestamp); 
   const listItems = isExpanded ? waterings : waterings.sort(sortWaterings).slice(0, MAX_ITEMS);
+  const [removedItems, setRemovedItems] = useState<string[]>([])
 
   const deleteWateringAsync = async (wateringId) => {
     await deleteWatering(wateringId);
+    setRemovedItems((existing) => {
+      existing.push(wateringId)
+      return existing;
+    })
   }
 
   return (
     <WrapperOuter>
-      {listItems.map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
+      {listItems.filter(item => !removedItems.includes(item.wateringId)).map(({ id, username, timestamp, amount, treeId, wateringId }: WateringType, index: number) => (
         <Wrapper key={`Lastadopted-key-${id}-${index}`}  style={{ height: showTreeName ? "40px": "25px"}}>
           <FlexRow>
             { showTreeName ? <TreeButton
