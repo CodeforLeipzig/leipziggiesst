@@ -50,7 +50,7 @@ export const useWateringActions = (
       await deleteWatering({ token, wateringId });
       setIsUpdatingWatering(false);
 
-      refetchUserData();
+      invalidateUserData();
       invalidateTreeData();
       invalidateCommunityData();
     }

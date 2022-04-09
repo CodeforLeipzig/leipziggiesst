@@ -93,7 +93,7 @@ const UsersWateringsList: FC<{
   const deleteWateringAsync = async (wateringId) => {
     await deleteWatering(wateringId);
     // TODO find a better solution
-    //window.location.reload();
+    window.location.reload();
   }
 
   return (
