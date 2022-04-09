@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, { FC, useState } from 'react';
 import styled from 'styled-components';
 import Delete from '@material-ui/icons/Delete'
 import { useHistory } from 'react-router';
@@ -90,6 +90,8 @@ const UsersWateringsList: FC<{
   const sortWaterings = (t1: WateringType, t2: WateringType) => t2.timestamp.localeCompare(t1.timestamp); 
   const listItems = isExpanded ? waterings : waterings.sort(sortWaterings).slice(0, MAX_ITEMS);
   const [removedItems, setRemovedItems] = useState<string[]>([])
+
+  console.log("waterings user list: " + waterings.map(item => item.wateringId).join(", "))
 
   const deleteWateringAsync = async (wateringId) => {
     await deleteWatering(wateringId);

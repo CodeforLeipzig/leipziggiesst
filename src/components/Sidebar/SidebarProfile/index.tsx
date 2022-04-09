@@ -132,6 +132,7 @@ const SidebarProfile: FC<{
       </>
     );
   }
+  console.log("waterings sidebar: " + userData.waterings.map(item => item.wateringId).join(", "))
 
   return (
     <>
