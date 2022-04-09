@@ -35,6 +35,6 @@ export const useUserData = (): {
     userData,
     error,
     invalidate: () => queryClient.invalidateQueries(queryParams),
-    refetch: () => queryClient.removeQueries(queryParams),
+    refetch: () => queryClient.clear(),
   };
 };
