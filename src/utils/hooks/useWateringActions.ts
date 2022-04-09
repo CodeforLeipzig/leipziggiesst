@@ -12,15 +12,18 @@ export const useWateringActions = (
   waterTree: (amount: number) => Promise<void>;
   deleteWatering: (uuid: string) => Promise<void>;
   isBeingWatered: boolean;
+  isUpdatingWatering: boolean;
 } => {
   const token = useAuth0Token();
   const { userData, invalidate: invalidateUserData } = useUserData();
   const { invalidate: invalidateCommunityData } = useCommunityData();
   const { invalidate: invalidateTreeData } = useTreeData(treeId);
   const [isBeingWatered, setIsBeingWatered] = useState<boolean>(false);
+  const [isUpdatingWatering, setIsUpdatingWatering] = useState<boolean>(false);
 
   return {
     isBeingWatered,
+    isUpdatingWatering,
     waterTree: async (amount: number): Promise<void> => {
       if (!userData || !token || !treeId) return;
 
@@ -41,7 +44,9 @@ export const useWateringActions = (
     deleteWatering: async (wateringId: string): Promise<void> => {
       if (!userData || !token) return;
 
-      deleteWatering({ token, wateringId });
+      setIsUpdatingWatering(true);
+      await deleteWatering({ token, wateringId });
+      setIsUpdatingWatering(false);
 
       invalidateUserData();
       invalidateTreeData();
