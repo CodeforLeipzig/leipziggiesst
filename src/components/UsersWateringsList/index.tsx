@@ -112,10 +112,10 @@ const UsersWateringsList: FC<{
           </FlexRow>
           <SmallParagraph>{`${amount}l`}</SmallParagraph>
           <StyledIcon src={iconDrop} alt='Water drop icon' />
-          { canUpdateWatering && (
-          <div onClick={() => deleteWateringAsync(wateringId)} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
-            ( isUpdatingWatering && <Delete style={{ fontSize: 14 }} /> )
-          </div>
+          { canUpdateWatering && !isUpdatingWatering && (
+            <div onClick={() => deleteWateringAsync(wateringId)} style={{ paddingLeft: '10px', cursor: 'pointer' }}>
+              <Delete style={{ fontSize: 14 }} />
+            </div>
           )}
         </Wrapper>
       ))}
