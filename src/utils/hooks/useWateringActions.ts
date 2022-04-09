@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { waterTree } from '../requests/waterTree';
 import { deleteWatering } from '../requests/deleteWatering';
+import { getUserData } from '../requests/getUserData';
 import { useAuth0Token } from './useAuth0Token';
 import { useCommunityData } from './useCommunityData';
 import { useTreeData } from './useTreeData';
@@ -50,13 +51,15 @@ export const useWateringActions = (
       await deleteWatering({ token, wateringId });
       setIsUpdatingWatering(false);
 
-      await new Promise(resolve => setTimeout(resolve, 3000));
-
       invalidateUserData();
       invalidateTreeData();
       invalidateCommunityData();
 
       console.log("waterings after invalidate: " + userData.waterings)
+
+      const uData = await getUserData({ userId: userData.id,  token})
+      console.log("waterings after invalidate uData: " + ( uData && uData.waterings))
+
     }
   };
 };
