@@ -52,8 +52,6 @@ export const useWateringActions = (
       setIsUpdatingWatering(false);
 
       refetchUserData();
-      invalidateTreeData();
-      invalidateCommunityData();
     }
   };
 };
