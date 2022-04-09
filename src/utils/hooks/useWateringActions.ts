@@ -50,6 +50,8 @@ export const useWateringActions = (
       await deleteWatering({ token, wateringId });
       setIsUpdatingWatering(false);
 
+      await new Promise(resolve => setTimeout(resolve, 3000));
+
       invalidateUserData();
       invalidateTreeData();
       invalidateCommunityData();
