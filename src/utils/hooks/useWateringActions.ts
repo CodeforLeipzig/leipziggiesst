@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { waterTree } from '../requests/waterTree';
+import { deleteWatering } from '../requests/deleteWatering';
 import { useAuth0Token } from './useAuth0Token';
 import { useCommunityData } from './useCommunityData';
 import { useTreeData } from './useTreeData';
@@ -9,6 +10,7 @@ export const useWateringActions = (
   treeId: string | null | undefined
 ): {
   waterTree: (amount: number) => Promise<void>;
+  deleteWatering: (uuid: string) => Promise<void>;
   isBeingWatered: boolean;
 } => {
   const token = useAuth0Token();
@@ -36,5 +38,14 @@ export const useWateringActions = (
       invalidateTreeData();
       invalidateCommunityData();
     },
+    deleteWatering: async (wateringId: string): Promise<void> => {
+      if (!userData || !token) return;
+
+      deleteWatering({ token, wateringId });
+
+      invalidateUserData();
+      invalidateTreeData();
+      invalidateCommunityData();
+    }
   };
 };

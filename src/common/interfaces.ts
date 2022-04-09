@@ -23,6 +23,7 @@ export interface WateringType {
   username: string;
   timestamp: string;
   treeId: string;
+  wateringId: string;
 }
 export interface UserDataType {
   id: string;
