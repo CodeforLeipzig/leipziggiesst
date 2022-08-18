@@ -493,6 +493,22 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.336188703775406,51.33314638584452] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20220818_tap_friedhof_lindenau",
+        "name": "Wasserentnahmestelle auf dem Friedhof Lindenau",
+        "type": "Wasserhahn",
+        "address": "Merseburger Straße 148",
+        "created": "18.08.2022",
+        "url": "https://www.friedhofsverband-leipzig.de/friedhof-leipzig-lindenau/"
+        "hints":[
+          "Wasserhahn mit hoher Durchflussrate und Auffangbecken",
+          "Öffnungszeiten siehe Webseite"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3191223,51.3398509] }
     }
   ]
 }
