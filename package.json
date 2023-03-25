@@ -125,6 +125,7 @@
     "react-loader-spinner": "^4.0.0",
     "react-map-gl": "5.2.12",
     "react-query": "3.12.2",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "5.2.0",
     "react-share": "4.3.1",
     "reselect": "4.0.0",
