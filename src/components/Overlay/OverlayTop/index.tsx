@@ -51,20 +51,18 @@ const OverlayTop: FC = () => {
   const { closeOverlay } = useActions();
   const { intro, eventNote, whatsNew } = content;
 
-  const { title, subline, description, disclaimer, callToAction } = intro;
+  const { title, subline, description, disclaimer } = intro;
 
   return (
     <StyledTop>
       <Wrapper>
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
-        { (!isMobile && callToAction) && <OverlayParagraph key={`Overlay-description-CtA`}><span style={{ color: 'red', width: '80%', float: 'left'}}>{callToAction}</span><span style={{ width: '20%', float: 'left'}}> </span></OverlayParagraph>}
       </Wrapper>
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
       {/* the beow is here for local testing */}
       {/* {true && <OverlayTitle size='medium' content={disclaimer} />} */}
-      { (isMobile && callToAction) && <OverlayParagraph key={`Overlay-description-CtA`}><span style={{ marginLeft: '40px', textAlign: 'center', width: '80%', float: 'left', color: 'red'}}>{callToAction}</span><span style={{ content: '', display: 'block', clear: 'both'}}><br /></span></OverlayParagraph>}
       <OverlayDescription content={description} />
       <OverlayClose onClick={closeOverlay} />
       <StyledWrapper>
