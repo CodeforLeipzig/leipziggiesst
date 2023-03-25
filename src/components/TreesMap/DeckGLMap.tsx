@@ -9,6 +9,7 @@ import {
   ViewportProps,
   FlyToInterpolator,
 } from 'react-map-gl';
+import { CustomButtonControl } from './CustomButtonControl'
 import DeckGL, { GeoJsonLayer, IconLayer } from 'deck.gl';
 import { easeCubic as d3EaseCubic, ExtendedFeatureCollection } from 'd3';
 import { interpolateColor, rgbStrToRgb } from '../../utils/colorUtil';
@@ -74,6 +75,7 @@ interface DeckGLStateType {
   cursor: 'grab' | 'pointer';
   geoLocationAvailable: boolean;
   isTreeMapLoading: boolean;
+  show2d: boolean;
   viewport: ViewportType;
 }
 
@@ -86,6 +88,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
       cursor: 'grab',
       geoLocationAvailable: false,
       isTreeMapLoading: true,
+      show2d: false,
       viewport: {
         latitude: 51.3399028,
         longitude: 12.3742236,
@@ -438,39 +441,41 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
     if (!firstLabelLayerId) return;
 
     if (!isMobile) {
-      map.addLayer(
-        {
-          id: '3d-buildings',
-          source: 'composite',
-          'source-layer': 'building',
-          filter: ['==', 'extrude', 'true'],
-          type: 'fill-extrusion',
-          minzoom: 0,
-          paint: {
-            'fill-extrusion-color': '#FFF',
-            'fill-extrusion-height': [
-              'interpolate',
-              ['linear'],
-              ['zoom'],
-              15,
-              0,
-              15.05,
-              ['get', 'height'],
-            ],
-            'fill-extrusion-base': [
-              'interpolate',
-              ['linear'],
-              ['zoom'],
-              15,
-              0,
-              15.05,
-              ['get', 'min_height'],
-            ],
-            'fill-extrusion-opacity': 0.3,
+      if (!this.state.show2d) {
+        map.addLayer(
+          {
+            id: '3d-buildings',
+            source: 'composite',
+            'source-layer': 'building',
+            filter: ['==', 'extrude', 'true'],
+            type: 'fill-extrusion',
+            minzoom: 0,
+            paint: {
+              'fill-extrusion-color': '#FFF',
+              'fill-extrusion-height': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                15,
+                0,
+                15.05,
+                ['get', 'height'],
+              ],
+              'fill-extrusion-base': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                15,
+                0,
+                15.05,
+                ['get', 'min_height'],
+              ],
+              'fill-extrusion-opacity': 0.3,
+            },
           },
-        },
-        firstLabelLayerId
-      );
+          firstLabelLayerId
+        );
+      }
     } else {
       // disable map rotation using right click + drag
       map.dragRotate.disable();
@@ -646,6 +651,21 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
   render(): ReactNode {
     const { isNavOpen, showControls } = this.props;
     const { viewport } = this.state;
+    const toggle2dAnd3d = () => {
+      const newShow2d = !this.state.show2d;
+      if (map) {
+        const layerId = '3d-buildings'
+        if (newShow2d) {
+          map.setLayoutProperty(layerId, 'visibility', 'none');
+        } else {
+          map.setLayoutProperty(layerId, 'visibility', 'visible');
+        }  
+      }
+      this.setState({ show2d: newShow2d, viewport: {
+        ...this.state.viewport,
+        pitch: newShow2d ? 0 : 45
+      } });
+    };
     return (
       <>
         <DeckGL
@@ -669,6 +689,10 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           >
             {!showControls && (
               <ControlWrapper isNavOpen={isNavOpen}>
+                { !isMobile && <CustomButtonControl 
+                  label={this.state.show2d ? '3D' : '2D'}
+                  onClick={toggle2dAnd3d}
+                />}
                 <GeolocateControl
                   positionOptions={{ enableHighAccuracy: true }}
                   trackUserLocation={false}

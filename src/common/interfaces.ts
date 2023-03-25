@@ -88,6 +88,7 @@ export interface StoreProps {
   ageRange: number[];
   overlay: boolean;
   mapFocusPoint: FocusPointType | null;
+  show2d: boolean;
 }
 
 export interface Tree {
