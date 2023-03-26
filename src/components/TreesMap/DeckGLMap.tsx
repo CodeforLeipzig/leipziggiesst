@@ -19,6 +19,7 @@ import {
   TreeGeojsonFeatureProperties,
 } from '../../common/interfaces';
 import { pumpToColor } from './mapColorUtil';
+import StatusBar from '../StatusBar';
 interface StyledProps {
   isNavOpen?: boolean;
 }
@@ -41,6 +42,13 @@ let selectedStateId: string | number | undefined = undefined;
 const VIEWSTATE_TRANSITION_DURATION = 1000;
 const VIEWSTATE_ZOOMEDIN_ZOOM = 19;
 interface DeckGLPropType {
+  deckRef: any;
+  handleViewStateChanged: any;
+  treeCount: number;
+  waterSourceCount: number;
+  mobileCount: number;
+  zoom: any;
+  setZoom: any;
   treesGeoJson: ExtendedFeatureCollection | null;
   rainGeojson: ExtendedFeatureCollection | null;
 
@@ -102,7 +110,6 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         transitionInterpolator: new FlyToInterpolator(),
       },
     };
-
     this._onClick = this._onClick.bind(this);
     this._updateStyles = this._updateStyles.bind(this);
     this._deckClick = this._deckClick.bind(this);
@@ -317,9 +324,9 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         // iconAtlas and iconMapping are required
         // getIcon: return a string
         getIcon: d => this._getWaterSourceIcon(d, window.location.pathname.split('/').filter(s => s.length > 0).map(_ => '../').join('')),
-        sizeScale: 5,
+        sizeScale: this.props.zoom ? Math.pow(2, -12 + this.props.zoom) : 5,
         getPosition: (d) => d.geometry.coordinates,
-        getSize: (d) => 10,
+        getSize: (d) => 1,
         getColor: (d) => [140, 140, 0],
         onClick: info => {
           this._onClick(info.x, info.y, info.object);
@@ -547,7 +554,6 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         },
       });
     }
-
     this.setState({ isTreeMapLoading: false });
 
     if (!this.props.focusPoint) return;
@@ -557,6 +563,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
       zoom: this.props.focusPoint.zoom || VIEWSTATE_ZOOMEDIN_ZOOM,
       transitionDuration: VIEWSTATE_TRANSITION_DURATION,
     });
+    this.props.handleViewStateChanged();
   }
 
   _updateStyles(prevProps: DeckGLPropType): void {
@@ -646,10 +653,11 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           ? VIEWSTATE_TRANSITION_DURATION
           : 0,
     });
+    this.props.setZoom(viewport.zoom);
   }
 
   render(): ReactNode {
-    const { isNavOpen, showControls } = this.props;
+    const { isNavOpen, showControls, deckRef, handleViewStateChanged, treeCount, waterSourceCount, mobileCount } = this.props;
     const { viewport } = this.state;
     const toggle2dAnd3d = () => {
       const newShow2d = !this.state.show2d;
@@ -666,17 +674,23 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         pitch: newShow2d ? 0 : 45
       } });
     };
+
     return (
       <>
         <DeckGL
+          ref={deckRef}
           layers={this._renderLayers() as any}
           initialViewState={viewport}
           viewState={viewport as any}
           getCursor={() => this.state.cursor}
           onHover={({ layer }) => this.setCursor(layer)}
           onClick={this._deckClick}
-          onViewStateChange={e => this.onViewStateChange(e.viewState)}
+          onViewStateChange={e => {
+            this.onViewStateChange(e.viewState);
+            handleViewStateChanged("onViewStateChange");
+          }}
           controller
+          
         >
           <StaticMap
             reuseMaps
@@ -715,19 +729,24 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
                   }}
                 />
                 <NavigationControl
-                  onViewStateChange={e =>
+                  onViewStateChange={e => {
                     this.setViewport({
                       latitude: e.viewState.latitude,
                       longitude: e.viewState.longitude,
                       zoom: e.viewState.zoom,
                       transitionDuration: VIEWSTATE_TRANSITION_DURATION,
                     })
-                  }
+                  }}
                 />
               </ControlWrapper>
             )}
           </StaticMap>
         </DeckGL>
+        <StatusBar 
+          treeCount={treeCount} 
+          waterSourceCount={waterSourceCount} 
+          mobileCount={mobileCount} 
+        />
       </>
     );
   }
