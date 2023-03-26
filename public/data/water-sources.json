@@ -565,7 +565,23 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.328250949999994,51.33338035] }
-    }    
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20230326_lenes_garten",
+        "type": "Organisation",
+        "name": "Lenes Garten",
+        "organisation": "Ostpflanzer e.V.",
+        "address": "Lene-Voigt-Park",
+        "created": "26.03.2023",
+        "hints": [
+          "zugänglicher Wassertank vom Gemeinschaftsgarten",
+          "jeden ersten Sonntag im Monat Gärtner*innentreff"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.399237302397353,51.33460965762558] }
+    }     
   ]
 }
 
