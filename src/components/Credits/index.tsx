@@ -87,9 +87,9 @@ const DigiPreisLogo = styled.img`
 const Credits: FC = () => {
   return (
     <CreditsContainer>
-      <Carousel showThumbs={false} autoPlay={true} interval={3000} 
+      <Carousel showThumbs={false} autoPlay={true} interval={6000}
           dynamicHeight={false} centerMode={false} showStatus={false}
-          showArrows={false} showIndicators={false} infiniteLoop={true} 
+          showArrows={false} showIndicators={false} infiniteLoop={true}
           width={'100%'}>
         <div className={'clickable'} onClick={() => window.open("https://codefor.de/leipzig")}>
           <span className="project">Ein Projekt von:</span>
