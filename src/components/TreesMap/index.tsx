@@ -1,4 +1,4 @@
-import React, { FC, useRef, useCallback, useState } from 'react';
+import React, { FC, useRef, useCallback, useState, useEffect } from 'react';
 import debounce from 'lodash.debounce';
 import DeckGlMap from './DeckGLMap';
 import { useStoreState } from '../../state/unistore-hooks';
@@ -36,15 +36,20 @@ export const Map: FC<{
   const { waterSourceData: selectedWaterSourceData } = useWaterSourceData(waterSourceId);
   const history = useHistory();
 
-  const [treeCount, setTreeCount] = useState((treesGeoJson as any).features.length);
-  const [waterSourceCount, setWaterSourceCount] = useState((waterSourcesGeoJson as any).features.filter(
-    (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil').length);
-  const [mobileCount, setMobileCount] = useState((waterSourcesGeoJson as any).features.filter(
-    (feature) => feature.properties?.type === 'LEIPZIG GIESST-Mobil').length);
+  const initialTreeCount = (treesGeoJson as any).features.length
+  const initialWaterSourceCount = (waterSourcesGeoJson as any).features.filter(
+    (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil').length;
+  const initialMobileCount = (waterSourcesGeoJson as any).features.filter(
+    (feature) => feature.properties?.type === 'LEIPZIG GIESST-Mobil').length;  
+  const [treeCount, setTreeCount] = useState(initialTreeCount);
+  const [waterSourceCount, setWaterSourceCount] = useState(initialWaterSourceCount);
+  const [mobileCount, setMobileCount] = useState(initialMobileCount);
   const [zoom, setZoom] = useState(10);
 
   const debouncedSet = useCallback(
     debounce(deck => {
+      const zoomLevels = deck.viewports.map(vp => vp.zoom)
+      const zoomLevel = zoomLevels.length > 0 ? zoomLevels[0] : 15;
       const getFeatureCount = (layerId, filterFun) => {
         return new Promise((resolve) => {
             const infos = deck.pickObjects({
@@ -57,9 +62,16 @@ export const Map: FC<{
             return (infos && infos.length) ? resolve(infos.filter(filterFun).length) : resolve(0);          
         })
       };
-      getFeatureCount('geojson', () => true).then((count) => setTreeCount(count as number));
-      getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil').then((count) => setWaterSourceCount(count as number));
-      getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));
+      console.log(`zoom: ${deck.zoom}`)
+      if (zoomLevel >= 15) {
+        getFeatureCount('geojson', () => true).then((count) => setTreeCount((count as number)));
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil').then((count) => setWaterSourceCount(count as number));
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));  
+      } else {
+        setTreeCount(initialTreeCount);
+        setWaterSourceCount(initialWaterSourceCount);
+        setMobileCount(initialMobileCount);
+      }
     }, 500),
     [],
   );
@@ -69,7 +81,7 @@ export const Map: FC<{
       const deck = deckRef.current;
       debouncedSet(deck);
     }
-  }, [])
+  }, [zoom])
 
   return (
     <DeckGlMap

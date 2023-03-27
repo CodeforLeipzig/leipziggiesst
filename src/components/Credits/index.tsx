@@ -90,7 +90,7 @@ const Credits: FC = () => {
       <Carousel showThumbs={false} autoPlay={true} interval={6000}
           dynamicHeight={false} centerMode={false} showStatus={false}
           showArrows={false} showIndicators={false} infiniteLoop={true}
-          width={'100%'}>
+          width={'100%'} transitionTime={1000}>
         <div className={'clickable'} onClick={() => window.open("https://codefor.de/leipzig")}>
           <span className="project">Ein Projekt von:</span>
           <CFGLogo src={logoCodeForLeipzig} alt='Logo Code for Leipzig' />

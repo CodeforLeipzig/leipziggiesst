@@ -1,4 +1,5 @@
 import React from "react";
+import Icon from "../Icons";
 
 const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
 
@@ -15,24 +16,30 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                 marginRight: 'auto',
                 marginLeft: 'auto',
                 marginBottom: '1px',
-                height: '30px',
+                height: '50px',
                 width: '550px',
                 overflow: 'auto',
                 padding: '20px',
                 textAlign: 'center'
             }}
         >
-            <div style={{ float: 'left', paddingRight: '20px'}}>
-                <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>Bäume:</div>
-                <div style={{ float: 'left' }}>{treeCount}</div>
+            <div style={{ float: 'left', paddingRight: '40px'}}>
+                <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
+                    <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
+                </div>
+                <div style={{ paddingTop: 15, float: 'left' }}>{treeCount}</div>
             </div>
-            <div style={{ float: 'left', paddingRight: '20px'}}>
-                <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>Wasserquellen:</div>
-                <div style={{ float: 'left' }}>{waterSourceCount}</div>
+            <div style={{ float: 'left', paddingRight: '40px'}}>
+                <div style={{ paddingTop: 8, fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>
+                    <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
+                </div>
+                <div style={{ paddingTop: 15, float: 'left' }}>{waterSourceCount}</div>
             </div>
-            <div style={{ float: 'left', paddingRight: '20px'}}>
-                <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>LEIPZIG GIESST-Mobile:</div>
-                <div style={{ float: 'left' }}>{mobileCount}</div>
+            <div style={{ float: 'left', paddingRight: '40px'}}>
+                <div style={{ paddingTop: 8, fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
+                    <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
+                </div>
+                <div style={{ paddingTop: 15, float: 'left' }}>{mobileCount}</div>
             </div>           
         </div>
     );
