@@ -1,5 +1,4 @@
 import React from "react";
-import Icon from "../Icons";
 
 const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
 
@@ -17,7 +16,7 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                 marginLeft: 'auto',
                 marginBottom: '1px',
                 height: '50px',
-                width: '550px',
+                width: '350px',
                 overflow: 'auto',
                 padding: '20px',
                 textAlign: 'center'
