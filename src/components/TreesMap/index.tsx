@@ -1,4 +1,5 @@
-import React, { FC, useRef, useCallback, useState, useEffect } from 'react';
+import React, { FC, useRef, useCallback, useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import debounce from 'lodash.debounce';
 import DeckGlMap from './DeckGLMap';
 import { useStoreState } from '../../state/unistore-hooks';
@@ -40,7 +41,7 @@ export const Map: FC<{
   const initialWaterSourceCount = (waterSourcesGeoJson as any).features.filter(
     (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil').length;
   const initialMobileCount = (waterSourcesGeoJson as any).features.filter(
-    (feature) => feature.properties?.type === 'LEIPZIG GIESST-Mobil').length;  
+    (feature) => feature.properties?.type === 'LEIPZIG GIESST-Mobil').length;
   const [treeCount, setTreeCount] = useState(initialTreeCount);
   const [waterSourceCount, setWaterSourceCount] = useState(initialWaterSourceCount);
   const [mobileCount, setMobileCount] = useState(initialMobileCount);
@@ -59,14 +60,18 @@ export const Map: FC<{
               height: deck.deck.height,
               layerIds: [layerId]
             });
-            return (infos && infos.length) ? resolve(infos.filter(filterFun).length) : resolve(0);          
+            return (infos && infos.length) ? resolve(infos.filter(filterFun).length) : resolve(0);
         })
       };
       console.log(`zoom: ${deck.zoom}`)
       if (zoomLevel >= 15) {
-        getFeatureCount('geojson', () => true).then((count) => setTreeCount((count as number)));
+        if (isMobile) {
+          getFeatureCount('trees', () => true).then((_) => setTreeCount(-1));
+        } else {
+          getFeatureCount('geojson', () => true).then((count) => setTreeCount((count as number)));
+        }
         getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil').then((count) => setWaterSourceCount(count as number));
-        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));  
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));
       } else {
         setTreeCount(initialTreeCount);
         setWaterSourceCount(initialWaterSourceCount);

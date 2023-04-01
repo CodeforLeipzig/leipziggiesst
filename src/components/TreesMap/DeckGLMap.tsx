@@ -667,7 +667,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           map.setLayoutProperty(layerId, 'visibility', 'none');
         } else {
           map.setLayoutProperty(layerId, 'visibility', 'visible');
-        }  
+        }
       }
       this.setState({ show2d: newShow2d, viewport: {
         ...this.state.viewport,
@@ -690,7 +690,6 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
             handleViewStateChanged("onViewStateChange");
           }}
           controller
-          
         >
           <StaticMap
             reuseMaps
@@ -742,10 +741,10 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
             )}
           </StaticMap>
         </DeckGL>
-        <StatusBar 
-          treeCount={treeCount} 
-          waterSourceCount={waterSourceCount} 
-          mobileCount={mobileCount} 
+        <StatusBar
+          treeCount={treeCount}
+          waterSourceCount={waterSourceCount}
+          mobileCount={mobileCount}
         />
       </>
     );
