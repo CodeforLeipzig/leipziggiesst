@@ -21,8 +21,10 @@ const CreditsContainer = styled.div`
   top: 12px;
   right: 12px;
 
-  @media screen and (max-width: ${p => p.theme.screens.tablet}) {
-    display: none;
+  @media only screen and (max-width: ${p => p.theme.screens.tablet}) {
+    .carousel-wrapper{
+      max-width: 100%;
+    }
   }
 
   span {

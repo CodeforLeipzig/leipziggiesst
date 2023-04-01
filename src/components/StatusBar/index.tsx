@@ -19,18 +19,16 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                     height: '50px',
                     width: '350px',
                     overflow: 'auto',
-                    padding: '20px',
+                    padding: '10px',
                     textAlign: 'center'
                 }}
             >
-                { treeCount >=0 &&
-                    <div style={{ float: 'left', paddingRight: '40px'}}>
-                        <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
-                            <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
-                        </div>
-                        <div style={{ paddingTop: 15, float: 'left' }}>{treeCount}</div>
+                <div style={{ float: 'left', paddingRight: '40px'}}>
+                    <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
+                        <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
                     </div>
-                }
+                    <div style={{ paddingTop: 15, float: 'left' }}>{treeCount}</div>
+                </div>
                 <div style={{ float: 'left', paddingRight: '40px'}}>
                     <div style={{ paddingTop: 8, fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>
                         <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
@@ -60,35 +58,29 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                     marginTop: 'auto',
                     marginBottom: 'auto',
                     marginRight: '1px',
-                    height: '160px',
-                    width: '100px',
+                    height: '220px',
+                    width: '60px',
                     overflow: 'auto',
-                    padding: '20px',
-                    textAlign: 'left'
+                    paddingRight: '10px',
+                    textAlign: 'right'
                 }}
             >
-                <div style={{ width: "50%", float:"left" }}>
-                    { treeCount >=0 &&
-                        <div style={{ paddingBottom: 20 }}>
-                            <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
-                        </div>
-                    }
-                        <div style={{ paddingBottom: 20, paddingLeft: 5 }}>
-                            <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
-                        </div>
-                    <div>
-                        <div style={{ paddingLeft: 8 }}>
-                            <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
-                        </div>
+                { !!treeCount &&
+                    <div style={{ paddingBottom: 5 }}>
+                        <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
                     </div>
+                }
+                { !!treeCount &&
+                    <div style={{ paddingBottom: 15, paddingRight: 6 }}>{treeCount}</div>
+                }
+                <div style={{ paddingBottom: 5 }}>
+                    <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                 </div>
-                <div style={{ width: "50%", float:"right", textAlign: 'right' }}>
-                    { treeCount >=0 &&
-                        <div style={{ paddingBottom: 20, paddingTop: 15 }}>{treeCount}</div>
-                    }
-                    <div style={{ paddingBottom: 20, paddingTop: 20 }}>{waterSourceCount}</div>
-                    <div style={{ paddingTop: 15 }}>{mobileCount}</div>
+                <div style={{ paddingBottom: 15, paddingRight: 6 }}>{waterSourceCount}</div>
+                <div style={{ paddingBottom: 5, paddingRight: 2 }}>
+                    <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
                 </div>
+                <div style={{ paddingRight: 6 }}>{mobileCount}</div>
             </div>
         );
     }
