@@ -417,7 +417,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         width: 132,
         height: 132,
         anchorY: 32
-      };      
+      };
     } else {
       return {
         url: prefix + "images/drinking-water.png",
@@ -426,6 +426,18 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         anchorY: 32
       };
     }
+  }
+
+  getBounds() {
+    return map?.getBounds();
+  }
+
+  queryRenderedFeatures(props) {
+    return map?.queryRenderedFeatures(props);
+  }
+
+  querySourceFeatures(props) {
+    return map?.querySourceFeatures(props);
   }
 
   setCursor(val: unknown): void {

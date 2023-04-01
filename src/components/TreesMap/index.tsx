@@ -19,6 +19,7 @@ export const Map: FC<{
   showOverlay: boolean | undefined;
   isNavOpened: boolean | undefined;
 }> = ({ showOverlay, isNavOpened }) => {
+  const mapRef = useRef(null);
   const deckRef = useRef(null);
   const visibleMapLayer = useStoreState('visibleMapLayer');
   const ageRange = useStoreState('ageRange');
@@ -45,12 +46,22 @@ export const Map: FC<{
   const [treeCount, setTreeCount] = useState(initialTreeCount);
   const [waterSourceCount, setWaterSourceCount] = useState(initialWaterSourceCount);
   const [mobileCount, setMobileCount] = useState(initialMobileCount);
-  const [zoom, setZoom] = useState(10);
+  const [zoom, setZoom] = useState(isMobile ? 13 : 11);
 
   const debouncedSet = useCallback(
-    debounce(deck => {
+    debounce(({deck, map}) => {
       const zoomLevels = deck.viewports.map(vp => vp.zoom)
       const zoomLevel = zoomLevels.length > 0 ? zoomLevels[0] : 15;
+      const getTreeCount = () => {
+        return new Promise((resolve) => {
+          const mapBounds = map && isMobile && map.getBounds();
+          const bounds = mapBounds ? [mapBounds.getNorthWest(), mapBounds.getSouthEast()]
+            .map(corner => [corner.lng, corner.lat]) : [];
+          const treeCountToUse = bounds.length ? map?.queryRenderedFeatures([[bounds[0][0], bounds[0][1]], [bounds[1][0], bounds[1][1]]],
+                { layers: [ 'trees' ]})?.length : map.querySourceFeatures('trees');
+          return resolve(treeCountToUse);
+        })
+      };
       const getFeatureCount = (layerId, filterFun) => {
         return new Promise((resolve) => {
             const infos = deck.pickObjects({
@@ -63,12 +74,11 @@ export const Map: FC<{
             return (infos && infos.length) ? resolve(infos.filter(filterFun).length) : resolve(0);
         })
       };
-      console.log(`zoom: ${deck.zoom}`)
       if (zoomLevel >= 15) {
-        if (isMobile) {
-          getFeatureCount('trees', () => true).then((_) => setTreeCount(-1));
-        } else {
+        if (!isMobile) {
           getFeatureCount('geojson', () => true).then((count) => setTreeCount((count as number)));
+        } else {
+          getTreeCount().then((count) => setTreeCount((count as number)));
         }
         getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil').then((count) => setWaterSourceCount(count as number));
         getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));
@@ -84,12 +94,13 @@ export const Map: FC<{
   const onViewStateChanged = useCallback(() => {
     if (deckRef.current) {
       const deck = deckRef.current;
-      debouncedSet(deck);
+      debouncedSet({ deck, map: mapRef.current });
     }
-  }, [zoom])
+  }, [])
 
   return (
     <DeckGlMap
+      ref={mapRef}
       deckRef={deckRef}
       treeCount={treeCount}
       waterSourceCount={waterSourceCount}

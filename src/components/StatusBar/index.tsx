@@ -7,7 +7,6 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
             <div
                 className="absolute z-50"
                 style={{
-                    backgroundColor: 'white',
                     opacity: 1,
                     position: 'fixed',
                     bottom: 0,
@@ -24,22 +23,22 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                 }}
             >
                 <div style={{ float: 'left', paddingRight: '40px'}}>
-                    <div style={{ fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
+                    <div style={{ float: 'left', paddingRight: '15px' }}>
                         <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
                     </div>
-                    <div style={{ paddingTop: 15, float: 'left' }}>{treeCount}</div>
+                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{treeCount}</div>
                 </div>
                 <div style={{ float: 'left', paddingRight: '40px'}}>
-                    <div style={{ paddingTop: 8, fontWeight: 'bold', float: 'left', paddingRight: '10px' }}>
+                    <div style={{ paddingTop: 8, float: 'left', paddingRight: '10px' }}>
                         <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                     </div>
-                    <div style={{ paddingTop: 15, float: 'left' }}>{waterSourceCount}</div>
+                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{waterSourceCount}</div>
                 </div>
                 <div style={{ float: 'left'}}>
-                    <div style={{ paddingTop: 8, fontWeight: 'bold', float: 'left', paddingRight: '15px' }}>
+                    <div style={{ paddingTop: 8, float: 'left', paddingRight: '15px' }}>
                         <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
                     </div>
-                    <div style={{ paddingTop: 15, float: 'left' }}>{mobileCount}</div>
+                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{mobileCount}</div>
                 </div>
             </div>
         );
@@ -49,7 +48,6 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
             <div
                 className="absolute z-50"
                 style={{
-                    backgroundColor: 'white',
                     opacity: 1,
                     position: 'fixed',
                     right: 0,
@@ -71,16 +69,16 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                     </div>
                 }
                 { !!treeCount &&
-                    <div style={{ paddingBottom: 15, paddingRight: 6 }}>{treeCount}</div>
+                    <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{treeCount}</div>
                 }
                 <div style={{ paddingBottom: 5 }}>
                     <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                 </div>
-                <div style={{ paddingBottom: 15, paddingRight: 6 }}>{waterSourceCount}</div>
+                <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{waterSourceCount}</div>
                 <div style={{ paddingBottom: 5, paddingRight: 2 }}>
                     <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
                 </div>
-                <div style={{ paddingRight: 6 }}>{mobileCount}</div>
+                <div style={{ paddingRight: 6, fontWeight: 'bold' }}>{mobileCount}</div>
             </div>
         );
     }
