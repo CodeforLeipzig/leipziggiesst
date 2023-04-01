@@ -63,12 +63,12 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                     textAlign: 'right'
                 }}
             >
-                { !!treeCount &&
+                { !isMobile &&
                     <div style={{ paddingBottom: 5 }}>
                         <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
                     </div>
                 }
-                { !!treeCount &&
+                { !isMobile &&
                     <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{treeCount}</div>
                 }
                 <div style={{ paddingBottom: 5 }}>
