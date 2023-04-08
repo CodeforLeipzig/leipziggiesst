@@ -12,13 +12,12 @@ export const updateWatering = async ({
   field: string;
   value: string;
 }): Promise<boolean> => {
-  const urlWaterings = createAPIUrl(`/post`);
+  const urlWaterings = createAPIUrl(`/post/watering-update`);
   await requests<undefined, { method: 'POST'; body: string }>(urlWaterings, {
     token,
     override: {
       method: 'POST',
       body: JSON.stringify({
-        queryType: 'watering-update',
         watering_id: wateringId,
         patches: [{
           name: field,
