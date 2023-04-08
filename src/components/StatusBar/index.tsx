@@ -1,7 +1,7 @@
 import React from "react";
 import { isMobile } from 'react-device-detect';
 
-const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
+const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
     const desktop = () => {
         return (
             <div
@@ -27,6 +27,12 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                         <img src="/images/icon-trees.svg" height={40} alt="two trees" title="Anzahl Bäume im aktuellen Ausschnitt"/>
                     </div>
                     <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{treeCount}</div>
+                </div>
+                <div style={{ float: 'left', paddingRight: '40px'}}>
+                    <div style={{ paddingTop: 8, float: 'left', paddingRight: '10px' }}>
+                        <img src="images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
+                    </div>
+                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{pumpCount}</div>
                 </div>
                 <div style={{ float: 'left', paddingRight: '40px'}}>
                     <div style={{ paddingTop: 8, float: 'left', paddingRight: '10px' }}>
@@ -71,6 +77,10 @@ const StatusBar = ({ treeCount, waterSourceCount, mobileCount }) => {
                 { !isMobile &&
                     <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{treeCount}</div>
                 }
+                <div style={{ paddingBottom: 5 }}>
+                    <img src="images/pumpe64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
+                </div>
+                <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{pumpCount}</div>
                 <div style={{ paddingBottom: 5 }}>
                     <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                 </div>

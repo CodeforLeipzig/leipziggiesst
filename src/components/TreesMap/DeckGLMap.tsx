@@ -45,6 +45,7 @@ interface DeckGLPropType {
   deckRef: any;
   handleViewStateChanged: any;
   treeCount: number;
+  pumpCount: number;
   waterSourceCount: number;
   mobileCount: number;
   zoom: any;
@@ -669,7 +670,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
   }
 
   render(): ReactNode {
-    const { isNavOpen, showControls, deckRef, handleViewStateChanged, treeCount, waterSourceCount, mobileCount } = this.props;
+    const { isNavOpen, showControls, deckRef, handleViewStateChanged, treeCount, pumpCount, waterSourceCount, mobileCount } = this.props;
     const { viewport } = this.state;
     const toggle2dAnd3d = () => {
       const newShow2d = !this.state.show2d;
@@ -755,6 +756,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         </DeckGL>
         <StatusBar
           treeCount={treeCount}
+          pumpCount={pumpCount}
           waterSourceCount={waterSourceCount}
           mobileCount={mobileCount}
         />

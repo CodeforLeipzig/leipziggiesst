@@ -39,11 +39,14 @@ export const Map: FC<{
   const history = useHistory();
 
   const initialTreeCount = (treesGeoJson as any).features.length
+  const initialPumpCount = (waterSourcesGeoJson as any).features.filter(
+    (feature) => feature.properties?.type === 'Handschwengelpumpe').length;
   const initialWaterSourceCount = (waterSourcesGeoJson as any).features.filter(
-    (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil').length;
+    (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil' && feature.properties?.type !== 'Handschwengelpumpe').length;
   const initialMobileCount = (waterSourcesGeoJson as any).features.filter(
     (feature) => feature.properties?.type === 'LEIPZIG GIESST-Mobil').length;
   const [treeCount, setTreeCount] = useState(initialTreeCount);
+  const [pumpCount, setPumpCount] = useState(initialPumpCount);
   const [waterSourceCount, setWaterSourceCount] = useState(initialWaterSourceCount);
   const [mobileCount, setMobileCount] = useState(initialMobileCount);
   const [zoom, setZoom] = useState(isMobile ? 13 : 11);
@@ -80,10 +83,12 @@ export const Map: FC<{
         } else {
           getTreeCount().then((count) => setTreeCount((count as number)));
         }
-        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil').then((count) => setWaterSourceCount(count as number));
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'Handschwengelpumpe').then((count) => setPumpCount(count as number));
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil' && feature?.object?.properties?.type !== 'Handschwengelpumpe').then((count) => setWaterSourceCount(count as number));
         getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'LEIPZIG GIESST-Mobil').then((count) => setMobileCount(count as number));
       } else {
         setTreeCount(initialTreeCount);
+        setPumpCount(initialPumpCount);
         setWaterSourceCount(initialWaterSourceCount);
         setMobileCount(initialMobileCount);
       }
@@ -103,6 +108,7 @@ export const Map: FC<{
       ref={mapRef}
       deckRef={deckRef}
       treeCount={treeCount}
+      pumpCount={pumpCount}
       waterSourceCount={waterSourceCount}
       mobileCount={mobileCount}
       handleViewStateChanged={onViewStateChanged}
