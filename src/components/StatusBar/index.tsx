@@ -16,7 +16,7 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                     marginLeft: 'auto',
                     marginBottom: '1px',
                     height: '50px',
-                    width: '350px',
+                    width: '450px',
                     overflow: 'auto',
                     padding: '10px',
                     textAlign: 'center'
@@ -62,7 +62,7 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                     marginTop: 'auto',
                     marginBottom: 'auto',
                     marginRight: '1px',
-                    height: '220px',
+                    height: '270px',
                     width: '60px',
                     overflow: 'auto',
                     paddingRight: '10px',
@@ -78,7 +78,7 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                     <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{treeCount}</div>
                 }
                 <div style={{ paddingBottom: 5 }}>
-                    <img src="images/pumpe64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
+                    <img src="images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
                 </div>
                 <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{pumpCount}</div>
                 <div style={{ paddingBottom: 5 }}>
