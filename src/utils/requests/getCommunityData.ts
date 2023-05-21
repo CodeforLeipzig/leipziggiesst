@@ -33,7 +33,7 @@ export const getCommunityData = async (): Promise<CommunityDataType> => {
           ...acc.communityFlagsMap,
           [id]: { isAdopted, wateredAmount },
         },
-        wateredTreesIds: wateredAmount
+        wateredTreesIds: wateredAmount > 0
           ? [...acc.wateredTreesIds, id]
           : acc.wateredTreesIds,
         adoptedTreesIds: isAdopted

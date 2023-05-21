@@ -231,7 +231,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           if (colorShallBeTransparent) return colors.transparent;
 
           if (mapViewFilter === 'watered') {
-            return communityDataFlagMap && wateredAmount && treeIsWithinAgeRange
+            return communityDataFlagMap && wateredAmount && wateredAmount > 0 && treeIsWithinAgeRange
               ? colors.blue
               : colors.transparent;
           }

@@ -30,19 +30,19 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                 </div>
                 <div style={{ float: 'left', paddingRight: '40px'}}>
                     <div style={{ paddingTop: 8, float: 'left', paddingRight: '10px' }}>
-                        <img src="images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
+                        <img src="/images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
                     </div>
                     <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{pumpCount}</div>
                 </div>
                 <div style={{ float: 'left', paddingRight: '40px'}}>
                     <div style={{ paddingTop: 8, float: 'left', paddingRight: '10px' }}>
-                        <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
+                        <img src="/images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                     </div>
                     <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{waterSourceCount}</div>
                 </div>
                 <div style={{ float: 'left'}}>
                     <div style={{ paddingTop: 8, float: 'left', paddingRight: '15px' }}>
-                        <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
+                        <img src="/images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
                     </div>
                     <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{mobileCount}</div>
                 </div>
@@ -78,15 +78,15 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                     <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{treeCount}</div>
                 }
                 <div style={{ paddingBottom: 5 }}>
-                    <img src="images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
+                    <img src="/images/pumpe_64.png" height={32} alt="hand swivel pump" title="Anzahl Handschwengelpumpen im aktuellen Ausschnitt"/>
                 </div>
                 <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{pumpCount}</div>
                 <div style={{ paddingBottom: 5 }}>
-                    <img src="images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
+                    <img src="/images/drinking-water.png" height={32} alt="water tap and a can" title="Anzahl Wasserquellen im aktuellen Ausschnitt"/>
                 </div>
                 <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{waterSourceCount}</div>
                 <div style={{ paddingBottom: 5, paddingRight: 2 }}>
-                    <img src="images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
+                    <img src="/images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
                 </div>
                 <div style={{ paddingRight: 6, fontWeight: 'bold' }}>{mobileCount}</div>
             </div>
