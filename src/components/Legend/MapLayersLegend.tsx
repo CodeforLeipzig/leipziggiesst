@@ -70,6 +70,7 @@ const MapLayerLegend: FC = () => {
   const [rainVisible, setRainVisible] = useState(visibleMapLayer.indexOf('rain') >= 0);
   const [treesVisible, setTreesVisible] = useState(visibleMapLayer.indexOf('trees') >= 0);
   const [pumpsVisible, setPumpsVisible] = useState(visibleMapLayer.indexOf('pumps') >= 0);
+  const [eventsVisible, setEventsVisible] = useState(visibleMapLayer.indexOf('events') >= 0);
 
   const [legendExpanded, setLegendExpanded] = useState(isMobile ? false : true);
 
@@ -180,6 +181,7 @@ const MapLayerLegend: FC = () => {
                 removeFromList(current, 'trees', setTreesVisible)
                 removeFromList(current, 'rain', setRainVisible)
                 removeFromList(current, 'water_sources', setWaterSourcesVisible)
+                removeFromList(current, 'events', setEventsVisible)
                 current.push('pumps');
                 setPumpsVisible(true)
               } else {
@@ -228,6 +230,31 @@ const MapLayerLegend: FC = () => {
                 melde Dich gerne bei <a href="mailto:wasserspende@leipziggiesst.de">uns</a>.
               </div>
             )}
+        <FlexRowFit
+          isActive={eventsVisible}
+          onClick={() => {
+            setVisibleMapLayer((() => {
+              const current = visibleMapLayer
+              if (current.indexOf('events') < 0) {
+                removeFromList(current, 'rain', setRainVisible)
+                removeFromList(current, 'pumps', setPumpsVisible)
+                removeFromList(current, 'water_sources', setWaterSourcesVisible)
+                current.push('events');
+                setEventsVisible(true)
+              } else {
+                removeFromList(current, 'events', setEventsVisible)
+                setEventsVisible(false)
+              }
+              return current
+          })())}}
+        >
+          <StrokedLegendDot
+            gradient={
+              eventsVisible ? "#0000ff" : undefined
+            }
+          />
+          <StyledItemLabel>Gießtreffen</StyledItemLabel>
+        </FlexRowFit>
         <FlexRowFit
           isActive={rainVisible}
           onClick={() => {

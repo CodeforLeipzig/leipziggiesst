@@ -20,4 +20,4 @@ export type RadolanDays = number[];
 
 export type ButtonWaterGroup = 'visible' | 'watered' | 'watering';
 
-export type VisibleMapLayerType = 'rain' | 'trees' | 'pumps' | 'water_sources';
+export type VisibleMapLayerType = 'rain' | 'trees' | 'pumps' | 'water_sources' | 'events';

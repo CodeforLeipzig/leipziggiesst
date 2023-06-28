@@ -61,6 +61,7 @@ interface DeckGLPropType {
 
   pumpsGeoJson: ExtendedFeatureCollection | null;
   waterSourcesGeoJson: ExtendedFeatureCollection | null;
+  eventsGeoJson: ExtendedFeatureCollection | null;
   woodsGeoJson: ExtendedFeatureCollection | null;
   selectedTreeId: string | undefined;
   selectedWaterSourceId: string | undefined;
@@ -125,6 +126,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
       visibleMapLayer,
       pumpsGeoJson,
       waterSourcesGeoJson,
+      eventsGeoJson,
       woodsGeoJson,
     } = this.props;
 
@@ -333,6 +335,22 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           this._onClick(info.x, info.y, info.object);
         },
       }),
+      new IconLayer({
+        id: 'events',
+        visible: visibleMapLayer.indexOf('events') >= 0 ? true : false,
+        data: (eventsGeoJson as any).features,
+        pickable: true,
+        // iconAtlas and iconMapping are required
+        // getIcon: return a string
+        getIcon: d => this._getEventsIcon(d, window.location.pathname.split('/').filter(s => s.length > 0).map(_ => '../').join('')),
+        sizeScale: this.props.zoom ? Math.pow(2, -12 + this.props.zoom) : 5,
+        getPosition: (d) => d.geometry.coordinates,
+        getSize: (d) => 1,
+        getColor: (d) => [140, 140, 0],
+        onClick: info => {
+          this._onClick(info.x, info.y, info.object);
+        },
+      }),
     ];
 
     return layers;
@@ -388,6 +406,15 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
     } else {
       this.props.onTreeSelect(id);
     }
+  }
+
+  _getEventsIcon(d, prefix) {
+      return {
+        url: prefix + "images/events.svg",
+        width: 132,
+        height: 132,
+        anchorY: 32
+      };
   }
 
   _getWaterSourceIcon(d, prefix) {

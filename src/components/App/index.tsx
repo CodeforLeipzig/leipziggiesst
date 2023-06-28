@@ -16,6 +16,7 @@ import { useCommunityData } from '../../utils/hooks/useCommunityData';
 import { useRainGeoJson } from '../../utils/hooks/useRainGeoJson';
 import { usePumpsGeoJson } from '../../utils/hooks/usePumpsGeoJson';
 import { useWaterSourcesGeoJson } from '../../utils/hooks/useWaterSourcesGeoJson';
+import { useEventsGeoJson } from '../../utils/hooks/useEventsGeoJson';
 import { useWoodsGeoJson } from '../../utils/hooks/useWoodsGeoJson';
 import { useTreesGeoJson } from '../../utils/hooks/useTreesGeoJson';
 
@@ -42,6 +43,7 @@ const App: FC = () => {
   const { data: rainGeoJson } = useRainGeoJson();
   const { data: pumpsGeoJson } = usePumpsGeoJson();
   const { data: waterSourcesGeoJson } = useWaterSourcesGeoJson();
+  const { data: eventsGeoJson } = useEventsGeoJson();
   const { data: woodsGeoJson } = useWoodsGeoJson();
   const { data: treesGeoJson } = useTreesGeoJson();
   const { pathname } = useLocation();
@@ -49,7 +51,7 @@ const App: FC = () => {
   const isHome = pathname === '/';
   const showOverlay = isHome && overlay;
   const showMap = Boolean(
-    treesGeoJson && communityData && rainGeoJson && pumpsGeoJson && waterSourcesGeoJson && woodsGeoJson
+    treesGeoJson && communityData && rainGeoJson && pumpsGeoJson && waterSourcesGeoJson && woodsGeoJson && eventsGeoJson
   );
   const showLoading = !showMap;
   const showMapUI = showMap && !showOverlay;

@@ -7,6 +7,7 @@ const initialState: StoreProps = {
   visibleMapLayer: [ 'trees', 'water_sources' ],
   ageRange: [0, 320],
   overlay: true,
+  show2d: false,
   mapFocusPoint: null,
 };
 

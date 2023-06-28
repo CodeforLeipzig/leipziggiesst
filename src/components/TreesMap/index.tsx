@@ -12,6 +12,7 @@ import { useCommunityData } from '../../utils/hooks/useCommunityData';
 import { useRainGeoJson } from '../../utils/hooks/useRainGeoJson';
 import { usePumpsGeoJson } from '../../utils/hooks/usePumpsGeoJson';
 import { useWaterSourcesGeoJson } from '../../utils/hooks/useWaterSourcesGeoJson';
+import { useEventsGeoJson } from '../../utils/hooks/useEventsGeoJson';
 import { useWoodsGeoJson } from '../../utils/hooks/useWoodsGeoJson';
 import { useTreesGeoJson } from '../../utils/hooks/useTreesGeoJson';
 
@@ -32,6 +33,7 @@ export const Map: FC<{
   const { data: rainGeoJson } = useRainGeoJson();
   const { data: pumpsGeoJson } = usePumpsGeoJson();
   const { data: waterSourcesGeoJson } = useWaterSourcesGeoJson();
+  const { data: eventsGeoJson } = useEventsGeoJson();
   const { data: woodsGeoJson } = useWoodsGeoJson();
   const { data: treesGeoJson } = useTreesGeoJson();
   const { treeData: selectedTreeData } = useTreeData(treeId);
@@ -129,6 +131,7 @@ export const Map: FC<{
       showControls={showOverlay}
       pumpsGeoJson={pumpsGeoJson || null}
       waterSourcesGeoJson={waterSourcesGeoJson || null}
+      eventsGeoJson={eventsGeoJson || null}
       woodsGeoJson={woodsGeoJson || null}
       ageRange={ageRange || []}
       mapViewFilter={mapViewFilter}

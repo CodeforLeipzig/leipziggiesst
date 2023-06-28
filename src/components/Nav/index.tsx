@@ -5,6 +5,7 @@ import InfoIcon from '@material-ui/icons/InfoOutlined';
 import AccountCircle from '@material-ui/icons/AccountCircleOutlined';
 import SearchIcon from '@material-ui/icons/Search';
 import SquareButton from '../SquareButton';
+import Icon from '../Icons';
 
 interface StyledProps {
   active?: boolean;
@@ -43,6 +44,9 @@ const navConfig = [
   { path: '/search', title: 'Suche und Filter', icon: <SearchIcon /> },
   { path: '/about', title: 'Info', icon: <InfoIcon /> },
   { path: '/profile', title: 'Profil', icon: <AccountCircle /> },
+  { path: '/achievements', title: 'Achievements', icon:  <div style={{marginLeft: 23}}><Icon iconType={'achievements'} height={32} /></div> },
+  { path: '/statistics', title: 'Gießstatistiken', icon: <div style={{marginLeft: 23}}><Icon iconType={'leaderboard'} height={32} /></div> },
+  { path: '/events', title: 'Gießevents', icon: <div style={{marginLeft: 23}}><Icon iconType={'events'} height={32} /></div> },
 ];
 
 const Nav: FC<{
