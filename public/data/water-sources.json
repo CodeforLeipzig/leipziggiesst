@@ -581,7 +581,20 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.399237302397353,51.33460965762558] }
-    }     
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20230623_hsp_158",
+        "name": "HSP Nr. 158",
+        "type": "Handschwengelpumpe",
+        "address": "Wurzner Str. 143a, Sellerhausen-Stünz",
+        "created": "23.06.2023",
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09261985",
+        "images": [ "Pumpe_Wurznerstrasse.jpg" ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.42677,51.34355] }
+    }
   ]
 }
 
