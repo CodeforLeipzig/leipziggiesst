@@ -547,24 +547,6 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.399025444670855,51.33136795] }
-    },   
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20220718_leipzig_giesst_mobil_altlindenau",
-        "name": "LEIPZIG GIESST-Mobil Alt-Lindenau",
-        "type": "LEIPZIG GIESST-Mobil",
-        "address": "Endersstr. 29, 04177 Leipzig",
-        "created": "03.08.2022",
-        "url": "https://leipzig.depot.social/ressourcen/leipzig-giesst-mobil-alt-lindenau-04177",
-        "hints":[
-          "diese ehemalige 120 Liter-Tonne kann man sich ausleihen und zum Wassertransport nutzen, halb gefüllt lässt sie sich noch gut fahren",
-          "in der Tonne befinden sich 2 große und 2 kleine Gießkannen und ein paar Gießtipps unter dem Tonnendeckel", 
-          "klingeln bei Thiess/Matscheroth",
-          "Do, Sa und So zwischen 10 bis 18 Uhr, an den anderen Wochentagen zwischen 18 und 20 Uhr. Bitte entsprechend passende Wunschzeiten im Buchungskalender von depot.social Leipzig (Seite ist in diesem Panel verlinkt) angeben."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.328250949999994,51.33338035] }
     },
     {
       "type": "Feature",
