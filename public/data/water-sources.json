@@ -576,6 +576,22 @@
         "images": [ "Pumpe_Wurznerstrasse.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.42677,51.34355] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20230823_superblocks",
+        "type": "Organisation",
+        "name": "Superblocks IBC-Container",
+        "organisation": "Superblocks Leipzig e.V.",
+        "address": "Hildegardstraße 51",
+        "created": "23.08.2023",
+        "images": [ "Ibc_Container_Hildegardstrasse.jpg" ],
+        "hints": [
+          "offen zugänglicher IBC-Container"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.407299630313133,51.345815966939796] }
     }
   ]
 }
