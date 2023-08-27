@@ -573,7 +573,12 @@
         "address": "Wurzner Str. 143a, Sellerhausen-Stünz",
         "created": "23.06.2023",
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09261985",
-        "images": [ "Pumpe_Wurznerstrasse.jpg" ]
+        "images": [ "Pumpe_Wurznerstrasse.jpg" ],
+        "hints": [
+          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt.",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.42677,51.34355] }
     },
