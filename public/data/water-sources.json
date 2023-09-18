@@ -597,6 +597,36 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.407299630313133,51.345815966939796] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20230918_trufanowstraße",
+        "type": "Privatperson",
+        "name": "Regentonne in Trufanowstraße",
+        "address": "Trufanowstraße 31, 04105 Leipzig",
+        "created": "18.09.2023",
+        "hints": [
+          "Regentonne am Fallrohr",
+          "Gartentor steht offen."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.370837072615476,51.355485200000004] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20230918_kgv_naturheilkunde_eutritzsch ",
+        "type": "Organisation",
+        "name": "Wasserquelle Naturheilkunde Eutritzsch",
+        "organisation": "KGV Naturheilkunde Eutritzsch",
+        "address": "Delitzscher Str. 129, 04129 Leipzig",
+        "created": "18.09.2023",
+        "hints": [
+          "Auf dem Gelände des KGV Naturheilkunde Eutritzsch, gleich neben der Streuobstwiese"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.381881345738027,51.3787588] }
     }
   ]
 }
