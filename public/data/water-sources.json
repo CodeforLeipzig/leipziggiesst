@@ -616,7 +616,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20230918_kgv_naturheilkunde_eutritzsch ",
+        "id": "20230918_kgv_naturheilkunde_eutritzsch",
         "type": "Organisation",
         "name": "Wasserquelle Naturheilkunde Eutritzsch",
         "organisation": "KGV Naturheilkunde Eutritzsch",
@@ -627,6 +627,36 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.381881345738027,51.3787588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20231006_kgv_volkshain_stuenz",
+        "type": "Organisation",
+        "name": "Wasserquelle Kleingartenverein Volkshain Stünz",
+        "organisation": "Kleingartenverein Volkshain Stünz e.V",
+        "address": "Stünz-Mölkauer Weg 46b, 04318 Leipzig",
+        "created": "06.10.2023",
+        "hints": [
+          "Die Wassertonnen stehen vor und hinter dem Vereinsgebäude.",
+          "Zugang jederzeit während der Öffnungszeiten des KGV."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.43744351153893,51.33464553145734] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20231006_eric_roder",
+        "type": "Privatperson",
+        "name": "Eric Roder",
+        "address": "Alte Dorfstraße 9, 04178 Leipzig",
+        "created": "06.10.2023",
+        "hints": [
+          "Einfach klingeln, ich führe zur Tonne auf dem Hof."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.253366223276572,51.344498141697926] }
     }
   ]
 }
