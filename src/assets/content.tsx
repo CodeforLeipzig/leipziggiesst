@@ -68,7 +68,7 @@ const content: Content = {
       'Hinweis: Das Laden von über 60.000 Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop/Notebook-Computer',
     description: [
       'Auf dieser Plattform kannst Du Dich über Bäume in Deiner Nachbarschaft und ihren Wasserbedarf informieren. Du kannst für einzelne Bäume eine Gießpatenschaft übernehmen und/oder auch dokumentieren, wieviel erfrischende Kaltgetränke Du ihnen gegeben hast.',
-      'Informiere Dich <a target="blank" href="https://stiftung-ecken-wecken.de/content/fragen-antworten">hier</a> über das richtige Gießen von Bäumen. Wenn Du die Gieß-App von LEIPZIG GIESST regelmäßig nutzen möchtest, solltest Du ein Konto erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.'
+      'Informiere Dich <a target="blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/fragen-antworten-giessen">hier</a> über das richtige Gießen von Bäumen. Wenn Du die Gieß-App von LEIPZIG GIESST regelmäßig nutzen möchtest, solltest Du ein Konto erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.'
     ],
   },
   //pls do not delete the following eventNote section to facilitate process of enabling/disabling future news & notes
