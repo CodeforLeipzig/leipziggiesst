@@ -51,7 +51,7 @@ const content: Content = {
   faq: {
     title: 'Fragen & Antworten',
     description:
-      '<a target="blank" href="https://stiftung-ecken-wecken.de/content/fragen-antworten">Hier</a> findest Du viele Tipps und Infos zum Gießen, zu Bäumen und zum Kontakt mit Anderen, die ebenfalls gießen.',
+      '<a target="blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/fragen-antworten-giessen">Hier</a> findest Du viele Tipps und Infos zum Gießen, zu Bäumen und zum Kontakt mit Anderen, die ebenfalls gießen.',
     qa: [
     ],
   },
