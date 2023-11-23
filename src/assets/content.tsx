@@ -58,7 +58,7 @@ const content: Content = {
   imprintAndPrivacy: {
     title: 'Impressum und Datenschutz',
     description:
-      '<a target="blank" href="https://stiftung-ecken-wecken.de/impressum-sew">Impressum</a> und <a target="blank" href="https://stiftung-ecken-wecken.de/datenschutz">Datenschutz</a>',
+      '<a target="blank" href="https://stiftung-ecken-wecken.de/kontakt-impressum/impressum-anschrift">Impressum</a> und <a target="blank" href="https://stiftung-ecken-wecken.de/kontakt-impressum/datenschutz">Datenschutz</a>',
   },
   intro: {
     title: '',
