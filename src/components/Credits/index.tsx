@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { isMobile } from 'react-device-detect';
 
 const logoCitylab = '/images/citylab-logo.svg';
 const logoCodeForLeipzig = '/images/cfg-leipzig-logo.svg';
@@ -87,6 +88,9 @@ const DigiPreisLogo = styled.img`
 `;
 
 const Credits: FC = () => {
+  if (isMobile) {
+    return <div />
+  }
   return (
     <CreditsContainer>
       <Carousel showThumbs={false} autoPlay={true} interval={6000}

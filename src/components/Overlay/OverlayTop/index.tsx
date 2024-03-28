@@ -58,9 +58,15 @@ const OverlayTop: FC = () => {
       <Wrapper>
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
+        {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
+          Kommt zum Gießauftakt am 28.04.24 in Lindenau. <br/>Details dazu folgen!
+        </div>)}
       </Wrapper>
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
+      {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
+          Kommt zum Gießauftakt am 28.04.24 in Lindenau. <br/>Details dazu folgen!
+        </div>)}
       {/* the beow is here for local testing */}
       {/* {true && <OverlayTitle size='medium' content={disclaimer} />} */}
       <OverlayDescription content={description} />
