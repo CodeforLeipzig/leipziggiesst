@@ -325,7 +325,9 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         // iconAtlas and iconMapping are required
         // getIcon: return a string
         getIcon: d => this._getWaterSourceIcon(d, window.location.pathname.split('/').filter(s => s.length > 0).map(_ => '../').join('')),
-        sizeScale: this.props.zoom ? 16 : 5,
+        sizeScale: 25,
+        sizeMinPixels: 16,
+        sizeUnits: 'meters',
         getPosition: (d) => d.geometry.coordinates,
         getSize: (d) => 1,
         getColor: (d) => [140, 140, 0],
