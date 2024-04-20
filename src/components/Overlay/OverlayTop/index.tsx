@@ -59,14 +59,15 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommt zum Gießauftakt am 28.04.24 in Lindenau. <br/>Details dazu folgen!
+          Starte mit uns in die Saison: 28.04.24 von 15-18 Uhr. <br />Es gibt wandernde Bäume, Kuchen und mehr! <br />Alle Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/get-back-streets-am-28-april-die-giesssaison">hier</a>.
         </div>)}
       </Wrapper>
+      <OverlayTitle size='small' title={""} />
+      {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
+        Starte mit uns in die Saison: 28.04.24 von 15-18 Uhr. Es gibt wandernde Bäume, Kuchen und mehr! <br/>Alle Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/get-back-streets-am-28-april-die-giesssaison">hier</a>.
+        </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
-      {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommt zum Gießauftakt am 28.04.24 in Lindenau. <br/>Details dazu folgen!
-        </div>)}
       {/* the beow is here for local testing */}
       {/* {true && <OverlayTitle size='medium' content={disclaimer} />} */}
       <OverlayDescription content={description} />
