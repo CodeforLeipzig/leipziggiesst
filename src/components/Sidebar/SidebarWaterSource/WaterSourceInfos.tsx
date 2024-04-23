@@ -85,7 +85,6 @@ const WaterSourceInfos: FC<{
     }
   };
 
-
   return (
     <Wrapper>
       <Dialog onClose={() => setOpen(false)} aria-labelledby="share-water-source-dialog-title" open={open}>
@@ -107,7 +106,10 @@ const WaterSourceInfos: FC<{
       </Dialog>
       <FlexColumnDiv>
         {name && (
-          <WaterSourceTitle>{name}</WaterSourceTitle>
+          <WaterSourceTitle>
+            {name}
+            <IconButton onClick={handleLink}><ShareIcon /></IconButton>
+          </WaterSourceTitle>
         )}
         {type && (
           <SublineSpan>{type}</SublineSpan>
