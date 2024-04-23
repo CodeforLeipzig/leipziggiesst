@@ -75,8 +75,8 @@ const WaterSourceInfos: FC<{
   const handleLink = async () => {
     if (navigator.share) {
       await navigator.share({
-        title: 'Baum-Link',
-        text: 'Teile den Link zum Baum',
+        title: 'Wasserquelle-Link',
+        text: 'Teile den Link zur Wasserquelle',
         url: getWaterSourceLink()
       })
       .catch(console.error);
