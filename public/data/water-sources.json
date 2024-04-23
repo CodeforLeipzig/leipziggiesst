@@ -515,24 +515,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20220718_leipzig_giesst_mobil_schleussig",
-        "name": "LEIPZIG GIESST-Mobil Schleußig",
-        "type": "LEIPZIG GIESST-Mobil",
-        "address": "Industriestraße 24, 04229 Leipzig",
-        "created": "18.07.2022",
-        "url": "https://leipzig.depot.social/ressourcen/leipzig-giesst-mobil-schleusig-04229",
-        "hints":[
-          "diese ehemalige 120 Liter-Tonne kann man sich ausleihen und zum Wassertransport nutzen, halb gefüllt lässt sie sich noch gut fahren",
-          "in der Tonne befinden sich 2 große und 2 kleine Gießkannen und ein paar Gießtipps unter dem Tonnendeckel", 
-          "klingeln bei Treffhaltestelle",
-          "Keine festen Buchungszeiten, bitte Wunschzeiten im Buchungskalender von depot.social Leipzig (Seite ist in diesem Panel verlinkt) angeben."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.34189655,51.3255037] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20220718_leipzig_giesst_mobil_zentrum_suedost",
         "name": "LEIPZIG GIESST-Mobil Zentrum-Südost",
         "type": "LEIPZIG GIESST-Mobil",
