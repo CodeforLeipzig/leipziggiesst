@@ -141,6 +141,7 @@ export const Map: FC<{
       showControls={showOverlay}
       pumpsGeoJson={pumpsGeoJson || null}
       waterSourcesGeoJson={waterSourcesGeoJson || null}
+      eventsGeoJson={eventsGeoJson || null}
       woodsGeoJson={woodsGeoJson || null}
       ageRange={ageRange || []}
       mapViewFilter={mapViewFilter}
