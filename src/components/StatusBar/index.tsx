@@ -1,7 +1,7 @@
 import React from "react";
 import { isMobile } from 'react-device-detect';
 
-const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
+const StatusBar = ({ treeCount, waterSourceCount, pumpCount, eventCount }) => {
     const desktop = () => {
         return (
             <div
@@ -42,9 +42,9 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                 </div>
                 <div style={{ float: 'left'}}>
                     <div style={{ paddingTop: 8, float: 'left', paddingRight: '15px' }}>
-                        <img src="/images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
+                        <img src="/images/event.png" height={32} alt="calendar representing a LeipzigGiesst-event" title="Anzahl Gießevents im aktuellen Ausschnitt"/>
                     </div>
-                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{mobileCount}</div>
+                    <div style={{ paddingTop: 15, fontWeight: 'bold', float: 'left' }}>{eventCount}</div>
                 </div>
             </div>
         );
@@ -86,9 +86,9 @@ const StatusBar = ({ treeCount, waterSourceCount, pumpCount, mobileCount }) => {
                 </div>
                 <div style={{ paddingBottom: 15, fontWeight: 'bold', paddingRight: 6 }}>{waterSourceCount}</div>
                 <div style={{ paddingBottom: 5, paddingRight: 2 }}>
-                    <img src="/images/dumpster.png" height={32} alt="dumpsterrepresenting a LeipzigGiesst-Mobile" title="Anzahl Gießmobile im aktuellen Ausschnitt"/>
+                    <img src="/images/event.png" height={32} alt="calendar representing a LeipzigGiesst-event" title="Anzahl Gießevents im aktuellen Ausschnitt"/>
                 </div>
-                <div style={{ paddingRight: 6, fontWeight: 'bold' }}>{mobileCount}</div>
+                <div style={{ paddingRight: 6, fontWeight: 'bold' }}>{eventCount}</div>
             </div>
         );
     }

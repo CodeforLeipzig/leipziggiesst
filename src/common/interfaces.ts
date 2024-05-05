@@ -74,6 +74,23 @@ export interface SelectedWaterSourceType {
   images?: string[] | null;
 }
 
+export interface SelectedEventType {
+  id: string;
+  latitude: number;
+  longitude: number;
+  type?: string | null;
+  geom?: string | null;
+  name?: string | null;
+  organisation?: string | null;
+  address?: string | null;
+  date?: string | null;
+  start?: string | null;
+  end?: string | null;
+  hints?: string[] | null;
+  url?: string | null;
+  images?: string[] | null;
+}
+
 interface FocusPointType {
   id: string;
   latitude: number;

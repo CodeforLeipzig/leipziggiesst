@@ -47,7 +47,7 @@ interface DeckGLPropType {
   treeCount: number;
   pumpCount: number;
   waterSourceCount: number;
-  mobileCount: number;
+  eventsCount: number;
   zoom: any;
   setZoom: any;
   treesGeoJson: ExtendedFeatureCollection | null;
@@ -61,9 +61,11 @@ interface DeckGLPropType {
 
   pumpsGeoJson: ExtendedFeatureCollection | null;
   waterSourcesGeoJson: ExtendedFeatureCollection | null;
+  eventsGeoJson: ExtendedFeatureCollection | null;
   woodsGeoJson: ExtendedFeatureCollection | null;
   selectedTreeId: string | undefined;
   selectedWaterSourceId: string | undefined;
+  selectedEventId: string | undefined;
   communityData: CommunityDataType['communityFlagsMap'];
   communityDataWatered: CommunityDataType['wateredTreesIds'];
   communityDataAdopted: CommunityDataType['adoptedTreesIds'];
@@ -71,6 +73,7 @@ interface DeckGLPropType {
   showControls: boolean | undefined;
   onTreeSelect: (id: string) => void;
   onWaterSourceSelect: (id: string) => void;
+  onEventSelect: (id: string) => void;
 }
 
 interface ViewportType extends Partial<ViewportProps> {
@@ -125,6 +128,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
       visibleMapLayer,
       pumpsGeoJson,
       waterSourcesGeoJson,
+      eventsGeoJson,
       woodsGeoJson,
     } = this.props;
 
@@ -335,6 +339,24 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           this._onClick(info.x, info.y, info.object);
         },
       }),
+      new IconLayer({
+        id: 'events',
+        visible: visibleMapLayer.indexOf('events') >= 0 ? true : false,
+        data: (eventsGeoJson as any).features,
+        pickable: true,
+        // iconAtlas and iconMapping are required
+        // getIcon: return a string
+        getIcon: d => this._getEventIcon(d, window.location.pathname.split('/').filter(s => s.length > 0).map(_ => '../').join('')),
+        sizeScale: 25,
+        sizeMinPixels: 16,
+        sizeUnits: 'meters',
+        getPosition: (d) => d.geometry.coordinates,
+        getSize: (d) => 1,
+        getColor: (d) => [140, 140, 0],
+        onClick: info => {
+          this._onClick(info.x, info.y, info.object);
+        },
+      }),
     ];
 
     return layers;
@@ -385,7 +407,10 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
     if (!id) return;
 
     const name: string = object.properties?.name;
-    if (name) {
+    const date: string = object.properties?.date;
+    if (date) {
+      this.props.onEventSelect(id);
+    } else if (name) {
       this.props.onWaterSourceSelect(id);
     } else {
       this.props.onTreeSelect(id);
@@ -429,6 +454,15 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         anchorY: 32
       };
     }
+  }
+
+  _getEventIcon(d, prefix) {
+    return {
+      url: prefix + "images/event.png",
+      width: 132,
+      height: 132,
+      anchorY: 32
+    };
   }
 
   getBounds() {
@@ -672,7 +706,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
   }
 
   render(): ReactNode {
-    const { isNavOpen, showControls, deckRef, handleViewStateChanged, treeCount, pumpCount, waterSourceCount, mobileCount } = this.props;
+    const { isNavOpen, showControls, deckRef, handleViewStateChanged, treeCount, pumpCount, waterSourceCount, eventCount } = this.props;
     const { viewport } = this.state;
     const toggle2dAnd3d = () => {
       const newShow2d = !this.state.show2d;
@@ -760,7 +794,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
           treeCount={treeCount}
           pumpCount={pumpCount}
           waterSourceCount={waterSourceCount}
-          mobileCount={mobileCount}
+          eventCount={eventCount}
         />
       </>
     );

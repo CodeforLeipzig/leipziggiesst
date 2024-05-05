@@ -144,7 +144,7 @@ const WaterSourceInfos: FC<{
         {url && (
           <InfoContainer>
             <span>Weitere Informationen</span>
-            <InfoValue><a href={url}>Link</a></InfoValue>
+            <InfoValue><a target="_blank" href={url}>Link</a></InfoValue>
           </InfoContainer>
         )}
         {images && Array.isArray(images) && images.length > 0 && (

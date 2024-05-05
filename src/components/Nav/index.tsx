@@ -4,6 +4,7 @@ import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import InfoIcon from '@material-ui/icons/InfoOutlined';
 import AccountCircle from '@material-ui/icons/AccountCircleOutlined';
 import SearchIcon from '@material-ui/icons/Search';
+import EventNoteIcon from '@material-ui/icons/EventNote';
 import SquareButton from '../SquareButton';
 
 interface StyledProps {
@@ -43,6 +44,7 @@ const navConfig = [
   { path: '/search', title: 'Suche und Filter', icon: <SearchIcon /> },
   { path: '/about', title: 'Info', icon: <InfoIcon /> },
   { path: '/profile', title: 'Profil', icon: <AccountCircle /> },
+  { path: '/events', title: 'Gießevents', icon: <EventNoteIcon /> },
 ];
 
 const Nav: FC<{
