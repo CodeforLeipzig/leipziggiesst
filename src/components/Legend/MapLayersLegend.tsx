@@ -110,7 +110,7 @@ const MapLayerLegend: FC = () => {
                 labels.push('Wasserquellen');
               }
               return labels.length > 1 ? labels[0] + " / " + labels[1] : labels[0];
-            })()}                
+            })()}
           </StyledCardDescription>
           {treesVisible && (
             <SmallParagraph>der letzten 30 Tage (Liter)</SmallParagraph>
@@ -206,9 +206,11 @@ const MapLayerLegend: FC = () => {
                 removeFromList(current, 'rain', setRainVisible)
                 removeFromList(current, 'pumps', setWaterSourcesVisible)
                 current.push('water_sources');
+                current.push('events');
                 setWaterSourcesVisible(true)
               } else {
                 removeFromList(current, 'water_sources', setRainVisible)
+                removeFromList(current, 'events', setRainVisible)
                 setWaterSourcesVisible(false)
               }
               return current
@@ -237,6 +239,7 @@ const MapLayerLegend: FC = () => {
                 removeFromList(current, 'pumps', setPumpsVisible)
                 removeFromList(current, 'trees', setTreesVisible)
                 removeFromList(current, 'water_sources', setWaterSourcesVisible)
+                removeFromList(current, 'events', setWaterSourcesVisible)
                 current.push('rain');
                 setRainVisible(true)
               } else {
