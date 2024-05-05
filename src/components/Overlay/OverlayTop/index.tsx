@@ -59,12 +59,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Starte mit uns in die Saison: 28.04.24 von 15-18 Uhr. <br />Es gibt wandernde Bäume, Kuchen und mehr! <br />Alle Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/get-back-streets-am-28-april-die-giesssaison">hier</a>.
+          Kommender Termin: Di, 14. Mai, 19-21 Uhr, Südvorstadt: <br />Offenes Teamtreffen für Interessierte, die im Projektteam mitmachen möchten. Mehr Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offenes-teamtreffen-mach-mit-bei-leipzig-giesst">hier</a>! <br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Starte mit uns in die Saison: 28.04.24 von 15-18 Uhr. Es gibt wandernde Bäume, Kuchen und mehr! <br/>Alle Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/get-back-streets-am-28-april-die-giesssaison">hier</a>.
+        Kommender Termin: Di, 14. Mai, 19-21 Uhr, Südvorstadt: <br />Offenes Teamtreffen für Interessierte, die im Projektteam mitmachen möchten. Mehr Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offenes-teamtreffen-mach-mit-bei-leipzig-giesst">hier</a>! <br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}

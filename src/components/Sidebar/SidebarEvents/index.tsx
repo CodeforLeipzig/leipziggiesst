@@ -20,7 +20,7 @@ const SidebarEvents: FC = () => {
         <ExpandablePanel isExpanded title={feature.properties.name} key={feature.properties.id}>
           <SmallParagraph>{new Date(feature.properties.date).toLocaleDateString()}{feature.properties.start ? ', ' + feature.properties.start : ''}{feature.properties.end ? ' - ' + feature.properties.end : ''}</SmallParagraph>
           <SmallParagraph>{feature.properties.address ? feature.properties.address : ''}</SmallParagraph>
-          <SmallParagraph><a href={"/event/" + feature.properties.id}>Zum Event</a></SmallParagraph>
+          <SmallParagraph><a style={{ cursor: 'pointer' }} href={"/event/" + feature.properties.id}>Zum Event</a></SmallParagraph>
         </ExpandablePanel>
       ))}
     </>
