@@ -8,21 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240505_cvjm_giesswettrennen",
-        "type": "Aktion",
-        "name": "Familiensonntag PLUS im CVJM - Gießwettrennen für Kinder",
-        "organisation": "Wir im Quartier / Leipzig giesst",
-        "address": "Schönefelder Allee 23a",
-        "date": "2024-05-05",
-        "start": "15:00",
-        "end": "18:00",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.4057452, 51.3572481] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240514_offenes_teamtreffen",
         "type": "Teamtreffen",
         "name": "Offenes Teamtreffen für Interessierte",
@@ -47,8 +32,8 @@
         "organisation": "Leipzig pumpt",
         "address": "Johannisplatz 5-11",
         "date": "2024-05-26",
-        "start": "19:00",
-        "end": "21:00",
+        "start": "13:00",
+        "end": "18:00",
         "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.387284940378066, 51.337612394186436] }
@@ -58,7 +43,7 @@
       "properties": {
         "id": "20240526_pumpen_radtour",
         "type": "Radtour",
-        "name": "Quentins Pumpenradtour",
+        "name": "Pumpenradtour zum Connewitzer Straßenfest",
         "organisation": "Leipzig pumpt",
         "address": "Selneckerstraße 5",
         "date": "2024-05-26",
@@ -68,6 +53,21 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.370719055698572, 51.30904576621211] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240529_manusso_einweihung",
+        "type": "Gießtreff",
+        "name": "Einweihung der Wasserquelle / IBC-Container bei Manusso",
+        "organisation": "Leipzig giesst",
+        "address": "Klingenstraße 22",
+        "date": "2024-05-29",
+        "start": "18:00",
+        "end": "19:00",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.324106238467692, 51.322873984225254] }
     },
     {
       "type": "Feature",
@@ -83,6 +83,38 @@
         "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.356917403237873, 51.33105340361121] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240621_giessen_bei_lene",
+        "type": "Aktion",
+        "name": "Gießaktion bei Lene",
+        "organisation": "Leipzig giesst / Mühlstraßen e.V.",
+        "address": "Lene-Voigt-Park",
+        "date": "2024-06-21",
+        "start": "17:00",
+        "end": "18:30",
+        "hints": [
+          "Gießen + Baumrally"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.399965947080972, 51.33445234331947] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240622_giessen_bei_lene",
+        "type": "Aktion",
+        "name": "Gießaktion bei Lene",
+        "organisation": "Leipzig giesst / Mühlstraßen e.V.",
+        "address": "Lene-Voigt-Park",
+        "date": "2024-06-22",
+        "start": "11:00",
+        "end": "12:00",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.40026635449064, 51.33441212476211] }
     }
   ]
 }
