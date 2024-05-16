@@ -649,11 +649,12 @@
         "organisation": "Manusso Eis",
         "address": "Klingenstraße 22",
         "created": "20.04.2024",
-        "images": [ "manusso_1.jpg", "manusso_2.jpg" ],
+        "images": [ "manusso_3.jpg", "manusso_1.jpg", "manusso_2.jpg" ],
         "hints": [
-          "Die Wasserquelle befindet sich bei \"Manusso Eis\" im ersten Hof in der Klingenstraße 22, hinter dem Freisitz der Gastronomie \"Rasselbock\".", 
-          "Dort befindet sich ein Handwagen mit 2 großen Kanistern, der zum Gießen genutzt werden kann (Code fürs Zahlenschloss: 413).", 
-          "Nach dem Gießen muss der Handwagen wieder, am IBC-Container angeschlossen, zurückgelassen werden.", 
+          "Die Wasserquelle befindet sich bei \"Manusso Eis\" im ersten Hof in der Klingenstraße 22, hinter dem Freisitz der Gastronomie \"Rasselbock\".",
+          "Wenn vor dem Eingangstor eine große grauen Tonne steht, bitte zuerst dort das Wasser entnehmen",
+          "Ansonsten befindet sich ein Handwagen mit 2 großen Kanistern ein paar Meter weiter im Innenhof, der zum Gießen genutzt werden kann (Code fürs Zahlenschloss: 413).",
+          "Nach dem Gießen muss der Handwagen wieder, am IBC-Container angeschlossen, zurückgelassen werden.",
           "Mögliche Schäden oder andere Auffälligkeiten bitte unter info@leipziggiesst.de melden.",
           "Im Container wird sowohl Regenwasser als auch Brauchwasser aus der Eisproduktion gesammelt. Es wird also auch in langen Trockenperioden Wasser zum Gießen zur Verfügung stehen. Viel Spaß!"
         ]

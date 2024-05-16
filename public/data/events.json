@@ -8,24 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240514_offenes_teamtreffen",
-        "type": "Teamtreffen",
-        "name": "Offenes Teamtreffen für Interessierte",
-        "organisation": "Leipzig giesst",
-        "address": "Karl-Liebknecht-Straße 91",
-        "date": "2024-05-14",
-        "start": "19:00",
-        "end": "21:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offenes-teamtreffen-mach-mit-bei-leipzig-giesst",
-        "hints": [
-          "Offenes Teamtreffen für Interessierte, die im Projektteam mitmachen möchten."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.3738269, 51.321865] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240526_grassi_jubilaeum",
         "type": "Stand",
         "name": "Grassi-Jubiläum mit Leipzig pumpt",
@@ -34,6 +16,7 @@
         "date": "2024-05-26",
         "start": "13:00",
         "end": "18:00",
+        "url": "https://www.grassimak.de/150jahre/",
         "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.387284940378066, 51.337612394186436] }
@@ -65,9 +48,26 @@
         "date": "2024-05-29",
         "start": "18:00",
         "end": "19:00",
+        "hints": [
+          "Wir möchten euch herzlich einladen, mit uns diese neue Wasserquelle einzuweihen und die jungen Bäume in der Nähe zu gießen"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.324483369945597, 51.32269385854116] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240615_bunter_mockauer_sommer",
+        "type": "Stand",
+        "name": "Bunter Mockauer Sommer",
+        "organisation": "Leipzig giesst & Leipzig pumpt",
+        "address": "Essener Str. 59-69",
+        "date": "2024-06-15",
+        "start": "13:00",
+        "url": "https://bgh-leipzig.de/quartiersmanagement-intigra-mockau/#:~:text=Bunter%20Mockauer%20Sommer%202024",
         "hints": []
       },
-      "geometry": { "type": "Point", "coordinates": [12.324106238467692, 51.322873984225254] }
+      "geometry": { "type": "Point", "coordinates": [12.403825669760721, 51.37618920322623] }
     },
     {
       "type": "Feature",
