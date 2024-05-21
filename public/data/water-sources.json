@@ -396,10 +396,14 @@
         "created": "01.08.2021",
         "hints":[
           "Handschwengelpumpe mit Brunnenschacht und Abdeckplatte vor Nr. 2a in Ecklage Dresdner Straße/Stephaniplatz (Typ Delphin)",
-          "Status Juli 2021: betriebsbereit", 
+          "Status Juli 2021: betriebsbereit",
           "Falls die Pumpe ausgetrocknet sein sollte, kann Sie durch Einfüllen von ca. 5 Litern Wasser oberhalb der Schwengellagerung wieder in Gang gebracht werden.",
-          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann"
+          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann",
+          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 189",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
         ],
+        "images": [ "crusius_1.jpg", "crusius_2.jpg" ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294869"
       },
       "geometry": { "type": "Point", "coordinates": [12.39841, 51.33902] }
