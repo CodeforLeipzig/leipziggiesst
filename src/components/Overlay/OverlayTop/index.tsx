@@ -59,12 +59,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: Besucht uns am Sonntag, den 26.5., an unserem <a href="/event/20240526_grassi_jubilaeum">Stand beim Grassi-Jubiläum.</a><br /><br />Zusätzlich gibt es noch eine <a href="/event/20240526_pumpen_radtour">Pumpenradtour in Connewitz</a><br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+          Kommender Termin: Schließt euch uns am Mittwoch, den 29.5., um 18:00 an, um eine neue <a href="/event/20240529_manusso_einweihung">Wasserquelle</a> einzuweihen.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommender Termin: Besucht uns am Sonntag, den 26.5., an unserem <a href="/event/20240526_grassi_jubilaeum">Stand beim Grassi-Jubiläum.</a><br /><br />Zusätzlich gibt es noch eine <a href="/event/20240526_pumpen_radtour">Pumpenradtour in Connewitz</a><br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+      Kommender Termin: Schließt euch uns am Mittwoch, den 29.5., um 18:00 an, um eine neue <a href="/event/20240529_manusso_einweihung">Wasserquelle</a> einzuweihen.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}

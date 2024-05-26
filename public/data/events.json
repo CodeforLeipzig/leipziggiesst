@@ -8,43 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240526_grassi_jubilaeum",
-        "type": "Stand",
-        "name": "Grassi-Jubiläum mit Leipzig pumpt",
-        "organisation": "Leipzig pumpt",
-        "address": "Johannisplatz 5-11",
-        "date": "2024-05-26",
-        "start": "13:00",
-        "end": "18:00",
-        "url": "https://www.grassimak.de/150jahre/",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.387284940378066, 51.337612394186436] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20240526_pumpen_radtour",
-        "type": "Radtour",
-        "name": "Pumpenradtour zum Connewitzer Straßenfest",
-        "organisation": "Leipzig pumpt",
-        "address": "Selneckerstraße 2",
-        "date": "2024-05-26",
-        "start": "15:00",
-        "images": [ "radtour_1.jpg" ],
-        "hints": [
-          "🦁 Wisst ihr was es mit dem kleinen Löwen auf sich hat? LEIPZIG GIESST und Leipzig pumpt möchte allen Interessierten die historischen Handschwengelpumpen als Denkmale, Begegnungsorte und nützliche Wasserquellen vorstellen und lädt deshalb im Rahmen des Connewitzer Straßenfestes, am 26.05.24, zu einer Pumpenradtour ein.",
-          "Auf einer Strecke von circa 5 Kilometer werden verschiedene Handschwengelpumpen in Connewitz und Lößnig mit dem Rad erkundet.",
-          "Zu jeder Pumpe gibt es eine kurze Einleitung, denn jedes Exemplar bringt eine eigene Geschichte mit sich und ist in einem unterschiedlichen baulichen Zustand.",
-          "Start: 15 Uhr, Selneckerstraße 2 an der AOK.",
-          "Die Tour dauert circa eine Stunde und endet an der Handschwengelpumpe in der Bornaischen Straße."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.370719055698572, 51.30904576621211] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240529_manusso_einweihung",
         "type": "Gießtreff",
         "name": "Einweihung der Wasserquelle / IBC-Container bei Manusso",
