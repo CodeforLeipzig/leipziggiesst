@@ -324,7 +324,7 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
       new IconLayer({
         id: 'waterSources',
         visible: visibleMapLayer.indexOf('water_sources') >= 0 ? true : false,
-        data: (waterSourcesGeoJson as any).features,
+        data: (waterSourcesGeoJson as any).features.filter(feature => !feature?.properties?.inactive),
         pickable: true,
         // iconAtlas and iconMapping are required
         // getIcon: return a string

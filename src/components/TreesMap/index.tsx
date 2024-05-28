@@ -46,7 +46,7 @@ export const Map: FC<{
 
   const initialTreeCount = (treesGeoJson as any).features.length
   const initialPumpCount = (waterSourcesGeoJson as any).features.filter(
-    (feature) => feature.properties?.type === 'Handschwengelpumpe').length;
+    (feature) => feature.properties?.type === 'Handschwengelpumpe' && !feature.properties?.inactive).length;
   const initialWaterSourceCount = (waterSourcesGeoJson as any).features.filter(
     (feature) => feature.properties?.type !== 'LEIPZIG GIESST-Mobil' && feature.properties?.type !== 'Handschwengelpumpe').length;
   const startOfDay = new Date();
@@ -91,7 +91,7 @@ export const Map: FC<{
         } else {
           getTreeCount().then((count) => setTreeCount((count as number)));
         }
-        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'Handschwengelpumpe').then((count) => setPumpCount(count as number));
+        getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type === 'Handschwengelpumpe' && !feature?.object?.properties?.inactive).then((count) => setPumpCount(count as number));
         getFeatureCount('waterSources', (feature) => feature?.object?.properties?.type !== 'LEIPZIG GIESST-Mobil' && feature?.object?.properties?.type !== 'Handschwengelpumpe').then((count) => setWaterSourceCount(count as number));
         getFeatureCount('events', () => true).then((count) => setEventCount(count as number));
       } else {
