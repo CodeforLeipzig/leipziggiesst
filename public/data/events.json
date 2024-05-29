@@ -8,24 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240529_manusso_einweihung",
-        "type": "Gießtreff",
-        "name": "Einweihung der Wasserquelle / IBC-Container bei Manusso",
-        "organisation": "Leipzig giesst",
-        "address": "Klingenstraße 22",
-        "date": "2024-05-29",
-        "start": "18:00",
-        "end": "19:00",
-        "images": [ "manusso_1.jpg" ],
-        "hints": [
-          "Wir möchten euch herzlich einladen, mit uns diese neue Wasserquelle einzuweihen und die jungen Bäume in der Nähe zu gießen"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.324483369945597, 51.32269385854116] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240615_bunter_mockauer_sommer",
         "type": "Stand",
         "name": "Bunter Mockauer Sommer",

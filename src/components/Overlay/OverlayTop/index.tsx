@@ -59,12 +59,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: Schließt euch uns am Mittwoch, den 29.5., um 18:00 an, um eine neue <a href="/event/20240529_manusso_einweihung">Wasserquelle</a> einzuweihen.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+          Kommende Termine: Das Wochende 15.6. / 16.6. hat volles Programm für euch: erst Samstag der <a href="/event/20240615_bunter_mockauer_sommer">Bunte Mockauer Sommer</a> und Sonntag die <a href="/event/20240616_oekofete">Ökofete</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-      Kommender Termin: Schließt euch uns am Mittwoch, den 29.5., um 18:00 an, um eine neue <a href="/event/20240529_manusso_einweihung">Wasserquelle</a> einzuweihen.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+        Kommende Termine: Das Wochende 15.6. / 16.6. hat volles Programm für euch: erst Samstag der <a href="/event/20240615_bunter_mockauer_sommer">Bunte Mockauer Sommer</a> und Sonntag die <a href="/event/20240616_oekofete">Ökofete</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
