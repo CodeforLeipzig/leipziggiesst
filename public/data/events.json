@@ -8,6 +8,24 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20240611_manusso_erneut",
+        "type": "Gießtreff",
+        "name": "Wir gießen erneut bei Manusso!",
+        "organisation": "Leipzig giesst",
+        "address": "Klingenstraße 22",
+        "date": "2024-06-11",
+        "start": "18:00",
+        "end": "19:00",
+        "hints": [
+          "Ca. 1.000 Liter Brauchwasser aus der Eisproduktion stehen pro Woche zur Verfügung - das reicht pro Woche für die Bewässerung von 10 Jungbäumen.",
+          "Du hast Lust Teil einer Gießgruppe zu sein, die vor Ort regelmäßig die Jungbäume gießt? Schnapp’ Dir Gießkanne oder Eimer und komm’ vorbei und lerne das Team von LEIPZIG GIESST und weitere Engagierte kennen. "
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.324483369945597, 51.32269385854116] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20240615_bunter_mockauer_sommer",
         "type": "Stand",
         "name": "Bunter Mockauer Sommer",
