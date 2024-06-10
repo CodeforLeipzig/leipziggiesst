@@ -59,12 +59,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommende Termine: Dienstag, den 11. Juni, wollen ab 18 Uhr bei <a href="/event/20240611_manusso_erneut">Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team mit Überraschungsgästen vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+          Kommende Termine: Dienstag, den 11. Juni, wollen ab 18 Uhr bei <a href="/event/20240611_manusso_erneut">Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommende Termine: Dienstag, den 11. Juni, wollen ab 18 Uhr bei <a href="/event/20240611_manusso_erneut">Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team mit Überraschungsgästen vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+        Kommende Termine: Dienstag, den 11. Juni, wollen ab 18 Uhr bei <a href="/event/20240611_manusso_erneut">Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
