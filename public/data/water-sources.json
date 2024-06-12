@@ -670,6 +670,24 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.324137129100507, 51.32294725584336] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240611_inab",
+        "type": "Organisation",
+        "name": "1. IBC-Container im Robert-Koch-Park",
+        "organisation": "inab Leipzig",
+        "address": "Robert-Koch-Park",
+        "created": "11.06.2024",
+        "images": [ "inab1.jpg", "inab2.jpg" ],
+        "hints": [
+          "Der Wassercontainer steht hinter der Villa Sack/Parkschloss Grünau im Robert-Koch-Park.", 
+          "Er wird mit Regenwasser gespeist und ist jederzeit zugänglich.",
+          "Einen großen Dank an das engagierte Team der inab für die Ermöglichung der Wasserquelle!"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.301423852506332, 51.31715259802189] }
     }
   ]
 }
