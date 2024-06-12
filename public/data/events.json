@@ -8,24 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240611_manusso_erneut",
-        "type": "Gießtreff",
-        "name": "Wir gießen erneut bei Manusso!",
-        "organisation": "Leipzig giesst",
-        "address": "Klingenstraße 22",
-        "date": "2024-06-11",
-        "start": "18:00",
-        "end": "19:00",
-        "hints": [
-          "Ca. 1.000 Liter Brauchwasser aus der Eisproduktion stehen pro Woche zur Verfügung - das reicht pro Woche für die Bewässerung von 10 Jungbäumen.",
-          "Du hast Lust Teil einer Gießgruppe zu sein, die vor Ort regelmäßig die Jungbäume gießt? Schnapp’ Dir Gießkanne oder Eimer und komm’ vorbei und lerne das Team von LEIPZIG GIESST und weitere Engagierte kennen. "
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.324483369945597, 51.32269385854116] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240615_bunter_mockauer_sommer",
         "type": "Stand",
         "name": "Bunter Mockauer Sommer",
@@ -60,15 +42,22 @@
         "type": "Aktion",
         "name": "Gießaktion bei Lene",
         "organisation": "Leipzig giesst / Mühlstraßen e.V.",
-        "address": "Lene-Voigt-Park",
+        "address": "Gemeinschaftsgarten \"VAGABund\" des BUND, Lene-Voigt-Park",
         "date": "2024-06-21",
         "start": "17:00",
         "end": "18:30",
         "hints": [
-          "Gießen + Baumrally"
+          "Gießen + Baumrally",
+          "💦 Im Rahmen des \"Sommerfestivals bei Lene\", organisiert durch den Mühlstraße e.V., lädt LEIPZIG GIESST lädt zum gemeinsamen Gießen im Lene-Vogt-Park ein!",
+          "Baumrallye inkl. Quiz mit anschließender Gießaktion (für Kinder und Erwachsene)",
+          "Wir treffen uns im Gemeinschaftsgarten \"VAGABund\" des BUND, in einer kleinen Anfangsrunde berichten die Engagierten des BUND über die Organisation des Gartens und wie sich Interessierte einbringen können.",
+          "Anschließend erkunden wir im Rahmen des Baumrallye gemeinsam verschiedene Baumarten und thematisieren die Bedeutung von Bäumen für unser Stadtklima.",
+          "In dem Zusammenhang wird auch die Gieß-App vorgestellt, die alle Straßenbäume in Leipzig mit einigen Informationen anzeigt, das Abschließen von Gießpatenschaften und Eintragen von Gießgaben ermöglicht sowie öffentliche Wasserquellen anzeigt.",
+          "Anschließend gießen wir gemeinsam die Jungbäume auf der Fläche!",
+          "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.399965947080972, 51.33445234331947] }
+      "geometry": { "type": "Point", "coordinates": [12.404065617384333, 51.33365387167558] }
     },
     {
       "type": "Feature",
@@ -77,13 +66,17 @@
         "type": "Aktion",
         "name": "Gießaktion bei Lene",
         "organisation": "Leipzig giesst / Mühlstraßen e.V.",
-        "address": "Lene-Voigt-Park",
+        "address": "Auf der Parzelle der Mühlstraße, Lene-Voigt-Park",
         "date": "2024-06-22",
         "start": "11:00",
         "end": "12:00",
-        "hints": []
+        "hints": [
+          "Gemeinsames Gießen der Jungbäume auf der Fläche. Im Anschuss kannst Du auf dem Flohmarkt herumstöbern, der gleichzeitig stattfindet.",
+          "📍Treffpunkt: Auf der Parzelle der Mühlstraße",
+          "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.40026635449064, 51.33441212476211] }
+      "geometry": { "type": "Point", "coordinates": [12.40048177655342, 51.33434493182642] }
     }
   ]
 }
