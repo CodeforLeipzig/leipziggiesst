@@ -81,6 +81,23 @@
         "images": [ "lene1.jpg", "lene2.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.40048177655342, 51.33434493182642] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240824_radeln_pumpen_giessen_singen",
+        "type": "Aktion",
+        "name": "Radeln, pumpen, gießen evtl. mit Fahrradchor",
+        "organisation": "Leipzig giesst",
+        "address": "steht noch nicht fest",
+        "date": "2024-08-24",
+        "start": "16:30",
+        "end": "18:30",
+        "hints": [
+          "Genauer Treffpunkt steht noch nicht fest, letztes Jahr war es an der Pumpe in der Wurznerstraße"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
     }
   ]
 }
