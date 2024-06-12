@@ -33,7 +33,7 @@
         "end": "19:00",
         "hints": []
       },
-      "geometry": { "type": "Point", "coordinates": [12.356917403237873, 51.33105340361121] }
+      "geometry": { "type": "Point", "coordinates": [12.360594805902537, 51.3319332362953] }
     },
     {
       "type": "Feature",
@@ -46,6 +46,7 @@
         "date": "2024-06-21",
         "start": "17:00",
         "end": "18:30",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessen-bei-lene-mit-baumrallye-und-quiz-21-22-juni",
         "hints": [
           "Gießen + Baumrally",
           "💦 Im Rahmen des \"Sommerfestivals bei Lene\", organisiert durch den Mühlstraße e.V., lädt LEIPZIG GIESST lädt zum gemeinsamen Gießen im Lene-Vogt-Park ein!",
@@ -55,7 +56,8 @@
           "In dem Zusammenhang wird auch die Gieß-App vorgestellt, die alle Straßenbäume in Leipzig mit einigen Informationen anzeigt, das Abschließen von Gießpatenschaften und Eintragen von Gießgaben ermöglicht sowie öffentliche Wasserquellen anzeigt.",
           "Anschließend gießen wir gemeinsam die Jungbäume auf der Fläche!",
           "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
-        ]
+        ],
+        "images": [ "lene1.jpg", "lene2.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.404065617384333, 51.33365387167558] }
     },
@@ -70,11 +72,13 @@
         "date": "2024-06-22",
         "start": "11:00",
         "end": "12:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessen-bei-lene-mit-baumrallye-und-quiz-21-22-juni",
         "hints": [
           "Gemeinsames Gießen der Jungbäume auf der Fläche. Im Anschuss kannst Du auf dem Flohmarkt herumstöbern, der gleichzeitig stattfindet.",
           "📍Treffpunkt: Auf der Parzelle der Mühlstraße",
           "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
-        ]
+        ],
+        "images": [ "lene1.jpg", "lene2.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.40048177655342, 51.33434493182642] }
     }
