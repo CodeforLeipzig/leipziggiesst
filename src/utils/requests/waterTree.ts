@@ -16,9 +16,7 @@ export const waterTree = async ({
   username: string;
   token: string;
 }): Promise<void> => {
-  const urlPostWatering = createAPIUrl(
-    `/post?tree_id=${id}&amount=${amount}&timestamp=${timestamp}&uuid=${userId}&token=${token}&username=${username}&queryType=water`
-  );
+  const urlPostWatering = createAPIUrl(`/post/water`);
 
   await requests<undefined, { method: 'POST'; body: string }>(urlPostWatering, {
     token,
@@ -30,7 +28,6 @@ export const waterTree = async ({
         timestamp,
         uuid: userId,
         username,
-        queryType: 'water',
       }),
     },
   });

@@ -63,7 +63,7 @@ export const handlers = [
     return res(ctx.status(201));
   }),
 
-  rest.delete(`${location}/delete`, (req, res, ctx) => {
+  rest.delete(`${location}/delete/:type`, (req, res, ctx) => {
     // console.log('intercepting DELETE requests');
     const json: Payload = {};
     let body: Record<string, any> = {};
@@ -72,9 +72,18 @@ export const handlers = [
     } else {
       body = req.body ? req.body : {};
     }
-    const queryType = body ? getProperty(body, 'queryType') : '';
+    const { type } = req.params;
+    if (!type) {
+      return res(ctx.status(400), ctx.json({ message: 'type is undefined' }));
+    }
+    if (typeof type !== 'string') {
+      return res(
+        ctx.status(400),
+        ctx.json({ message: 'type is not a string' })
+      );
+    }    
     // console.log(body);
-    switch (queryType) {
+    switch (type) {
       case 'unadopt': {
         // remove from adopted trees list
         // adoptedTreeIds[]
@@ -86,7 +95,7 @@ export const handlers = [
       }
       case undefined:
       case null: {
-        console.log(' queryType is undefined or null');
+        console.log(' type is undefined or null');
         break;
       }
       default: {
@@ -95,7 +104,7 @@ export const handlers = [
     }
     return res(ctx.status(201), ctx.json(json));
   }),
-  rest.post(`${location}/post`, (req, res, ctx) => {
+  rest.post(`${location}/post/:type`, (req, res, ctx) => {
     let json: Payload = {};
     let body: Record<string, any> = {};
     if (typeof req.body === 'string') {
@@ -103,9 +112,17 @@ export const handlers = [
     } else {
       body = req.body ? req.body : {};
     }
-    const queryType = body ? getProperty(body, 'queryType') : '';
-
-    switch (queryType) {
+    const { type } = req.params;
+    if (!type) {
+      return res(ctx.status(400), ctx.json({ message: 'type is undefined' }));
+    }
+    if (typeof type !== 'string') {
+      return res(
+        ctx.status(400),
+        ctx.json({ message: 'type is not a string' })
+      );
+    }
+    switch (type) {
       case 'water': {
         treesWatered.push({
           tree_id: getProperty(body, 'tree_id'),
@@ -132,7 +149,7 @@ export const handlers = [
             watered: '1',
           });
         }
-        json = { data: 'watered tree', message: `${queryType}` };
+        json = { data: 'watered tree', message: `${type}` };
         break;
       }
       case 'adopt': {
@@ -156,12 +173,12 @@ export const handlers = [
             watered: '0',
           });
         }
-        json = { data: 'tree was adopted', message: `${queryType}` };
+        json = { data: 'tree was adopted', message: `${type}` };
         break;
       }
       case undefined:
       case null: {
-        console.error('queryType is not defiend');
+        console.error('type url param is not defiend');
         break;
       }
       default: {
@@ -177,17 +194,25 @@ export const handlers = [
     return res(ctx.status(200), ctx.json({ foo: 'bar' }));
   }),
 
-  rest.get(`${location}/get`, async (req, res, ctx) => {
+  rest.get(`${location}/get/:type`, async (req, res, ctx) => {
     let json: Payload = {};
 
-    // const queries = getUrlQueries(req.url.href);
-    // const query = req.url.searchParams;
-    // const queryType = query.get('queryType');
-    const queryType = getProperty(req.url.searchParams, 'queryType');
-
-    switch (queryType) {
-      case 'treesWateredByUser': {
-        json = { data: treesWatered, message: `${queryType}` };
+    const { type } = req.params as Record<string, unknown>;
+    if (!type) {
+      return res(
+        ctx.status(400),
+        ctx.json({ message: 'url param is missing' })
+      );
+    }
+    if (typeof type === 'string') {
+      return res(
+        ctx.status(400),
+        ctx.json({ message: 'url param is not a string' })
+      );
+    }
+    switch (type) {
+      case 'treeswateredbyuser': {
+        json = { data: treesWatered, message: `${type}` };
 
         break;
       }
@@ -205,7 +230,7 @@ export const handlers = [
         break;
       }
       case 'adopted': {
-        json = { data: [...adoptedTreeIds], message: `${queryType}` };
+        json = { data: [...adoptedTreeIds], message: `${type}` };
         break;
       }
       case 'istreeadopted': {
@@ -213,17 +238,17 @@ export const handlers = [
         json = {
           // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           data: adoptedTreeIds.includes(id) ? true : false,
-          message: `${queryType}`,
+          message: `${type}`,
         };
         break;
       }
       case 'wateredbyuser': {
         // const uuid = queries.get('uuid'); // if we need it
-        json = { data: treesWatered, message: `${queryType}` };
+        json = { data: treesWatered, message: `${type}` };
         break;
       }
       case 'wateredandadopted': {
-        json = { data: wateredAndAdopted, message: `${queryType}` };
+        json = { data: wateredAndAdopted, message: `${type}` };
         break;
       }
       case 'lastwatered': {
@@ -237,12 +262,12 @@ export const handlers = [
           }
         });
         const lastWateredByUserFiltered = lastWateredByUser.filter(Boolean); // https://stackoverflow.com/a/281335/1770432
-        json = { data: lastWateredByUserFiltered, message: `${queryType}` };
+        json = { data: lastWateredByUserFiltered, message: `${type}` };
         break;
       }
       case 'watered': {
         const watered = treesWatered.map(tree => tree.tree_id);
-        json = { data: { watered }, message: `${queryType}` };
+        json = { data: { watered }, message: `${type}` };
 
         break;
       }
@@ -253,7 +278,7 @@ export const handlers = [
         json = {
           data: [],
           url: req.url,
-          message: `case ${queryType} with url "${req.url}" in default case. Not yet defined and passed through`,
+          message: `case ${type} with url "${req.url}" in default case. Not yet defined and passed through`,
           ...originalResponse,
         };
         // console.log('response is patched and gets passed through', json);
@@ -267,9 +292,6 @@ export const handlers = [
   rest.get(
     'https://tsb-trees-api-user-management.now.sh/api/user',
     (req, res, ctx) => {
-      // const query = req.url.searchParams;
-      // const queryType = query.get('queryType');
-      // console.log('queryType', queryType);
 
       const userid = getProperty(req.url.searchParams, 'id');
       const json: Payload = {

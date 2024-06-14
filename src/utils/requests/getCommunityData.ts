@@ -3,15 +3,13 @@ import { createAPIUrl } from '../createAPIUrl';
 import { requests } from '../requestUtil';
 
 export const getCommunityData = async (): Promise<CommunityDataType> => {
-  const fetchCommunityDataUrl = createAPIUrl(
-    `/get?queryType=wateredandadopted`
-  );
+  const fetchCommunityDataUrl = createAPIUrl(`/get/wateredandadopted`);
 
   var json = await requests<{
     data: {
       tree_id: string;
-      adopted: string;
-      watered: string;
+      adopted: number;
+      watered: number;
     }[];
   }>(fetchCommunityDataUrl);  
 
@@ -26,7 +24,7 @@ export const getCommunityData = async (): Promise<CommunityDataType> => {
   const newState = json.data.reduce(
     (acc: CommunityDataType, { tree_id: id, adopted, watered }) => {
       const item = acc[id];
-      const isAdopted = item?.adopted || adopted !== '0';
+      const isAdopted = item?.adopted || adopted !== 0;
       const wateredAmount = item?.watered || watered;
       return {
         communityFlagsMap: {
