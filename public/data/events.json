@@ -8,36 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240615_bunter_mockauer_sommer",
-        "type": "Stand",
-        "name": "Bunter Mockauer Sommer",
-        "organisation": "Leipzig giesst & Leipzig pumpt",
-        "address": "Essener Str. 59-69",
-        "date": "2024-06-15",
-        "start": "13:00",
-        "url": "https://bgh-leipzig.de/quartiersmanagement-intigra-mockau/#:~:text=Bunter%20Mockauer%20Sommer%202024",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.403825669760721, 51.37618920322623] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20240616_oekofete",
-        "type": "Stand",
-        "name": "Ökofete",
-        "organisation": "Wir im Quartier / Leipzig giesst",
-        "address": "Anton-Bruckner-Allee",
-        "date": "2024-06-16",
-        "start": "12:00",
-        "end": "19:00",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.360594805902537, 51.3319332362953] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240621_giessen_bei_lene",
         "type": "Aktion",
         "name": "Gießaktion bei Lene",
@@ -87,14 +57,14 @@
       "properties": {
         "id": "20240824_radeln_pumpen_giessen_singen",
         "type": "Aktion",
-        "name": "Radeln, pumpen, gießen evtl. mit Fahrradchor",
+        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor ",
         "organisation": "Leipzig giesst",
-        "address": "steht noch nicht fest",
+        "address": "wird noch bekannt gegeben",
         "date": "2024-08-24",
         "start": "16:30",
         "end": "18:30",
         "hints": [
-          "Genauer Treffpunkt steht noch nicht fest, letztes Jahr war es an der Pumpe in der Wurznerstraße"
+          "Vom Leipziger Osten in den Leipziger Westen, mehr Infos folgen "
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
