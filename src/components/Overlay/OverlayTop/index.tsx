@@ -59,12 +59,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommende Termine: Baum-Rallye, Quizzen und Gießen <a href="/event/20240621_giessen_bei_lene">diesen Freitag, am 21.6., 17:00, im Lene-Voigt-Park</a>. Am <a href="/event/20240622_giessen_bei_lene">Samstag um 11 gießen wir auch im Lene-Park</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+          Kommende Termine: ACHTUNG: wegen Unwetterwarnung ist die heutige Veranstaltung auf morgen verschoben:  Baum-Rallye, Quizzen und Gießen <a href="/event/20240621_giessen_bei_lene">diesen Freitag, am 21.6., 17:00, im Lene-Voigt-Park</a>. Am <a href="/event/20240622_giessen_bei_lene">Samstag um 11 gießen wir auch im Lene-Park</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommende Termine: Baum-Rallye, Quizzen und Gießen <a href="/event/20240621_giessen_bei_lene">diesen Freitag, am 21.6., 17:00, im Lene-Voigt-Park</a>. Am <a href="/event/20240622_giessen_bei_lene">Samstag um 11 gießen wir auch im Lene-Park</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
+        Kommende Termine: ACHTUNG: wegen Unwetterwarnung ist die heutige Veranstaltung auf morgen verschoben: Baum-Rallye, Quizzen und Gießen <a href="/event/20240621_giessen_bei_lene">diesen Freitag, am 21.6., 17:00, im Lene-Voigt-Park</a>. Am <a href="/event/20240622_giessen_bei_lene">Samstag um 11 gießen wir auch im Lene-Park</a>.<br /><br />Alle Gießevents findet ihr ab sofort <a href="/events">links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
