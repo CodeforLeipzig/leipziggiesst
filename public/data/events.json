@@ -8,32 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240621_giessen_bei_lene",
-        "type": "Aktion",
-        "name": "Gießaktion bei Lene (ACHTUNG: wegen Unwetter abgesagt)",
-        "organisation": "Leipzig giesst / Mühlstraßen e.V.",
-        "address": "Gemeinschaftsgarten \"VAGABund\" des BUND, Lene-Voigt-Park",
-        "date": "2024-06-21",
-        "start": "17:00",
-        "end": "18:30",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessen-bei-lene-mit-baumrallye-und-quiz-21-22-juni",
-        "hints": [
-          "Gießen + Baumrally",
-          "💦 Im Rahmen des \"Sommerfestivals bei Lene\", organisiert durch den Mühlstraße e.V., lädt LEIPZIG GIESST lädt zum gemeinsamen Gießen im Lene-Vogt-Park ein!",
-          "Baumrallye inkl. Quiz mit anschließender Gießaktion (für Kinder und Erwachsene)",
-          "Wir treffen uns im Gemeinschaftsgarten \"VAGABund\" des BUND, in einer kleinen Anfangsrunde berichten die Engagierten des BUND über die Organisation des Gartens und wie sich Interessierte einbringen können.",
-          "Anschließend erkunden wir im Rahmen des Baumrallye gemeinsam verschiedene Baumarten und thematisieren die Bedeutung von Bäumen für unser Stadtklima.",
-          "In dem Zusammenhang wird auch die Gieß-App vorgestellt, die alle Straßenbäume in Leipzig mit einigen Informationen anzeigt, das Abschließen von Gießpatenschaften und Eintragen von Gießgaben ermöglicht sowie öffentliche Wasserquellen anzeigt.",
-          "Anschließend gießen wir gemeinsam die Jungbäume auf der Fläche!",
-          "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
-        ],
-        "images": [ "lene1.jpg", "lene2.jpg" ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.404065617384333, 51.33365387167558] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240622_giessen_bei_lene",
         "type": "Aktion",
         "name": "Gießaktion bei Lene",
@@ -44,9 +18,15 @@
         "end": "12:00",
         "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessen-bei-lene-mit-baumrallye-und-quiz-21-22-juni",
         "hints": [
-          "Gemeinsames Gießen der Jungbäume auf der Fläche. Im Anschuss kannst Du auf dem Flohmarkt herumstöbern, der gleichzeitig stattfindet.",
+          "Gießen + Baumrally",
           "📍Treffpunkt: Auf der Parzelle der Mühlstraße",
-          "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus."
+          "💦 Im Rahmen des \"Sommerfestivals bei Lene\", organisiert durch den Mühlstraße e.V., lädt LEIPZIG GIESST lädt zum gemeinsamen Gießen im Lene-Vogt-Park ein!",
+          "Baumrallye inkl. Quiz mit anschließender Gießaktion (für Kinder und Erwachsene)",
+          "Anschließend erkunden wir im Rahmen des Baumrallye gemeinsam verschiedene Baumarten und thematisieren die Bedeutung von Bäumen für unser Stadtklima.",
+          "In dem Zusammenhang wird auch die Gieß-App vorgestellt, die alle Straßenbäume in Leipzig mit einigen Informationen anzeigt, das Abschließen von Gießpatenschaften und Eintragen von Gießgaben ermöglicht sowie öffentliche Wasserquellen anzeigt.",
+          "Anschließend gießen wir gemeinsam die Jungbäume auf der Fläche!",
+          "Wir freuen uns über alle Interessierte – unabhängig von Alter oder Vorkenntnissen. Eine Anmeldung ist nicht erforderlich. Sollte es stark regnen, fällt die Veranstaltung aus.",
+          "Im Anschuss kannst Du auf dem Flohmarkt herumstöbern, der gleichzeitig stattfindet."
         ],
         "images": [ "lene1.jpg", "lene2.jpg" ]
       },
