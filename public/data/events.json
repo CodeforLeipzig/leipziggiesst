@@ -8,20 +8,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240625_teamtreffen",
-        "type": "Teamtreffen",
-        "name": "2-wöchentliches Leipzig-Giesst-Team-Treffen",
+        "id": "20240709_hundtscher_park",
+        "type": "Gießtreffen",
+        "name": "Tonnenbekleben und gemeinsames Gießen",
         "organisation": "Leipzig giesst",
-        "address": "\"Zum wilden Heinz\", Hähnelstraße 22",
-        "date": "2024-06-25",
-        "start": "19:00",
-        "end": "21:00",
+        "address": "Hundtscher Park, Frankenheimer Weg 28",
+        "date": "2024-07-09",
+        "start": "18:00",
+        "end": "19:00",
         "hints": [
-          "Unser Leipzig-Giesst-Team-Treffen zum Planen unserer nächsten Aktionen und Projekte",
-          "Wer bei uns im Team mitmachen möchte, ist herzlich eingeladen"
+          "Bereits letztes Jahr haben wir ausrangierte Müll- und Papiertonnen der Stadt Leipzig in einer Aktion neu gestaltet ( https://www.instagram.com/leipziggiesst/p/CxudeznKj84/?img_index=1 ), um sie anschließend als Regentonnen nutzen zu können",
+          "Im Hundtschen Park in Grünau wollen wir diese Aktion wiederholen",
+          "Kommt gerne mit vorbei und beklebt mit uns die Tonnen, Kleber bringen wir mit",
+          "Die Tonnen werden dauerhaft im Hundtschen Park stehen bleiben",
+          "Mehr zum Hundtschen Park: https://www.saechsische.de/sachsen/leipzig-garten-wiese-hundt-projekt-5542541.html"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.333628440106082,51.33238042906157] }
+      "geometry": { "type": "Point", "coordinates": [12.2839271739511, 51.32721711750668] }
     },
     {
       "type": "Feature",
