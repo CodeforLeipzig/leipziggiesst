@@ -143,6 +143,9 @@ const TreeInfos: FC<{
     artdtsch,
     gattung,
     gattungdeutsch,
+    baumhoehe,
+    kronedurch,
+    stammumfg,
     gattungwikipedia,
     gattungwikidata,
     gattungwikicommons,
@@ -189,6 +192,14 @@ const TreeInfos: FC<{
       .catch(console.error);
     } else {
       setOpen(true)
+    }
+  };
+
+  const formatNumber = (str: string) => {
+    try {
+      return parseFloat(str).toLocaleString("de");
+    } catch(e) {
+      return str;
     }
   };
 
@@ -331,6 +342,24 @@ const TreeInfos: FC<{
           <InfoContainer>
             <span>Gattung (wiss.)</span>
             <InfoValue>{gattung}</InfoValue>
+          </InfoContainer>
+        )}
+        {baumhoehe && (
+          <InfoContainer>
+            <span>Höhe</span>
+            <InfoValue>{formatNumber(baumhoehe)} m</InfoValue>
+          </InfoContainer>
+        )}
+        {stammumfg && (
+          <InfoContainer>
+            <span>Stammumfang</span>
+            <InfoValue>{formatNumber(stammumfg)} cm</InfoValue>
+          </InfoContainer>
+        )}
+        {kronedurch && (
+          <InfoContainer>
+            <span>Kronendurchmesser</span>
+            <InfoValue>{formatNumber(kronedurch)} m</InfoValue>
           </InfoContainer>
         )}
         {standortnr && (
