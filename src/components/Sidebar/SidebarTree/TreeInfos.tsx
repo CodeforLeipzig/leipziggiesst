@@ -344,6 +344,38 @@ const TreeInfos: FC<{
             <InfoValue>{gattung}</InfoValue>
           </InfoContainer>
         )}
+        {standortnr && (
+          <InfoContainer>
+            <span>Standortnummer</span>
+            <InfoValue>{standortnr}</InfoValue>
+          </InfoContainer>
+        )}
+        {treeAge === undefined && (
+          <>
+            <InfoContainer>
+              <span>Standalter</span>
+              <InfoValue>unbekannt</InfoValue>
+            </InfoContainer>
+          </>
+        )}
+        {typeof treeAge === 'number' && (
+          <InfoContainer>
+            <span>Standalter</span>
+            <InfoValue>{treeAge == 0 ? "jünger als " : ""} {treeAge == 0 ? 1 : treeAge} Jahr{treeAge > 1 ? "e" : ""}</InfoValue>
+          </InfoContainer>
+        )}
+        {typeof treeAge === 'number' && (
+          <ExpandablePanel
+            title={
+              <>
+                <span style={{ marginRight: 8 }}>Wasserbedarf:</span>
+                <WaterDrops dropsAmount={getWaterNeedByAge(treeAge)} />
+              </>
+            }
+          >
+            <WaterNeedsInfo />
+          </ExpandablePanel>
+        )}
         {baumhoehe && (
           <InfoContainer>
             <span>Höhe</span>
@@ -361,38 +393,6 @@ const TreeInfos: FC<{
             <span>Kronendurchmesser</span>
             <InfoValue>{formatNumber(kronedurch)} m</InfoValue>
           </InfoContainer>
-        )}
-        {standortnr && (
-          <InfoContainer>
-            <span>Standortnummer</span>
-            <InfoValue>{standortnr}</InfoValue>
-          </InfoContainer>
-        )}
-        {treeAge === undefined && (
-          <>
-            <InfoContainer>
-              <span>Standalter</span>
-              <InfoValue>unbekannt</InfoValue>
-            </InfoContainer>
-          </>
-        )}
-        {typeof treeAge === 'number' && (
-          <>
-            <InfoContainer>
-              <span>Standalter</span>
-              <InfoValue>{treeAge == 0 ? "jünger als " : ""} {treeAge == 0 ? 1 : treeAge} Jahr{treeAge > 1 ? "e" : ""}</InfoValue>
-            </InfoContainer>
-            <ExpandablePanel
-              title={
-                <>
-                  <span style={{ marginRight: 8 }}>Wasserbedarf:</span>
-                  <WaterDrops dropsAmount={getWaterNeedByAge(treeAge)} />
-                </>
-              }
-            >
-              <WaterNeedsInfo />
-            </ExpandablePanel>
-          </>
         )}
         { notes && (
           <ExpandablePanel
