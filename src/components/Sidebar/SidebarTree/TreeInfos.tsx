@@ -364,18 +364,6 @@ const TreeInfos: FC<{
             <InfoValue>{treeAge == 0 ? "jünger als " : ""} {treeAge == 0 ? 1 : treeAge} Jahr{treeAge > 1 ? "e" : ""}</InfoValue>
           </InfoContainer>
         )}
-        {typeof treeAge === 'number' && (
-          <ExpandablePanel
-            title={
-              <>
-                <span style={{ marginRight: 8 }}>Wasserbedarf:</span>
-                <WaterDrops dropsAmount={getWaterNeedByAge(treeAge)} />
-              </>
-            }
-          >
-            <WaterNeedsInfo />
-          </ExpandablePanel>
-        )}
         {baumhoehe && (
           <InfoContainer>
             <span>Höhe</span>
@@ -403,6 +391,18 @@ const TreeInfos: FC<{
             }
           >
             <span dangerouslySetInnerHTML={{ __html: `${notes}` }}></span>
+          </ExpandablePanel>
+        )}
+        {typeof treeAge === 'number' && (
+          <ExpandablePanel
+            title={
+              <>
+                <span style={{ marginRight: 8 }}>Wasserbedarf:</span>
+                <WaterDrops dropsAmount={getWaterNeedByAge(treeAge)} />
+              </>
+            }
+          >
+            <WaterNeedsInfo />
           </ExpandablePanel>
         )}
         <ExpandablePanel
