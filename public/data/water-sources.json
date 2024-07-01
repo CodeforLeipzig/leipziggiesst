@@ -688,6 +688,24 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.301423852506332, 51.31715259802189] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240506_cossi",
+        "type": "Giessutensilien",
+        "name": "Gießkannen an Jungbaum am Cossi",
+        "address": "Klingenstraße 22",
+        "created": "05.06.2024",
+        "images": [ "cossi_1.jpg" ],
+        "hints": [
+          "Seit kurzem gibt es drei frisch gepflanzte Bäume am Hundestrand.",
+          "Um deren Gießen zu erleichern, sind zwei Gießkannen mit einem Zahlenschloss an einem der Bäume befestigt.",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.336517068925275,51.284676060989995] }
     }
   ]
 }

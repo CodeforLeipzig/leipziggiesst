@@ -439,6 +439,13 @@ class DeckGLMap extends React.Component<DeckGLPropType, DeckGLStateType> {
         height: 32,
         anchorY: 16
       };
+    } else if (d.properties.type == "Gießutensilien") {
+      return {
+        url: prefix + "images/watering-util.png",
+        width: 32,
+        height: 32,
+        anchorY: 16
+      };
     } else if (d.properties.type == "LEIPZIG GIESST-Mobil") {
       return {
         url: prefix + "images/dumpster.png",
