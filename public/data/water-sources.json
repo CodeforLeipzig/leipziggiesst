@@ -675,9 +675,8 @@
       "type": "Feature",
       "properties": {
         "id": "20240611_inab",
-        "type": "Organisation",
-        "name": "1. IBC-Container im Robert-Koch-Park",
-        "organisation": "inab Leipzig",
+        "type": "Privatperson",
+        "name": "IBC-Container am Haus 6 im Robert-Koch-Park",
         "address": "Robert-Koch-Park",
         "created": "11.06.2024",
         "images": [ "inab1.jpg", "inab2.jpg" ],
@@ -706,6 +705,39 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.336517068925275,51.284676060989995] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240709_kockpark",
+        "type": "Privatperson",
+        "name": "Regentonnen im Hundtschenpark",
+        "address": "Robert-Koch-Park",
+        "created": "09.07.2024",
+        "images": [ "haus41.jpg", "haus42.jpg" ],
+        "hints": [
+          "Der Wassercontainer steht hinter dem Haus 4 im Robert-Koch-Park.",
+          "Er wird mit Regenwasser gespeist und ist jederzeit zugänglich."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.302631356964326, 51.316730360972684] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240709_hundtscher_park",
+        "type": "Privatperson",
+        "name": "Regentonnen im Hundtschen Park",
+        "address": "Hundtscher Park, Frankenheimer Weg 28",
+        "created": "09.07.2024",
+        "images": [ "tonnen.jpg" ],
+        "hints": [
+          "Die ausrangierten Papiertonnen wurden von der Stadt zur Verfügung gestellt",
+          "Wir haben sie mit Leipzig-Giesst-Motiven verziert",
+          "Mehr zum Hundtschen Park: https://www.saechsische.de/sachsen/leipzig-garten-wiese-hundt-projekt-5542541.html"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.2839271739511, 51.32721711750668] }
     }
   ]
 }

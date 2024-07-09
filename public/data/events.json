@@ -8,23 +8,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240709_hundtscher_park",
+        "id": "20240722_umweltminister",
         "type": "Gießtreffen",
-        "name": "Tonnenbekleben und gemeinsames Gießen",
+        "name": "Besuch des sächsische Umweltministers",
         "organisation": "Leipzig giesst",
-        "address": "Hundtscher Park, Frankenheimer Weg 28",
-        "date": "2024-07-09",
-        "start": "18:00",
-        "end": "19:00",
+        "address": "Hildegarten",
+        "date": "2024-07-22",
+        "start": "16:00",
+        "end": "17:00",
         "hints": [
-          "Bereits letztes Jahr haben wir ausrangierte Müll- und Papiertonnen der Stadt Leipzig in einer Aktion neu gestaltet ( https://www.instagram.com/leipziggiesst/p/CxudeznKj84/?img_index=1 ), um sie anschließend als Regentonnen nutzen zu können",
-          "Im Hundtschen Park in Grünau wollen wir diese Aktion wiederholen",
-          "Kommt gerne mit vorbei und beklebt mit uns die Tonnen, Kleber bringen wir mit",
-          "Die Tonnen werden dauerhaft im Hundtschen Park stehen bleiben",
-          "Mehr zum Hundtschen Park: https://www.saechsische.de/sachsen/leipzig-garten-wiese-hundt-projekt-5542541.html"
+          "der Sächsische Umweltminister Wolfram Günther bekommt gemeinsam mit der Landtagsabgeordneten Claudia Maicher das Projekt sLeipzigGiesst vorgestelt"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.2839271739511, 51.32721711750668] }
+      "geometry": { "type": "Point", "coordinates": [12.321457872656765, 51.322473175112265] }
     },
     {
       "type": "Feature",

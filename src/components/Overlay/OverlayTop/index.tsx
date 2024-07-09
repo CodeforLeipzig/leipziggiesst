@@ -60,12 +60,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: <Link to={"/event/20240709_hundtscher_park"}>Tonnenbekleben und gemeinsames Gießen im Hundtschen Park, am Dienstag, 9.7., 18 Uhr, Frankenheimer Weg 28, Grünau</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
+          Kommender Termin: <Link to={"/event/20240722_umweltminister"}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommender Termin: <Link to={"/event/20240709_hundtscher_park"}>Tonnenbekleben und gemeinsames Gießen im Hundtschen Park, am Dienstag, 9.7., 18 Uhr, Frankenheimer Weg 28, Grünau</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
+        Kommender Termin: <Link to={"/event/20240722_umweltminister"}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
