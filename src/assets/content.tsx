@@ -63,9 +63,9 @@ const content: Content = {
   intro: {
     title: '',
     subline:
-      'Die Leipziger Straßenbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
+      'Die Leipziger Straßen- und Parkbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
     disclaimer:
-      'Hinweis: Das Laden von über 60.000 Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop/Notebook-Computer',
+      'Hinweis: Das Laden von etwa 50.000 gießbedürftigen Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop/Notebook-Computer',
     description: [
       'Auf dieser Plattform kannst Du Dich über Bäume in Deiner Nachbarschaft und ihren Wasserbedarf informieren. Du kannst für einzelne Bäume eine Gießpatenschaft übernehmen und/oder auch dokumentieren, wieviel erfrischende Kaltgetränke Du ihnen gegeben hast.',
       'Informiere Dich <a target="blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/fragen-antworten-giessen">hier</a> über das richtige Gießen von Bäumen. Wenn Du die Gieß-App von LEIPZIG GIESST regelmäßig nutzen möchtest, solltest Du ein Konto erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.'
@@ -105,7 +105,7 @@ const content: Content = {
   },
   loading: {
     snippets: [
-      'Wir laden gerade über 60.000 Bäume aus dem Leipziger Straßenbaumbestand.',
+      'Wir laden gerade etwa 50.000 gießbedürftige Bäume aus dem Leipziger Straßen- und Parkbaumbestand.',
       'Wenn du diese Seite über das Mobilfunknetz aufrufst, kann es etwas dauern.',
       'Sammle Informationen aller Bäume aus Leizpzigs Straßenbaumkataster.',
       'Schon gewusst? Ein junger Stadtbaum benötigt etwa 70 Liter Wasser in der Woche.',
@@ -127,14 +127,14 @@ Das Projekt wird unterstützt durch das <a target="blank" href="https://www.city
       {
         title: 'Datenquellen',
         description:
-          'Die Karte zeigt die Leipziger Straßenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in dieser Zeit bereits gegossen wurden.',
+          'Die Karte zeigt die gießbedürftigen Leipziger Straßen- und Parkbäume, die jünger als 25 Jahre sind. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in dieser Zeit bereits gegossen wurden.',
       },
     ],
     waterNeeds: [
       {
         title: 'Niedriger Wasserbedarf',
         description:
-          'Straßenbäume höheren Alters (>40 Jahre) haben in der Regel gelernt, sich über das Grundwasser selbst zu versorgen. Auch Jungbäume unter 3 Jahren haben einen niedrigen Wasserbedarf, da diese im Normalfall durch das Amt für Stadtgrün und Gewässer versorgt werden.',
+          'Bäume höheren Alters (>40 Jahre) haben in der Regel gelernt, sich über das Grundwasser selbst zu versorgen. Auch Jungbäume unter 3 Jahren haben einen niedrigen Wasserbedarf, da diese im Normalfall durch das Amt für Stadtgrün und Gewässer versorgt werden.',
       },
       {
         title: 'Mittlerer Wasserbedarf',
