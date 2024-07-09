@@ -82,23 +82,23 @@ const content: Content = {
       `Auf geht's in die neue Gieß-Saison! Wir haben wieder einige Funktionen verbessert und neue Funktionen hinzugefügt. Die wichtigsten Verbesserungen im Überblick:<br />
       <div style="padding-top:0.5rem;padding-bottom:0.5rem; display:flex">
         <div>
-          <img style="width:25px; margin-right: 5px;" alt="Watering Icon" src="/images/icon-water.svg"/><b>Gießeinträge korrigieren</b><br>
-          Gießeinträge lassen sich nun nachträglich bearbeiten und kann so Wassermenge als auch das Datum korrigieren. Bei der Angabe der Wassermenge ist man dann auch nicht mehr 
-          an die festen Werten beim ersten Eintragen gebunden. Und ein Zurückdatierung der Gießung ist somit auch möglich, wenn man vergessen hatte, sie am gleichen Tag einzutragen. <a href="https://user-images.githubusercontent.com/994131/162630507-381b5f77-b87a-42c8-968d-571afbe99d45.mp4" target='_blank'
-          rel='noopener noreferrer'>Hier</a> gibt es kleine Demo.
+          <img style="width:25px; margin-right: 5px;" alt="Watering Icon" src="/images/icon-water.svg"/><b>Städtische Gießaktivitäten</b><br>
+          Die Stadt Leipzig selbst beauftragt Firmen, Bäume mit ausreichenden Wasser zu versorgen. Ob und wann welche Bäume so gegossen worden sind, war uns allerdings bisher nicht bekannt. Die neuen Daten enthalten nun diese Informationen, so dass die Leistungen der Stadt auch bei uns in der App gewürdigt werden können. Vor allem kann so die Menge der Bäumen, um die man sich noch kümmern muss, weiter eingegrenzt werden.
         </div>
       </div>`,
       `<div style="padding-top:0.5rem;padding-bottom:0.5rem; display:flex">
         <div>
           <img style="width:25px; margin-right: 5px;" alt="Watering Icon" src="/images/icon-water.svg"/>
-          <b>Gießeinträge löschen</b><br>
-          Hat man seine Gießung am falschen Baum eingetragen, lässt sich diese nun löschen, wie folgende <a href="https://user-images.githubusercontent.com/994131/162630522-b3e9e84f-e7fe-4477-9398-86d84a4cdacc.mp4" target='_blank'
-          rel='noopener noreferrer'>Demo</a> zeigt.</div></div>
-          <div>
+          <b>Park- und Friedhofsbäume verfügbar</b><br>
+          Bisher konnten wir in der App nur die städtischen Straßenbäume anzeigen. Seit diesem Jahr veröffentlicht die Stadt Leipzig auf ihrem <a target="blank" href="https://opendata.leipzig.de/dataset/baumkataster-stadt-leipzig1">Open-Data-Portal</a> die Daten von Bäumen aus weiteren ihr gehörenden Liegenschaften. Da die Anzeige von über 160.000 Bäumen die App deutlich verlangsamt hättte, haben wir uns entschieden, ab sofort nur noch solche zu zeigen, die jünger als 25 Jahre und damit noch sinnvoll zu gießen sind.
+        </div>
+      </div>
+      <div>
           <img style="width:20px; margin-right: 5px;" alt="Info Icon" src="/images/Information_icon_1(png).png"/>
-          <b>Weiterführende Informationen zu den Bäumen</b><br>
-          Auf der Detail-Seite eines Baum sind nun, sofern vorhanden, die passenden Wikipedia-Artikel zu Baumart und -gattung verlinkt. Für ausgewählte Gattung sind zudem die Baumsteckbriefe vom BUND Leipzig referenziert.</div>
-    </div>
+          <b>Mehr Baum-Eigenschaften</b><br>
+          Für die meisten Bäume sind nun Höhe, Stammumfang und Kronendurchmesser hinterlegt und diese werden auch bei uns in der Baumdetailansicht angezeigt.
+      </div>
+      </div>
     <br />
     Aktuelle Informationen findest Du auch auf <a href="https://www.facebook.com/leipziggiesst" target='_blank' rel='noopener noreferrer'>Facebook</a>, <a href="https://www.instagram.com/leipziggiesst/" target='_blank' rel='noopener noreferrer'>Instagram</a> und unserer <a href="https://www.leipziggiesst.de/" target='_blank' rel='noopener noreferrer'>Homepage</a>.`,
     ],
