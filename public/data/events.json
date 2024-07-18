@@ -27,17 +27,62 @@
       "properties": {
         "id": "20240824_radeln_pumpen_giessen_singen",
         "type": "Aktion",
-        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor ",
+        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
         "organisation": "Leipzig giesst",
-        "address": "wird noch bekannt gegeben",
+        "address": "Handschwengelpumpe, Wurznerstraße 147, Sellerhausen-Stünz",
         "date": "2024-08-24",
         "start": "16:30",
         "end": "18:30",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/radeln-pumpen-giessen-und-singen-am-240824-dem-leipziger-fahrradchor",
         "hints": [
-          "Vom Leipziger Osten in den Leipziger Westen, mehr Infos folgen "
-        ]
+          "📌 Start: Handschwengelpumpe, Wurznerstraße, Sellerhausen-Stünz",
+          "📌 Zwischenstopp: Handschwengelpumpe, Münzgasse, Zentrum-Süd",
+          "📌 Ende: Handschwengelpumpe, Davidstraße Ecke/ Sebastian-Bach-Straße, Zentrum-West",
+          "Bei starkem Regen oder Temperaturen von 30+ Grad wird die Radtour ausfallen! Updates dazu werden auf unserem Blog, Instagram, Facebook und in der Telegram-Gruppe bekannt gegeben."
+        ],
+        "images": [ "singen.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240831_pumpen_raetseltour",
+        "type": "Aktion",
+        "name": "Pumpen-Rätseltour für Kinder",
+        "organisation": "Leipzig pumpt",
+        "address": "Naturkundemuseum, Lortzingstraße 3",
+        "date": "2024-08-31",
+        "start": "10:00",
+        "end": "11:30",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/pumpen-raetseltour-fuer-kinder-am-31-august-anmeldung-gestartet",
+        "hints": [
+          "Stadtrundgang in Form einer spielerischen Inspektion der Pumpen in der Innenstadt.",
+          "Das Spiel wird durchgeführt von der Stadtführerin Sylvia Kolbe",
+          "Die kostenfreie Veranstaltung ist für Kinder geeignet, die schon lesen und schreiben können",
+          "Wir bitten um Anmeldung bis 25.08.24 via info@leipziggiesst.de",
+          "Für die begleitenden Erwachsenen gibt es ein eigenes Rätselheft mit erhöhtem Schwierigkeitsgrad"
+        ],
+        "images": [ "spiel.jpg" ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.370810368543857, 51.34489748763633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240831_pumpen_raetseltour",
+        "type": "Ausstellung",
+        "name": "Vernissage Wanderausstellung 'Historische Handschwengelpumpen in Leipzig'",
+        "organisation": "AK Gohliser Geschichte",
+        "address": "Bürgerverein Waldstraßenviertel, Hinrichsenstr. 10",
+        "date": "2024-08-23",
+        "start": "17:00",
+        "end": "19:00",
+        "hints": [
+          "7. Station der Wanderausstellung seit September 2022"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.364005951889993, 51.34552258629577] }
     }
   ]
 }
