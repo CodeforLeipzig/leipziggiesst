@@ -124,7 +124,7 @@ const EventInfos: FC<{
         )}
         {address && (
           <InfoContainer>
-            <span>Adresse</span>
+            <span style={{ marginRight: '15px'}}>Adresse</span>
             <InfoValue>{address}</InfoValue>
           </InfoContainer>
         )}
