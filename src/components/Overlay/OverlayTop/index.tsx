@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import { isMobile } from 'react-device-detect';
-import { Link } from "react-router-dom";
+import { useHistory } from 'react-router';
 
 import OverlayTitle from '../OverlayTitle/';
 import OverlayEvent from '../OverlayEvent/';
@@ -49,6 +49,7 @@ const StyledWrapper = styled.div`
 `;
 
 const OverlayTop: FC = () => {
+  const history = useHistory();
   const { closeOverlay } = useActions();
   const { intro, eventNote, whatsNew } = content;
 
@@ -60,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: <Link to={"/event/20240722_umweltminister"}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
+          Kommender Termin: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240722_umweltminister")}}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</a><br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommender Termin: <Link to={"/event/20240722_umweltminister"}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</Link><br /><br />Alle Gießevents findet ihr ab sofort <Link to="/events">links in der Seitenleiste</Link> und auf der Karte.
+        Kommender Termin: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240722_umweltminister")}}>Am Montag, den 22. Juli, 16:00, kommt uns der sächsische Umweltminister im Hildegarten besuchen.</a><br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}

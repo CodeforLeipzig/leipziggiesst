@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useHistory } from 'react-router';
 
 import SidebarTitle from '../SidebarTitle/';
 import ExpandablePanel from '../../ExpandablePanel';
@@ -6,6 +7,8 @@ import SmallParagraph from '../../SmallParagraph';
 import { useEventsGeoJson } from '../../../utils/hooks/useEventsGeoJson';
 
 const SidebarEvents: FC = () => {
+  const history = useHistory();
+
   const { isLoading: isLoadingEventsGeojson, data: eventsGeoJson } = useEventsGeoJson();
   if (isLoadingEventsGeojson) {
     return (<div>Laden...</div>)
@@ -20,7 +23,7 @@ const SidebarEvents: FC = () => {
         <ExpandablePanel isExpanded title={feature.properties.name} key={feature.properties.id}>
           <SmallParagraph>{new Date(feature.properties.date).toLocaleDateString()}{feature.properties.start ? ', ' + feature.properties.start : ''}{feature.properties.end ? ' - ' + feature.properties.end : ''}</SmallParagraph>
           <SmallParagraph>{feature.properties.address ? feature.properties.address : ''}</SmallParagraph>
-          <SmallParagraph><a style={{ cursor: 'pointer' }} href={"/event/" + feature.properties.id}>Zum Event</a></SmallParagraph>
+          <SmallParagraph><div style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/" + feature.properties.id)}}>Zum Event</div></SmallParagraph>
         </ExpandablePanel>
       ))}
     </>
