@@ -709,9 +709,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240709_kockpark",
+        "id": "20240709_kochpark",
         "type": "Privatperson",
-        "name": "Regentonnen im Hundtschenpark",
+        "name": "IBC-Container am Haus 4 im Robert-Koch-Park",
         "address": "Robert-Koch-Park",
         "created": "09.07.2024",
         "images": [ "haus41.jpg", "haus42.jpg" ],

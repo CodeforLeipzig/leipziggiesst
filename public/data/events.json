@@ -10,14 +10,14 @@
       "properties": {
         "id": "20240722_umweltminister",
         "type": "Gießtreffen",
-        "name": "Besuch des sächsische Umweltministers",
+        "name": "Besuch des sächsischen Umweltministers",
         "organisation": "Leipzig giesst",
         "address": "Hildegarten",
         "date": "2024-07-22",
         "start": "16:00",
         "end": "17:00",
         "hints": [
-          "der Sächsische Umweltminister Wolfram Günther bekommt gemeinsam mit der Landtagsabgeordneten Claudia Maicher das Projekt LeipzigGiesst vorgestelt"
+          "Der Sächsische Umweltminister Wolfram Günther bekommt gemeinsam mit der Landtagsabgeordneten Claudia Maicher das Projekt LeipzigGiesst vorgestellt."
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.321457872656765, 51.322473175112265] }

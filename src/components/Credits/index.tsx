@@ -97,10 +97,10 @@ const DseeLogo = styled.img`
 `;
 
 const TransformDLogo = styled.img`
-  height: 60px;
+  height: 80px;
   margin: 10px 0 5px 0;
-  padding-right: 70px;
-  padding-left: 110px;
+  padding-right: 80px;
+  padding-left: 100px;
 `;
 
 const Credits: FC = () => {
