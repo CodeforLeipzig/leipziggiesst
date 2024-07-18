@@ -48,6 +48,23 @@
       "type": "Feature",
       "properties": {
         "id": "20240831_pumpen_raetseltour",
+        "type": "Ausstellung",
+        "name": "Vernissage Wanderausstellung 'Historische Handschwengelpumpen in Leipzig'",
+        "organisation": "AK Gohliser Geschichte",
+        "address": "Bürgerverein Waldstraßenviertel, Hinrichsenstr. 10",
+        "date": "2024-08-23",
+        "start": "17:00",
+        "end": "19:00",
+        "hints": [
+          "7. Station der Wanderausstellung seit September 2022"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.364005951889993, 51.34552258629577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240831_pumpen_raetseltour",
         "type": "Aktion",
         "name": "Pumpen-Rätseltour für Kinder",
         "organisation": "Leipzig pumpt",
@@ -66,23 +83,6 @@
         "images": [ "spiel.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.370810368543857, 51.34489748763633] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20240831_pumpen_raetseltour",
-        "type": "Ausstellung",
-        "name": "Vernissage Wanderausstellung 'Historische Handschwengelpumpen in Leipzig'",
-        "organisation": "AK Gohliser Geschichte",
-        "address": "Bürgerverein Waldstraßenviertel, Hinrichsenstr. 10",
-        "date": "2024-08-23",
-        "start": "17:00",
-        "end": "19:00",
-        "hints": [
-          "7. Station der Wanderausstellung seit September 2022"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.364005951889993, 51.34552258629577] }
     }
   ]
 }
