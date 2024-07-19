@@ -135,7 +135,14 @@
         "type": "Handschwengelpumpe",
         "address": "Brühl 18",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09291088"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09291088",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.3745959, 51.3429841] }
     },
@@ -147,7 +154,14 @@
         "type": "Handschwengelpumpe",
         "address": "Gräfestraße 7",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294451"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294451",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.384432256221771, 51.36962703696971] }
     },
@@ -159,7 +173,14 @@
         "type": "Handschwengelpumpe",
         "address": "Mariannenstraße 10",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09293310"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09293310",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.397809773683548, 51.34728310100338] }
     },
@@ -171,7 +192,17 @@
         "type": "Handschwengelpumpe",
         "address": "Peterssteinweg 10",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09297205"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09297205",
+        "hints": [
+          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.373440563678741,51.33275843182236] }
     },
@@ -183,7 +214,14 @@
         "type": "Handschwengelpumpe",
         "address": "Neumarkt 24",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294780"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294780",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.37623006105423,51.33847350880957] }
     },
@@ -198,7 +236,12 @@
         "hints": [
           "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
           "Öffne das Schloss an der Kanne mit dem Zahlencode 246.",
-          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09292780"
       },
@@ -213,7 +256,14 @@
         "address": "Roßmarkt, 04288 Leipzig",
         "created": "17.05.2021",
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09299340",
-        "images": [ "Pumpe_Rossmarkt.jpg" ]
+        "images": [ "Pumpe_Rossmarkt.jpg" ],
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.464438192546368,51.28470658399813] }
     },
@@ -225,7 +275,14 @@
         "type": "Handschwengelpumpe",
         "address": "Universitätsstraße 16",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09262329"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09262329",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.377532944083214,51.33847225209043] }
     },
@@ -237,7 +294,14 @@
         "type": "Handschwengelpumpe",
         "address": "Burgstraße 19",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09292753"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09292753",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.373253479599951,51.33829463543871] }
     },
@@ -249,7 +313,14 @@
         "type": "Handschwengelpumpe",
         "address": "Windorfer Straße 49",
         "created": "17.05.2021",
-        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294871"
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294871",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.3272607, 51.3153915] }
     },
@@ -261,7 +332,14 @@
         "type": "Handschwengelpumpe",
         "address": "Naschmarkt",
         "created": "17.05.2021",
-        "url": "https://de.wikipedia.org/wiki/Brunnen_in_Leipzig#Löwenbrunnen"
+        "url": "https://de.wikipedia.org/wiki/Brunnen_in_Leipzig#Löwenbrunnen",
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.375639975070953, 51.33994552217372] }
     },
@@ -364,10 +442,11 @@
         "address": "Ludwig-Erhard-Straße 53, 04103 Leipzig",
         "created": "01.08.2021",
         "hints":[
-          "Handschwengelpumpe mit Brunnenschacht und Abdeckplatte vor Nr. 51/53 (Typ Kleiner Löwe)",
-          "Status Juli 2021: betriebsbereit",
-          "Falls die Pumpe ausgetrocknet sein sollte, kann Sie durch Einfüllen von ca. 5 Litern Wasser oberhalb der Schwengellagerung wieder in Gang gebracht werden.",
-          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann"
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09263878"
       },
@@ -382,10 +461,11 @@
         "address": "Marienplatz, 04103 Leipzig",
         "created": "01.08.2021",
         "hints":[
-          "Handschwengelpumpe mit Brunnenschacht und Abdeckplatte (Typ Delphin)",
-          "Status Juli 2021: betriebsbereit",
-          "Falls die Pumpe ausgetrocknet sein sollte, kann Sie durch Einfüllen von ca. 5 Litern Wasser oberhalb der Schwengellagerung wieder in Gang gebracht werden.",          
-          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann"
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09290408"
       },
@@ -401,13 +481,14 @@
         "created": "01.08.2021",
         "inactive": true,
         "hints":[
-          "Handschwengelpumpe mit Brunnenschacht und Abdeckplatte vor Nr. 2a in Ecklage Dresdner Straße/Stephaniplatz (Typ Delphin)",
-          "Status Juli 2021: betriebsbereit",
-          "Falls die Pumpe ausgetrocknet sein sollte, kann Sie durch Einfüllen von ca. 5 Litern Wasser oberhalb der Schwengellagerung wieder in Gang gebracht werden.",
-          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann",
           "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
           "Öffne das Schloss an der Kanne mit dem Zahlencode 189",
-          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ],
         "images": [ "crusius_1.jpg", "crusius_2.jpg" ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294869"
@@ -423,10 +504,11 @@
         "address": "Ossietzkystraße 46 / Robert-Blum-Straße 1, 04347 Leipzig",
         "created": "01.08.2021",
         "hints":[
-          "Handschwengelpumpe mit Brunnenschacht und Abdeckplatte an der Einmündung Robert-Blum-Straße (Typ Delphin)",
-          "Status Juli 2021: betriebsbereit",
-          "Falls die Pumpe ausgetrocknet sein sollte, kann Sie durch Einfüllen von ca. 5 Litern Wasser oberhalb der Schwengellagerung wieder in Gang gebracht werden.",          
-          "<a target=\"_blank\" href=\"https://docs.google.com/document/d/16esg9h41BuYVe4_uuC0iRYi1bnyW2irrVPsVDdUvaGI/edit\">Anleitung</a>, wie man eine eingetrocknete Pumpe wieder reaktivieren kann"
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ],
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09264372"
       },
@@ -485,7 +567,14 @@
         "address": "Davidstraße 9",
         "created": "06.08.2022",
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09292455",
-        "images": [ "Pumpe_Davidstrasse.jpg" ]
+        "images": [ "Pumpe_Davidstrasse.jpg" ],
+        "notes": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.356825, 51.334835] }
     },
@@ -567,9 +656,14 @@
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09261985",
         "images": [ "Pumpe_Wurznerstrasse.jpg" ],
         "hints": [
-          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt.",
+          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
           "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
-          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
+          "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
+          "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
+          "Beim ersten Pumpen hört man eventuell ein Sauggeräusch und der Schwengel lässt sich dann auch etwas schwerer betätigen.",
+          "Unter Umständen kann aber eine vormals funktionierende Pumpe dauerhaft ausfallen (Grundwasserspiegel zu niedrig, anderer Defekt)"
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.42677,51.34355] }
