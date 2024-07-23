@@ -8,19 +8,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240722_umweltminister",
-        "type": "Gießtreffen",
-        "name": "Besuch des sächsischen Umweltministers",
+        "id": "20240723_teamtreffen",
+        "type": "Teamtreffen",
+        "name": "Zweiwöchentliches Teamtreffen",
         "organisation": "Leipzig giesst",
-        "address": "Hildegarten",
-        "date": "2024-07-22",
-        "start": "16:00",
-        "end": "17:00",
+        "address": "Ilses Erika (Bernhard-Göring-Straße 152)",
+        "date": "2024-07-23",
+        "start": "19:00",
+        "end": "21:00",
         "hints": [
-          "Der Sächsische Umweltminister Wolfram Günther bekommt gemeinsam mit der Landtagsabgeordneten Claudia Maicher das Projekt LeipzigGiesst vorgestellt."
+          "Unser zweiwöchentliches Teamtreffen, wie sind aber jederzeit offen für Menschen, die sich uns potenziell anschließen möchten"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.321457872656765, 51.322473175112265] }
+      "geometry": { "type": "Point", "coordinates": [12.376292128450928,51.311002870975926] }
     },
     {
       "type": "Feature",
