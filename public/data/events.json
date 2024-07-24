@@ -27,6 +27,24 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20240820_offenes_teamtreffen",
+        "type": "Teamtreffen",
+        "name": "Gemeinsames Picknick im Volkspark Kleinzschocher",
+        "organisation": "Leipzig giesst und Leipzig pumpt",
+        "address": "Windorfer Straße 45a",
+        "date": "2024-08-20",
+        "start": "18:00",
+        "end": "21:00",
+        "hints": [
+          "Wir treffen uns bei der Handschwengelpumpe an der Taborkirche und suchen uns dann ein schönes Plätzchen im Park",
+          "Offenes Teamtreffen für Interessierte, die im Projektteam mitmachen möchten."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.327812148205624,51.3147492603639] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20240824_radeln_pumpen_giessen_singen",
         "type": "Aktion",
         "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
