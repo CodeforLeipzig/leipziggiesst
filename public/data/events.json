@@ -8,6 +8,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20240811_sommerfest_der_kulturfabrik_leipzig_2024",
+        "type": "Aktion",
+        "name": "Sommerfest der Kulturfabrik Leipzig 2024",
+        "organisation": "Cammerspiele, Frauenkultur, Halle 5 und das WERK 2",
+        "address": "WERK 2 - Kulturfabrik e.V., Kochstraße 132",
+        "date": "2024-08-11",
+        "start": "15:00",
+        "end": "18:00",
+        "url": "https://www.werk-2.de/programm/2024-08-11_sommerfest_der_kulturfabrik_leipzig_2024",
+        "hints": [
+          "viele interessante Stände und lustige Spiele",
+          "erkundet das Festgelände, probiert euch durch das Angebot und sammelt dabei so viele Stempel wie möglich.",
+          "es gibt auch einen Leipzig-Giesst-Bezug, lasst euch überraschen"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.37259878620884, 51.31037864154118] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20240820_offenes_teamtreffen",
         "type": "Teamtreffen",
         "name": "Gemeinsames Picknick im Volkspark Kleinzschocher",
