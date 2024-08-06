@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: Dienstag, den 6. August, wollen ab 18 Uhr bei <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240806_manusso_es_gibt_eis_baby")}}>Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
+          Kommender Termin: Dienstag, den 20. August, ab 18 Uhr offenes Treffen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240820_offenes_teamtreffen")}}>Mitbring-Picknick im Volkspark Kleinzschocher</a>. Wir wollen aber auch Bäume mit dem Wasser aus der naheliegenden Handschwengelpumpe gießen.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommender Termin: Dienstag, den 6. August, wollen ab 18 Uhr bei <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240806_manusso_es_gibt_eis_baby")}}>Manusso</a> wieder die IBC-Container ausgiebig nutzen und sind als Leipzig-Giesst-Team vor Ort. Kommt gerne vorbei.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
+        Kommender Termin: Dienstag, den 20. August, ab 18 Uhr offenes Treffen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240820_offenes_teamtreffen")}}>Mitbring-Picknick im Volkspark Kleinzschocher</a>. Wir wollen aber auch Bäume mit dem Wasser aus der naheliegenden Handschwengelpumpe gießen.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
