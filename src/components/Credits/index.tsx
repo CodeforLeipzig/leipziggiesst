@@ -125,7 +125,7 @@ const Credits: FC = () => {
           <span className="project">Ein Projekt von:</span>
           <SEWLogo src={logoStiftungEckenWecken} alt='Logo Stiftung Ecken Wecken' />
         </div>
-        <div className={'clickable'} onClick={() => window.open("https://stiftung-ecken-wecken.de/WIQ")}>
+        <div className={'clickable'} onClick={() => window.open("https://stiftung-ecken-wecken.de/projekte/wir-im-quartier")}>
           <span className="project">Ein Projekt von:</span>
           <WIQLogo src={logoWirImQuartier} alt='Logo Wir im Quartier' />
         </div>

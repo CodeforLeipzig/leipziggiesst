@@ -108,7 +108,7 @@ const Cookie: FC = () => {
               fortfährst stimmst du der Nutzung von Cookies zu.{' '}
             </Text>
             <MoreInfoLink
-              href='https://stiftung-ecken-wecken.de/datenschutz'
+              href='https://stiftung-ecken-wecken.de/kontakt-impressum/datenschutz'
               target='_blank'
               rel='noopener noreferrer'
             >

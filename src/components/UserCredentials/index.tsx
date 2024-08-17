@@ -143,7 +143,7 @@ const CardCredentials: FC<{
         </div>
       </Paragraph>
       <Paragraph>
-        Siehe auch <a href="https://stiftung-ecken-wecken.de/datenschutz">Details zum Datenschutz</a>
+        Siehe auch <a href="https://stiftung-ecken-wecken.de/kontakt-impressum/datenschutz">Details zum Datenschutz</a>
       </Paragraph>
 
 

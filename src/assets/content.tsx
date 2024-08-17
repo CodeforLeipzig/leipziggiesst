@@ -157,7 +157,7 @@ Das Projekt wird unterstützt durch das <a target="blank" href="https://www.city
         icon: 'water',
         title: 'Bäume bewässern',
         description:
-          'Informiere Dich auf unserer Plattform, ob Bäume in deiner Nähe Wasser benötigen. Wenn ja, schnapp Dir eine Gießkanne, einen Eimer oder einen Schlauch und leg los. Danach trägst Du die Bewässerung hier ein. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/content/wasserquellen-transport">Webseite</a> findest Du Infos zu Wasserquellen und zum Wassertransport.',
+          'Informiere Dich auf unserer Plattform, ob Bäume in deiner Nähe Wasser benötigen. Wenn ja, schnapp Dir eine Gießkanne, einen Eimer oder einen Schlauch und leg los. Danach trägst Du die Bewässerung hier ein. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/wasserquellen">Webseite</a> findest Du Infos zu Wasserquellen und zum Wassertransport.',
       },
       {
         icon: 'subscribe',
@@ -169,7 +169,7 @@ Das Projekt wird unterstützt durch das <a target="blank" href="https://www.city
         icon: 'zoom',
         title: 'Den Baumbestand erkunden',
         description:
-          'Unsere Karte ermöglicht es, mehr über einzelne Bäume und auch den gesamten Baumbestand zu erfahren. Nutze die Filter- und Suchfunktion, um mehr über die Bäume Leipzigs zu lernen. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/content/fragen-antworten">Webseite</a> findest weitere Infos dazu.',
+          'Unsere Karte ermöglicht es, mehr über einzelne Bäume und auch den gesamten Baumbestand zu erfahren. Nutze die Filter- und Suchfunktion, um mehr über die Bäume Leipzigs zu lernen. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/fragen-antworten-app">Webseite</a> findest weitere Infos dazu.',
       },
       {
         icon: 'info',
@@ -181,7 +181,7 @@ Das Projekt wird unterstützt durch das <a target="blank" href="https://www.city
         icon: 'info',
         title: 'Noch mehr Mitmachen',
         description:
-          'Du kannst aber auch im Projektteam mitarbeiten, Wasserspender werden, Andere fürs Gießen begeistern, Links zu LEIPZIG GIESST viel teilen oder in der Presse über LEIPZIG GIESST berichten. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/content/mitgie%C3%9Fen-mitmachen">Webseite</a> findest weitere Infos dazu. Und natürlich freuen wir uns immer über Posts/Likes bei <a href="https://www.instagram.com/leipziggiesst" target="_blank">instagram</a> oder <a href="https://www.facebook.com/leipziggiesst" target="_blank">facebook</a>.',
+          'Du kannst aber auch im Projektteam mitarbeiten, Wasserspender werden, Andere fürs Gießen begeistern, Links zu LEIPZIG GIESST viel teilen oder in der Presse über LEIPZIG GIESST berichten. Auf unserer <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/mitgiessen-mitmachen">Webseite</a> findest weitere Infos dazu. Und natürlich freuen wir uns immer über Posts/Likes bei <a href="https://www.instagram.com/leipziggiesst" target="_blank">instagram</a> oder <a href="https://www.facebook.com/leipziggiesst" target="_blank">facebook</a>.',
       },
     ],
   },
