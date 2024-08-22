@@ -61,13 +61,15 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Kommender Termin: Dienstag, den 20. August, ab 18 Uhr offenes Treffen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240820_offenes_teamtreffen")}}>Mitbring-Picknick im Volkspark Kleinzschocher</a>. Wir wollen aber auch Bäume mit dem Wasser aus der naheliegenden Handschwengelpumpe gießen.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
+          Wo stehst Du im Gießranking? Erfahre das uns mehr aus <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/das-sind-die-top-giesserinnen-eine-zwischenauswertung-der-giesssaison">unserem Blog.</a><br /><br />
+          <b>Kommender Termin:</b> Samstag, den 24. August, ab 16:30 Uhr Pumpen, Gießen und Singen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240824_radeln_pumpen_giessen_singen")}}>Handschwengelpumpenradtour</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Kommender Termin: Dienstag, den 20. August, ab 18 Uhr offenes Treffen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240820_offenes_teamtreffen")}}>Mitbring-Picknick im Volkspark Kleinzschocher</a>. Wir wollen aber auch Bäume mit dem Wasser aus der naheliegenden Handschwengelpumpe gießen.<br /><br />Alle Gießevents findet ihr ab sofort <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/events")}}>links in der Seitenleiste</a> und auf der Karte.
-        </div>)}
+        Wo stehst Du im Gießranking? Erfahre das uns mehr aus <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/das-sind-die-top-giesserinnen-eine-zwischenauswertung-der-giesssaison">unserem Blog.</a><br /><br />
+        <b>Kommender Termin:</b> Samstag, den 24. August, ab 16:30 Uhr Pumpen, Gießen und Singen als <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240824_radeln_pumpen_giessen_singen")}}>Handschwengelpumpenradtour</a>.
+      </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
       {/* the beow is here for local testing */}
