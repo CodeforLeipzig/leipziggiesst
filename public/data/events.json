@@ -25,28 +25,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240824_radeln_pumpen_giessen_singen",
-        "type": "Aktion",
-        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
-        "organisation": "Leipzig giesst",
-        "address": "Handschwengelpumpe, Wurznerstraße 147, Sellerhausen-Stünz",
-        "date": "2024-08-24",
-        "start": "16:30",
-        "end": "18:30",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/radeln-pumpen-giessen-und-singen-am-240824-dem-leipziger-fahrradchor",
-        "hints": [
-          "📌 Start: Handschwengelpumpe, Wurznerstraße, Sellerhausen-Stünz",
-          "📌 Zwischenstopp: Handschwengelpumpe, Münzgasse, Zentrum-Süd",
-          "📌 Ende: Handschwengelpumpe, Davidstraße Ecke/ Sebastian-Bach-Straße, Zentrum-West",
-          "Bei starkem Regen oder Temperaturen von 30+ Grad wird die Radtour ausfallen! Updates dazu werden auf unserem Blog, Instagram, Facebook und in der Telegram-Gruppe bekannt gegeben."
-        ],
-        "images": [ "singen.jpg" ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240831_pumpen_raetseltour",
         "type": "Aktion",
         "name": "Pumpen-Rätseltour für Kinder",
@@ -66,6 +44,28 @@
         "images": [ "spiel.jpg" ]
       },
       "geometry": { "type": "Point", "coordinates": [12.370810368543857, 51.34489748763633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240928_radeln_pumpen_giessen_singen",
+        "type": "Aktion",
+        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
+        "organisation": "Leipzig giesst",
+        "address": "Handschwengelpumpe, Wurznerstraße 147, Sellerhausen-Stünz",
+        "date": "2024-08-28",
+        "start": "16:30",
+        "end": "18:30",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/radeln-pumpen-giessen-und-singen-am-240824-dem-leipziger-fahrradchor",
+        "hints": [
+          "📌 Start: Handschwengelpumpe, Wurznerstraße, Sellerhausen-Stünz",
+          "📌 Zwischenstopp: Handschwengelpumpe, Münzgasse, Zentrum-Süd",
+          "📌 Ende: Handschwengelpumpe, Davidstraße Ecke/ Sebastian-Bach-Straße, Zentrum-West",
+          "Bei starkem Regen oder Temperaturen von 30+ Grad wird die Radtour ausfallen! Updates dazu werden auf unserem Blog, Instagram, Facebook und in der Telegram-Gruppe bekannt gegeben."
+        ],
+        "images": [ "singen.jpg" ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
     }
   ]
 }
