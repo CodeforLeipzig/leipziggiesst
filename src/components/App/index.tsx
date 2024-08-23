@@ -37,8 +37,6 @@ const ImprintAndPrivacyContainer = styled.div`
 
 const App: FC = () => {
   const overlay = useStoreState('overlay');
-  const isNavOpen = useStoreState('isNavOpen');
-
   const { data: communityData } = useCommunityData();
   const { data: rainGeoJson } = useRainGeoJson();
   const { data: pumpsGeoJson } = usePumpsGeoJson();
@@ -55,13 +53,12 @@ const App: FC = () => {
   );
   const showLoading = !showMap;
   const showMapUI = showMap && !showOverlay;
-  const isSidebarOpened = !isHome && isNavOpen;
 
   return (
     <AppContainer>
       {showLoading && <Loading />}
       {showMap && (
-        <Map isNavOpened={isSidebarOpened} showOverlay={showOverlay} />
+        <Map isNavOpened={!isHome} showOverlay={showOverlay} />
       )}
       {showMapUI && <Sidebar />}
       {showOverlay && <Overlay />}

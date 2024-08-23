@@ -26,7 +26,7 @@ interface StyledProps {
 const ControlWrapper = styled.div<StyledProps>`
   position: absolute;
   bottom: 12px;
-  left: 12px;
+  left: 22px;
   z-index: 2;
   transition: transform 500ms;
 
@@ -69,7 +69,7 @@ interface DeckGLPropType {
   communityData: CommunityDataType['communityFlagsMap'];
   communityDataWatered: CommunityDataType['wateredTreesIds'];
   communityDataAdopted: CommunityDataType['adoptedTreesIds'];
-
+  
   showControls: boolean | undefined;
   onTreeSelect: (id: string) => void;
   onWaterSourceSelect: (id: string) => void;
