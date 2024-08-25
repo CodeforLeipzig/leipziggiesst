@@ -1,19 +1,25 @@
 import { CommunityDataType } from '../../common/interfaces';
 import { createAPIUrl } from '../createAPIUrl';
 import { requests } from '../requestUtil';
+import { decompress } from 'brotli-compress/js'
+
+const decompressSync = (input) => {
+  const compressedDataNonBase64 = Uint8Array.from(atob(input), c => c.charCodeAt(0));
+  const decompressedData = decompress(compressedDataNonBase64);
+  const decoder = new TextDecoder();
+  return decoder.decode(decompressedData);
+}
 
 export const getCommunityData = async (): Promise<CommunityDataType> => {
   const fetchCommunityDataUrl = createAPIUrl(
-    `/get?queryType=wateredandadopted`
+    `/get?queryType=wateredandadopted-compressed`
   );
 
-  var json = await requests<{
-    data: {
-      tree_id: string;
-      adopted: string;
-      watered: string;
-    }[];
-  }>(fetchCommunityDataUrl);  
+  const compressed = await requests<{
+    data: string;
+  }>(fetchCommunityDataUrl);
+    
+  const decompressedString = decompressSync(compressed.data);
 
   const defaultCommunityData: CommunityDataType = {
     communityFlagsMap: {},
@@ -21,9 +27,13 @@ export const getCommunityData = async (): Promise<CommunityDataType> => {
     adoptedTreesIds: [],
   };
 
-  if (!json.data) return defaultCommunityData;
+  if (!decompressedString) return defaultCommunityData;
 
-  const newState = json.data.reduce(
+  const json = JSON.parse(decompressedString);
+  if (!json) return defaultCommunityData;
+
+
+  const newState = json.reduce(
     (acc: CommunityDataType, { tree_id: id, adopted, watered }) => {
       const item = acc[id];
       const isAdopted = item?.adopted || adopted !== '0';
