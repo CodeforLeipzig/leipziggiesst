@@ -8,42 +8,36 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240823_vernissage",
-        "type": "Ausstellung",
-        "name": "Vernissage Wanderausstellung Historische Handschwengelpumpen in Leipzig",
-        "organisation": "AK Gohliser Geschichte",
-        "address": "Bürgerverein Waldstraßenviertel, Hinrichsenstr. 10",
-        "date": "2024-08-23",
-        "start": "17:00",
-        "end": "19:00",
+        "id": "20240907_leipzig_dresden_magdeburg",
+        "type": "Treffen",
+        "name": "Austausch mit \"Magdeburg giesst\" und \"Dresden giesst\"",
+        "organisation": "Leipzig giesst",
+        "address": "Treffhaltestelle, Industriestraße 24",
+        "date": "2024-09-07",
+        "start": "14:00",
+        "end": "18:00",
         "hints": [
-          "7. Station der Wanderausstellung seit September 2022"
+          "unser jährliches Austausch-Treffen mit <a target=\"_blank\" href=\"https://dresdengiesst.de/\">Dresden giesst</a>, diesmal auch mit <a target=\"_blank\" href=\"https://www.magdeburg-giesst.de/\">Magdeburg giesst</a>"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.364005951889993, 51.34552258629577] }
+      "geometry": { "type": "Point", "coordinates": [12.34186517230438, 51.32547244386947] }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "20240831_pumpen_raetseltour",
-        "type": "Aktion",
-        "name": "Pumpen-Rätseltour für Kinder",
-        "organisation": "Leipzig pumpt",
-        "address": "Naturkundemuseum, Lortzingstraße 3",
-        "date": "2024-08-31",
-        "start": "10:00",
-        "end": "11:30",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/pumpen-raetseltour-fuer-kinder-am-31-august-anmeldung-gestartet",
+        "id": "20240925_manusso_bmw_stiftung",
+        "type": "Treffen",
+        "name": "Gießaktion bei Manusso mit BMW Stiftung Videodreh",
+        "organisation": "Leipzig giesst",
+        "address": "Manusso, Klingenstraße 22",
+        "date": "2024-09-25",
+        "start": "17:30",
+        "end": "18:30",
         "hints": [
-          "Stadtrundgang in Form einer spielerischen Inspektion der Pumpen in der Innenstadt.",
-          "Das Spiel wird durchgeführt von der Stadtführerin Sylvia Kolbe",
-          "Die kostenfreie Veranstaltung ist für Kinder geeignet, die schon lesen und schreiben können",
-          "Wir bitten um Anmeldung bis 25.08.24 via info@leipziggiesst.de",
-          "Für die begleitenden Erwachsenen gibt es ein eigenes Rätselheft mit erhöhtem Schwierigkeitsgrad"
-        ],
-        "images": [ "spiel.jpg" ]
+          "BMW Stiftung dreht ein Video über \"Leipzig giesst\", \"Leipzig pumpt\" und \"Stiftung Ecken Wecken\" für ihren Blog"
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.370810368543857, 51.34489748763633] }
+      "geometry": { "type": "Point", "coordinates": [12.324511779763156, 51.32269163621973] }
     },
     {
       "type": "Feature",
