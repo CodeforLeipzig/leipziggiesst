@@ -12,7 +12,7 @@
         "type": "Treffen",
         "name": "Austausch mit \"Magdeburg giesst\" und \"Dresden giesst\"",
         "organisation": "Leipzig giesst",
-        "address": "Treffhaltestelle, Industriestraße 24",
+        "address": "Südgrün, Karl-Liebknecht-Str. 91, 04275 Leipzig",
         "date": "2024-09-07",
         "start": "14:00",
         "end": "18:00",
@@ -20,7 +20,7 @@
           "unser jährliches Austausch-Treffen mit <a target=\"_blank\" href=\"https://dresdengiesst.de/\">Dresden giesst</a>, diesmal auch mit <a target=\"_blank\" href=\"https://www.magdeburg-giesst.de/\">Magdeburg giesst</a>"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.34186517230438, 51.32547244386947] }
+      "geometry": { "type": "Point", "coordinates": [12.373795830547664, 51.32193824701008] }
     },
     {
       "type": "Feature",
