@@ -837,6 +837,25 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.2839271739511, 51.32721711750668] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20240923_lindenauer_hafen",
+        "type": "Gießutensilien",
+        "name": "Gießkannen am Lindenauer Hafen",
+        "address": "Anlegestelle Lindenauer Hafen",
+        "created": "23.09.2024",
+        "images": [ "lindenauer_hafen_1.jpg", "lindenauer_hafen_2.jpg" ],
+        "hints": [
+          "Stadtbäume am Lindenauer Hafen leider unter Trockenheit, obwohl das Wasser des Kanals nur wenige Meter entfernt ist",
+          "Um deren Gießen zu erleichern, ist eine Gießkannen mit einem Zahlenschloss an einem der Bäume befestigt.",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
+          "Gemäß sächsischen Wassergesetz darf aus Fließgewässern nur mit Handschöpfgeräten Wasser entnommen werden."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.308104, 51.329122] }
     }
   ]
 }
