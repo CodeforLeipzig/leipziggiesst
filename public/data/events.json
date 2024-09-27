@@ -8,23 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240925_manusso_bmw_stiftung",
-        "type": "Treffen",
-        "name": "Gießaktion bei Manusso mit BMW Stiftung Videodreh",
-        "organisation": "Leipzig giesst",
-        "address": "Manusso, Klingenstraße 22",
-        "date": "2024-09-25",
-        "start": "17:30",
-        "end": "18:30",
-        "hints": [
-          "BMW Stiftung dreht ein Video über \"Leipzig giesst\", \"Leipzig pumpt\" und \"Stiftung Ecken Wecken\" für ihren Blog"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.324511779763156, 51.32269163621973] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20240928_radeln_pumpen_giessen_singen",
         "type": "Aktion",
         "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
