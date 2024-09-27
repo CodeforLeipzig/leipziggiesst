@@ -61,13 +61,11 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Wo stehst Du im Gießranking? Erfahre das und mehr aus <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/das-sind-die-top-giesserinnen-eine-zwischenauswertung-der-giesssaison">unserem Blog.</a><br /><br />
           <b>Kommender Termin:</b> Samstag, den 28. September, ab 16:30: Pumpen, Gießen und Singen als Teil unserer <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240928_radeln_pumpen_giessen_singen")}}>Handschwengelpumpenradtour</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        Wo stehst Du im Gießranking? Erfahre das und mehr aus <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/das-sind-die-top-giesserinnen-eine-zwischenauswertung-der-giesssaison">unserem Blog.</a><br /><br />
         <b>Kommender Termin:</b> Samstag, den 28. September, ab 16:30: Pumpen, Gießen und Singen als Teil unserer <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20240928_radeln_pumpen_giessen_singen")}}>Handschwengelpumpenradtour</a>.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
