@@ -8,24 +8,133 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20240928_radeln_pumpen_giessen_singen",
-        "type": "Aktion",
-        "name": " Radeln, pumpen, gießen mit dem Leipziger Fahrradchor",
-        "organisation": "Leipzig giesst",
-        "address": "Handschwengelpumpe, Wurznerstraße 147, Sellerhausen-Stünz",
-        "date": "2024-09-28",
-        "start": "16:30",
-        "end": "18:30",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/radeln-pumpen-giessen-und-singen-am-240824-dem-leipziger-fahrradchor",
-        "hints": [
-          "📌 Start: Handschwengelpumpe, Wurznerstraße, Sellerhausen-Stünz",
-          "📌 Zwischenstopp: Handschwengelpumpe, Münzgasse, Zentrum-Süd",
-          "📌 Ende: Handschwengelpumpe, Davidstraße Ecke/ Sebastian-Bach-Straße, Zentrum-West",
-          "Bei starkem Regen oder Temperaturen von 30+ Grad wird die Radtour ausfallen! Updates dazu werden auf unserem Blog, Instagram, Facebook und in der Telegram-Gruppe bekannt gegeben."
-        ],
-        "images": [ "singen.jpg" ]
+        "id": "20241022_loesungsteam_treffen",
+        "type": "Team-Treffen",
+        "name": "Monatliches Lösungsteamtreffen von LEIPZIG GIESST",
+        "organisation": "Leipzig gießt",
+        "address": "Treffhaltestelle, Industriestraße 25",
+        "date": "2024-10-22",
+        "start": "19:00",
+        "end": "21:00",
+        "hints": []
       },
-      "geometry": { "type": "Point", "coordinates": [12.42698869081002, 51.34357978146099] }
+      "geometry": { "type": "Point", "coordinates": [12.341823729664839,51.325258629075876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241019_pflanzaktion_kgv_anger_crottendorf",
+        "type": "Aktion",
+        "name": "Pflanzaktion im KGV Anger-Crottendorf",
+        "organisation": "Leipzig pflanzt",
+        "address": "Zweinaundorfer Str. 87",
+        "date": "2024-10-19",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-anger-crottendorf-tickets-1016542565177",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.427245997363201,51.33150980598407] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241026_pflanzaktion_kgv_miltitz_am_see",
+        "type": "Aktion",
+        "name": "Pflanzaktion im KGV Miltitz am See",
+        "organisation": "Leipzig pflanzt",
+        "address": "Auenweg 52",
+        "date": "2024-10-26",
+        "start": "09:45",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-miltitz-am-see-tickets-1016547509967",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.250866461965245,51.31981192199248] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241102_pflanzaktion_kgv_fortschritt",
+        "type": "Aktion",
+        "name": "Pflanzaktion im KGV Fortschritt",
+        "organisation": "Leipzig pflanzt",
+        "address": "Merseburger Str. 185",
+        "date": "2024-11-02",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-fortschritt-tickets-1016549465817",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.31080846196528,51.34021533262995] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241106_deutschland_giesst",
+        "type": "Online-Konferenz",
+        "name": "Deutschland gießt",
+        "organisation": "Stiftung \"Ecken wecken\"",
+        "address": "online",
+        "date": "2024-11-06",
+        "start": "17:00",
+        "end": "19:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.341823729664839,51.325258629075876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241121_wiq_winterfest",
+        "type": "Veranstaltung",
+        "name": "\"Wir im Quartier\"-Winterfest",
+        "organisation": "Wir im Quartier",
+        "address": "Magazingasse 3, Leipzig-Zentrum",
+        "date": "2024-11-21",
+        "start": "18:00",
+        "end": "21:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giess-auswertung-2024-so-engagiert-ist-leipzigs-giesscommunity",
+        "hints": [
+          "Das Fest findet im Smart City Lab Leipzig in der obersten Etage im großen Konferenzraum statt",
+          "<a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/projekte/wir-im-quartier\">Wir im Quartier</a> feiert 5-jähriges Bestehen",
+          "Im Rahmen des Festes werden auch wieder die Top-Gießenden der Saison mit Preisen und Urkunden ausgezeichnet"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.376685728835923, 51.3374102973431] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241123_pflanzaktion_hospizpark_magnusstrasse",
+        "type": "Aktion",
+        "name": "Pflanzaktion im Hospizpark Magnusstraße",
+        "organisation": "Leipzig pflanzt",
+        "address": "Magnusstraße 13",
+        "date": "2024-11-23",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-im-hospizpark-magnusstrae-tickets-1016561802717",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.388157729663675,51.37475752816573] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241130_pflanzaktion_schoenefeld",
+        "type": "Aktion",
+        "name": "Pflanzaktion Leipzig Schönefeld",
+        "organisation": "Leipzig pflanzt",
+        "address": "Cleudner Str. 11a",
+        "date": "2024-11-30",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-leipzig-schonefeld-tickets-1016568472667",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.439487729662602,51.38188292751343] }
     }
   ]
 }
