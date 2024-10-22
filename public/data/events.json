@@ -23,22 +23,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20241019_pflanzaktion_kgv_anger_crottendorf",
-        "type": "Aktion",
-        "name": "Pflanzaktion im KGV Anger-Crottendorf",
-        "organisation": "Leipzig pflanzt",
-        "address": "Zweinaundorfer Str. 87",
-        "date": "2024-10-19",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-anger-crottendorf-tickets-1016542565177",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.427245997363201,51.33150980598407] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20241026_pflanzaktion_kgv_miltitz_am_see",
         "type": "Aktion",
         "name": "Pflanzaktion im KGV Miltitz am See",
@@ -99,7 +83,8 @@
         "hints": [
           "Das Fest findet im Smart City Lab Leipzig im Erdgeschoss statt",
           "<a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/projekte/wir-im-quartier\">Wir im Quartier</a> feiert 5-jähriges Bestehen",
-          "Im Rahmen des Festes werden auch wieder die Top-10-Gießenden der Saison mit Preisen und Urkunden ausgezeichnet"
+          "Im Rahmen des Festes werden auch wieder die Top-10-Gießenden der Saison mit Preisen und Urkunden ausgezeichnet",
+          "Wir bitten um <a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/civicrm/event/info?reset=1&id=20\">Anmeldung</a> für das Winterfest"
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.376685728835923, 51.3374102973431] }

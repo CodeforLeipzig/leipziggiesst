@@ -63,14 +63,14 @@ const OverlayTop: FC = () => {
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
           Das Gießranking 2024 und weitere spannende Zahlen sind jetzt <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giess-auswertung-2024-so-engagiert-ist-leipzigs-giesscommunity">auf unserem Blog</a> veröffentlicht!
           <br/><br/>
-          <b>Kommender Termin:</b> Donnerstag, den 21. November, ab 18:00: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20241121_wiq_winterfest")}}>"Wir im Quartier"-Winterfest</a> mit Auszeichnung der Top-10-Gießenden des Jahres.
+          <b>Kommender Termin:</b> Donnerstag, den 21. November, ab 18:00: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20241121_wiq_winterfest")}}>"Wir im Quartier"-Winterfest</a> mit Auszeichnung der Top-10-Gießenden des Jahres. <a target="_blank" href="https://stiftung-ecken-wecken.de/civicrm/event/info?reset=1&id=20">Hier</a> geht's zur Anmeldung.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
         Das Gießranking 2024 und weitere spannende Zahlen sind jetzt <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giess-auswertung-2024-so-engagiert-ist-leipzigs-giesscommunity">auf unserem Blog</a> veröffentlicht!
         <br/><br/>
-        <b>Kommender Termin:</b> Donnerstag, den 21. November, ab 18:00: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20241121_wiq_winterfest")}}>"Wir im Quartier"-Winterfest</a> mit Auszeichnung der Top-10-Gießenden des Jahres.
+        <b>Kommender Termin:</b> Donnerstag, den 21. November, ab 18:00: <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20241121_wiq_winterfest")}}>"Wir im Quartier"-Winterfest</a> mit Auszeichnung der Top-10-Gießenden des Jahres. <a target="_blank" href="https://stiftung-ecken-wecken.de/civicrm/event/info?reset=1&id=20">Hier</a> geht's zur Anmeldung.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
