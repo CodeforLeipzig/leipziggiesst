@@ -19,6 +19,8 @@ const SidebarStatistics: FC = () => {
       {(statisticsJson || []).map(user => (
         <SmallParagraph>{((user.pos < 10) ? '00' : ((user.pos < 100) ? '0' : '')) + user.pos}. {user.username} ({user.liter} Liter)</SmallParagraph>
       ))}
+      <br /><br />
+      Mehr Statistiken gibt es <a target="_blank" href="https://joergreichert.github.io/gdk-opendata-plot/">hier</a> und <a target="_blank" href="https://dashboard.codeforleipzig.de/d/RQFRCgeGk/leipziggiesstpublic?orgId=3&from=1709247600000&to=now">hier</a>.
     </Wrapper>
   );
 };
