@@ -8,12 +8,13 @@ import SidebarEvents from './SidebarEvents';
 import SidebarTree from './SidebarTree';
 import SidebarWaterSource from './SidebarWaterSource';
 import SidebarEvent from './SidebarEvent';
+import SidebarStatistics from './SidebarStatistics';
 import SidebarWatering from './SidebarWatering';
 import SidebarWrapper from './SidbarWrapper';
 
 const Sidebar: React.FC = () => (
   <Route
-    path={['/about', '/search', '/profile', '/events', '/tree/:treeId', '/watersource/:watersourceId', '/event/:eventId', '/watering/:wateringId']}
+    path={['/about', '/search', '/profile', '/events', '/statistics', '/tree/:treeId', '/watersource/:watersourceId', '/event/:eventId', '/watering/:wateringId']}
     render={({ match }) => {
       return (
         <SidebarWrapper isVisible={!!match}>
@@ -21,6 +22,7 @@ const Sidebar: React.FC = () => (
             <Route path='/about' component={SidebarAbout} />
             <Route path='/search' component={SidebarSearch} />
             <Route path='/events' component={SidebarEvents} />
+            <Route path='/statistics' component={SidebarStatistics} />
             <Route path='/tree/:treeId' component={SidebarTree} />
             <Route path='/watersource/:watersourceId' component={SidebarWaterSource} />
             <Route path='/event/:eventId' component={SidebarEvent} />

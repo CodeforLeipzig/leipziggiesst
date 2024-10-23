@@ -6,6 +6,7 @@ const iconInfo = '/images/icon-info.svg';
 const iconSubscribe = '/images/icon-subscribe.svg';
 const iconZoom = '/images/icon-zoom.svg';
 const iconTrees = '/images/icon-trees.svg';
+const iconLeaderboard = '/images/leaderboard.jpg';
 
 const IconWrapper = styled.div`
   height: auto;
@@ -49,6 +50,8 @@ const Icon: React.FC<{ iconType: string; height?: number }> = ({
         return iconSubscribe;
       case 'trees':
         return iconTrees;
+      case 'leaderboard':
+        return iconLeaderboard;
       default:
         return '';
     }
