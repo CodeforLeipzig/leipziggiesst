@@ -15,7 +15,7 @@ const SidebarStatistics: FC = () => {
 
   return (
     <Wrapper>
-      <SidebarTitle>Top-Gießende 2024</SidebarTitle>
+      <SidebarTitle>Gieß-Ranking 2024</SidebarTitle>
       {(statisticsJson || []).map(user => (
         <SmallParagraph>{((user.pos < 10) ? '00' : ((user.pos < 100) ? '0' : '')) + user.pos}. {user.username} ({user.liter} Liter)</SmallParagraph>
       ))}
