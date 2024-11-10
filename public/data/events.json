@@ -8,69 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20241022_loesungsteam_treffen",
-        "type": "Team-Treffen",
-        "name": "Monatliches Lösungsteamtreffen von LEIPZIG GIESST",
-        "organisation": "Leipzig gießt",
-        "address": "Treffhaltestelle, Industriestraße 25",
-        "date": "2024-10-22",
-        "start": "19:00",
-        "end": "21:00",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.341823729664839,51.325258629075876] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241026_pflanzaktion_kgv_miltitz_am_see",
-        "type": "Aktion",
-        "name": "Pflanzaktion im KGV Miltitz am See",
-        "organisation": "Leipzig pflanzt",
-        "address": "Auenweg 52",
-        "date": "2024-10-26",
-        "start": "09:45",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-miltitz-am-see-tickets-1016547509967",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.250866461965245,51.31981192199248] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241102_pflanzaktion_kgv_fortschritt",
-        "type": "Aktion",
-        "name": "Pflanzaktion im KGV Fortschritt",
-        "organisation": "Leipzig pflanzt",
-        "address": "Merseburger Str. 185",
-        "date": "2024-11-02",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-im-kgv-fortschritt-tickets-1016549465817",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.31080846196528,51.34021533262995] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241106_deutschland_giesst",
-        "type": "Online-Konferenz",
-        "name": "Deutschland gießt",
-        "organisation": "Stiftung \"Ecken wecken\"",
-        "address": "online",
-        "date": "2024-11-06",
-        "start": "17:00",
-        "end": "19:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.341823729664839,51.325258629075876] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20241121_wiq_winterfest",
         "type": "Veranstaltung",
         "name": "\"Wir im Quartier\"-Winterfest",
@@ -94,7 +31,7 @@
       "properties": {
         "id": "20241123_pflanzaktion_hospizpark_magnusstrasse",
         "type": "Aktion",
-        "name": "Pflanzaktion im Hospizpark Magnusstraße",
+        "name": "Leipzig pflanzt: Pflanzaktion im Hospizpark Magnusstraße",
         "organisation": "Leipzig pflanzt",
         "address": "Magnusstraße 13",
         "date": "2024-11-23",
@@ -110,7 +47,7 @@
       "properties": {
         "id": "20241130_pflanzaktion_schoenefeld",
         "type": "Aktion",
-        "name": "Pflanzaktion Leipzig Schönefeld",
+        "name": "Leipzig pflanzt: Pflanzaktion Leipzig Schönefeld",
         "organisation": "Leipzig pflanzt",
         "address": "Cleudner Str. 11a",
         "date": "2024-11-30",
@@ -120,6 +57,40 @@
         "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.439487729662602,51.38188292751343] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241130_pflanzaktion_schoenefeld",
+        "type": "Aktion",
+        "name": "Leipzig pflanzt: Pflanzaktion Leipzig Schönefeld",
+        "organisation": "Leipzig pflanzt",
+        "address": "Cleudner Str. 11a",
+        "date": "2024-11-30",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://www.eventbrite.de/e/pflanzaktion-leipzig-schonefeld-tickets-1016568472667",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.439487729662602,51.38188292751343] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20241207_lichtspiele_des_westens",
+        "type": "Aktion",
+        "name": "LEIPZIG GIESST bei den Lichtspielen des Westens",
+        "organisation": "Schaubühne Lindenfels / LEIPZIG GIESST",
+        "address": "Karl-Heine-Straße 50",
+        "date": "2024-12-07",
+        "start": "16:00",
+        "end": "21:00",
+        "url": "https://www.boulevardheine.de/lichtspiele-des-westens/",
+        "hints": [
+          "Lasst euch überraschen, was wir mit einem IbC-Container auf der Veranstaltung vorhaben"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.334659770522876,51.33165257485297] }
     }
   ]
 }
