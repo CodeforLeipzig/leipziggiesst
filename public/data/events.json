@@ -8,20 +8,17 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20241121_wiq_winterfest",
+        "id": "20250321_deutschland_giesst_konferenz",
         "type": "Veranstaltung",
-        "name": "\"Wir im Quartier\"-Winterfest",
-        "organisation": "Wir im Quartier",
+        "name": "DEUTSCHLAND GIESST gemeinsam Stadtbäume",
+        "organisation": "LEIPZIG GIESST",
         "address": "Magazingasse 3, Leipzig-Zentrum",
-        "date": "2024-11-21",
-        "start": "18:00",
-        "end": "21:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giess-auswertung-2024-so-engagiert-ist-leipzigs-giesscommunity",
+        "date": "2025-03-21",
+        "start": "09:45",
+        "end": "20:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
         "hints": [
-          "Das Fest findet im Smart City Lab Leipzig im Erdgeschoss statt",
-          "<a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/projekte/wir-im-quartier\">Wir im Quartier</a> feiert 5-jähriges Bestehen",
-          "Im Rahmen des Festes werden auch wieder die Top-10-Gießenden der Saison mit Preisen und Urkunden ausgezeichnet",
-          "Wir bitten um <a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/civicrm/event/info?reset=1&id=20\">Anmeldung</a> für das Winterfest"
+          "im Smart City Lab Leipzig, im Erdgeschoss und in der 4. Etage"
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.376685728835923, 51.3374102973431] }
@@ -29,68 +26,99 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20241123_pflanzaktion_hospizpark_magnusstrasse",
-        "type": "Aktion",
-        "name": "Leipzig pflanzt: Pflanzaktion im Hospizpark Magnusstraße",
-        "organisation": "Leipzig pflanzt",
-        "address": "Magnusstraße 13",
-        "date": "2024-11-23",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-im-hospizpark-magnusstrae-tickets-1016561802717",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.388157729663675,51.37475752816573] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241130_pflanzaktion_schoenefeld",
-        "type": "Aktion",
-        "name": "Leipzig pflanzt: Pflanzaktion Leipzig Schönefeld",
-        "organisation": "Leipzig pflanzt",
-        "address": "Cleudner Str. 11a",
-        "date": "2024-11-30",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-leipzig-schonefeld-tickets-1016568472667",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.439487729662602,51.38188292751343] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241130_pflanzaktion_schoenefeld",
-        "type": "Aktion",
-        "name": "Leipzig pflanzt: Pflanzaktion Leipzig Schönefeld",
-        "organisation": "Leipzig pflanzt",
-        "address": "Cleudner Str. 11a",
-        "date": "2024-11-30",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://www.eventbrite.de/e/pflanzaktion-leipzig-schonefeld-tickets-1016568472667",
-        "hints": []
-      },
-      "geometry": { "type": "Point", "coordinates": [12.439487729662602,51.38188292751343] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20241207_lichtspiele_des_westens",
-        "type": "Aktion",
-        "name": "LEIPZIG GIESST bei den Lichtspielen des Westens",
-        "organisation": "Schaubühne Lindenfels / LEIPZIG GIESST",
-        "address": "Karl-Heine-Straße 50",
-        "date": "2024-12-07",
-        "start": "16:00",
+        "id": "20250325_leipzig_dresden_magdeburg",
+        "type": "Treffen",
+        "name": "Monatliches Teamtreffen",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Südgrün, Karl-Liebknecht-Str. 91, 04275 Leipzig",
+        "date": "2025-03-25",
+        "start": "19:00",
         "end": "21:00",
-        "url": "https://www.boulevardheine.de/lichtspiele-des-westens/",
+        "hints": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.373795830547664,
+          51.32193824701008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250426_giessauftakt_2025",
+        "type": "Veranstaltung",
+        "name": "Offizieller Gießauftakt: Spielerischer Gießausflug zu Stadtbäumen und Wasserpumpen",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Wilhelm-Leuschner-Platz 10-11, 04107, Leipzig-Zentrum",
+        "date": "2025-04-26",
+        "start": "10:30",
+        "end": "11:30",
         "hints": [
-          "Lasst euch überraschen, was wir mit einem IbC-Container auf der Veranstaltung vorhaben"
+          "Bäume sind unsere natürlichen Klimakraftwerke: Sie produzieren Sauerstoff, filtern unsere Luft und kühlen die Stadt an heißen Tagen. Außerdem sind sie Wohnraum für Vögel, Insekten und andere Lebewesen. \"LEIPZIG GIESST\" und \"Leipzig pumpt\" laden am 26. April zum gemeinsamen Start in die Gießsaison ein! Die Veranstaltung startet und endet in der Stadtbibliothek Leipzig und ist für Menschen ab 6 Jahren geeignet. In der Gruppe laufen wir zur 300 m entfernten Handschwengelpumpe und gießen die Stadtbäume in der Umgebung. Dabei erfahren alle Teilnehmenden mehr über die Bedeutung von Bäumen und die historischen Wasserpumpen. Die Organisator*innen stellen außerdem deren Gieß-App sowie das neue Hörspiel-Quiz \"Der Spatz und die tierischen Wasserpumpen\" vor, das bis Ende September eigenständig in der Bibliothek gespielt werden kann",
+          "Start und Ende im Erdgeschoss-Raum 'Franz Dominic Grassi' in der Stadtbibliothek",
+          "Gerne Eimer/Gießkanne mitbringen, die Gießkannen vor Ort sind begrenzt.",
+          "für alle ab 6 Jahre",
+          "Die Teilnahme ist kostenfrei. Wir bitten um Anmeldung bis zum 22. April an: info@leipziggiesst.de"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.334659770522876,51.33165257485297] }
+      "geometry": { "type": "Point", "coordinates": [12.374491532068099, 51.33368025] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250607_leipziger_umwelttage",
+        "type": "Aktion",
+        "name": "Gießaktion im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Leipziger Westen",
+        "date": "2025-06-07",
+        "start": "14:00",
+        "end": "15:00",
+        "url": "https://www.oekoloewe.de/leipziger-umwelttage.html",
+        "hints": [
+          "Details folgen"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3340413, 51.3316723] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250615_oekofete",
+        "type": "Aktion",
+        "name": "Ökofete",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Clara-Zetkin-Park",
+        "date": "2025-06-15",
+        "start": "11:00",
+        "end": "18:00",
+        "url": "https://www.oekoloewe.de/oekofete.html",
+        "hints": [
+          "Details folgen"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.358850998005359, 51.33050505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250704_tag_der_giesskanne",
+        "type": "Aktion",
+        "name": "Tag der Gießkanne",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Noch offen",
+        "date": "2025-06-15",
+        "start": "17:00",
+        "end": "18:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
+        "hints": [
+          "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen. Details folgen."
+
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.341797382924913, 51.325211499999995] }
     }
   ]
 }
