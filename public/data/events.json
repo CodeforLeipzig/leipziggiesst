@@ -55,6 +55,7 @@
         "date": "2025-04-26",
         "start": "10:30",
         "end": "11:30",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offizieller-giessauftakt-am-26-april-spielerischer-giessausflug-zu",
         "hints": [
           "Bäume sind unsere natürlichen Klimakraftwerke: Sie produzieren Sauerstoff, filtern unsere Luft und kühlen die Stadt an heißen Tagen. Außerdem sind sie Wohnraum für Vögel, Insekten und andere Lebewesen. \"LEIPZIG GIESST\" und \"Leipzig pumpt\" laden am 26. April zum gemeinsamen Start in die Gießsaison ein! Die Veranstaltung startet und endet in der Stadtbibliothek Leipzig und ist für Menschen ab 6 Jahren geeignet. In der Gruppe laufen wir zur 300 m entfernten Handschwengelpumpe und gießen die Stadtbäume in der Umgebung. Dabei erfahren alle Teilnehmenden mehr über die Bedeutung von Bäumen und die historischen Wasserpumpen. Die Organisator*innen stellen außerdem deren Gieß-App sowie das neue Hörspiel-Quiz \"Der Spatz und die tierischen Wasserpumpen\" vor, das bis Ende September eigenständig in der Bibliothek gespielt werden kann",
           "Start und Ende im Erdgeschoss-Raum 'Franz Dominic Grassi' in der Stadtbibliothek",
@@ -109,13 +110,12 @@
         "name": "Tag der Gießkanne",
         "organisation": "LEIPZIG GIESST",
         "address": "Noch offen",
-        "date": "2025-06-15",
+        "date": "2025-07-04",
         "start": "17:00",
         "end": "18:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
+        "url": "https://germanistik-magazin-jlu.de/2025/03/03/giesskannenmuseum-giessen-wo-alltagskultur-auf-kunst-trifft/",
         "hints": [
           "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen. Details folgen."
-
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.341797382924913, 51.325211499999995] }
