@@ -69,6 +69,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20250514_wasserwuerfel_workshop",
+        "type": "Veranstaltung",
+        "name": "Workshop: Wasserwürfel am Fallrohr richtig anschließen",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Zentrum-West",
+        "date": "2025-05-14",
+        "start": "17:30",
+        "end": "19:00",
+        "url": "https://imginn.com/p/DI3mdzUtjzy/",
+        "hints": [
+          "Anmeldung bitte bis 12.5. an info@leipziggiesst.de",
+          "Workshop-Inhalt: Aufbau des Wasserwürfels, Anschluss am Fallrohr, Pflege und Handhabung, Gestaltung des Ausguss sowie Tipps zum Bäume gießen"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3605422, 51.3374495] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20250607_leipziger_umwelttage",
         "type": "Aktion",
         "name": "Gießaktion im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig",
