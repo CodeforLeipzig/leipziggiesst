@@ -8,63 +8,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250321_deutschland_giesst_konferenz",
+        "id": "20250513_team_treffen_mit_giessen",
         "type": "Veranstaltung",
-        "name": "DEUTSCHLAND GIESST gemeinsam Stadtbäume",
+        "name": "Zweiwöchentliches Treffen des Lösungsteams",
         "organisation": "LEIPZIG GIESST",
-        "address": "Magazingasse 3, Leipzig-Zentrum",
-        "date": "2025-03-21",
-        "start": "09:45",
+        "address": "Lindenauer Hafen",
+        "date": "2025-05-13",
+        "start": "18:00",
         "end": "20:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/deutschland-giesst",
         "hints": [
-          "im Smart City Lab Leipzig, im Erdgeschoss und in der 4. Etage"
-        ]
+          "Neben dem ersten Treffen mit Gießaktion für dieses Jahr (ab ca. 19 Uhr) wollen wir außerdem ein paar Videoszenen für ein Werbe-Video für die gemeinsame deutschlandweite Aktion zum Tag der Gießkanne drehen.", 
+          "Für eine Szene brauchen wir ca. 10-15 Leute, damit wir einen Gieß-Flashmob darstellen können. Außerdem werden wir auch Szenen für das Video zum Tag der Gießkanne drehen."        ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.376685728835923, 51.3374102973431] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250325_leipzig_dresden_magdeburg",
-        "type": "Treffen",
-        "name": "Monatliches Teamtreffen",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Südgrün, Karl-Liebknecht-Str. 91, 04275 Leipzig",
-        "date": "2025-03-25",
-        "start": "19:00",
-        "end": "21:00",
-        "hints": []
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.373795830547664,
-          51.32193824701008
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250426_giessauftakt_2025",
-        "type": "Veranstaltung",
-        "name": "Offizieller Gießauftakt: Spielerischer Gießausflug zu Stadtbäumen und Wasserpumpen",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Wilhelm-Leuschner-Platz 10-11, 04107, Leipzig-Zentrum",
-        "date": "2025-04-26",
-        "start": "10:30",
-        "end": "11:30",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offizieller-giessauftakt-am-26-april-spielerischer-giessausflug-zu",
-        "hints": [
-          "Bäume sind unsere natürlichen Klimakraftwerke: Sie produzieren Sauerstoff, filtern unsere Luft und kühlen die Stadt an heißen Tagen. Außerdem sind sie Wohnraum für Vögel, Insekten und andere Lebewesen. \"LEIPZIG GIESST\" und \"Leipzig pumpt\" laden am 26. April zum gemeinsamen Start in die Gießsaison ein! Die Veranstaltung startet und endet in der Stadtbibliothek Leipzig und ist für Menschen ab 6 Jahren geeignet. In der Gruppe laufen wir zur 300 m entfernten Handschwengelpumpe und gießen die Stadtbäume in der Umgebung. Dabei erfahren alle Teilnehmenden mehr über die Bedeutung von Bäumen und die historischen Wasserpumpen. Die Organisator*innen stellen außerdem deren Gieß-App sowie das neue Hörspiel-Quiz \"Der Spatz und die tierischen Wasserpumpen\" vor, das bis Ende September eigenständig in der Bibliothek gespielt werden kann",
-          "Start und Ende im Erdgeschoss-Raum 'Franz Dominic Grassi' in der Stadtbibliothek",
-          "Gerne Eimer/Gießkanne mitbringen, die Gießkannen vor Ort sind begrenzt.",
-          "für alle ab 6 Jahre",
-          "Die Teilnahme ist kostenfrei. Wir bitten um Anmeldung bis zum 22. April an: info@leipziggiesst.de"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.374491532068099, 51.33368025] }
+      "geometry": { "type": "Point", "coordinates": [12.308173, 51.329088] }
     },
     {
       "type": "Feature",
@@ -88,20 +44,40 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20250525_connewitzer_strassenfest",
+        "type": "Aktion",
+        "name": "Pumpen-Radtour bei Connewitzer Straßenfest",
+        "organisation": "Leipzig pumpt",
+        "address": "Selneckerstraße 2",
+        "date": "2025-05-25",
+        "start": "14:00",
+        "end": "15:00",
+        "hints": [          
+          "\"Leipzig pumpt\" lädt zur Fahrradtour zu Standorten von Handschwengelpumpen",
+          "Treffpunkt: Selneckerstraße 2 / AOK"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.372249441045739, 51.30967443451755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20250607_leipziger_umwelttage",
         "type": "Aktion",
         "name": "Gießaktion im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig",
         "organisation": "LEIPZIG GIESST",
-        "address": "Leipziger Westen",
+        "address": "Holbeinstraße 63",
         "date": "2025-06-07",
         "start": "14:00",
         "end": "15:00",
         "url": "https://www.oekoloewe.de/leipziger-umwelttage.html",
-        "hints": [
-          "Details folgen"
+        "hints": [          
+          "\"Leipzig blüht auf!\" und \"Leipzig gießt\" laden zu einer gemeinsamen Gieß- und Pflanzaktion ein. Eine 8-jährige Kegel-Linde darf sich an dem Tag über eine neu bepflanzte Baumscheibe freuen. Dabei können alle Fragen rund um das Gestalten von Baumscheiben geklärt werden.",
+          "Wir gießen außerdem einige Jungbäume in der Umgebung mit dem Wasser aus der nahegelegenen Weißen Elster - \"Leipzig gießt\" wird dabei die gleichnamige Gieß-App vorstellen! Bringt gerne eure Gießkannen, Eimer oder Wasseranhänger mit - ein paar wenige werden vor Ort vorhanden sein.",
+          "Ort: Kegel-Linde bei <a target=\"_blank\" href=\"https://giessdeinviertel.codeforleipzig.de//tree/id-7628\">Holbeinstraße 63</a>"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.3340413, 51.3316723] }
+      "geometry": { "type": "Point", "coordinates": [12.338665673803888, 51.32201995872833] }
     },
     {
       "type": "Feature",
@@ -120,6 +96,28 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.358850998005359, 51.33050505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250620_linie_ost",
+        "type": "Aktion",
+        "name": "Linie Ost: Eine Bustour durch den kulturellen Osten – mit der Nachbarschaft auf Entdeckungstour",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Mariannenstraße 1",
+        "date": "2025-06-20",
+        "start": "15:15",
+        "end": "15:45",
+        "url": "http://ig-fortuna.de/linie-ost/",
+        "hints": [          
+          "\"Leipzig gießt\" und \"Leipzig pumpt\" bespielen eine der sechs Stationen der Doppeldecker-Bustour der Linie Ost.", 
+          "Treffpunkt ist die Wasserpumpe \"Delfin\" in der Mariannenstraße. Es kann gepumpt und gegossen werden.",
+          "Wer will kann nur bei unserer Station dabei sein, oder die ganze Tour um Bus mitfahren.", 
+          "Für letzteres braucht es eine Anmeldung!", 
+          "Alle Infos dazu in unserem <a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/aktuelles/termine\">Kalender</a>" 
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.397752921923171, 51.347298254695176] }
     },
     {
       "type": "Feature",

@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          <b>Offizieller Gießauftakt am 26. April an der Stadtbibliothek Leipzig</b>: Spielerischer Gießausflug zu Stadtbäumen und Wasserpumpen. Wir machen einen Gießausflug und stellen dabei die Gieß-App sowie das neue Hörspiel-Quiz "Die Rätsel der tierischen Wasserpumpen" vor! Mehr Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offizieller-giessauftakt-am-26-april-spielerischer-giessausflug-zu">hier</a>.
+          <b>7. Juni von 10:30-12 Uhr in Schleußig:</b> Gießen und Pflanzen im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250607_leipziger_umwelttage")}}>hier</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        <b>Offizieller Gießauftakt am 26. April an der Stadtbibliothek Leipzig</b>: Spielerischer Gießausflug zu Stadtbäumen und Wasserpumpen. Wir machen einen Gießausflug und stellen dabei die Gieß-App sowie das neue Hörspiel-Quiz "Die Rätsel der tierischen Wasserpumpen" vor! Mehr Infos <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/offizieller-giessauftakt-am-26-april-spielerischer-giessausflug-zu">hier</a>.
+        <b>7. Juni von 10:30-12 Uhr in Schleußig:</b> Gießen und Pflanzen im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250607_leipziger_umwelttage")}}>hier</a>.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
