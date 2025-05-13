@@ -29,7 +29,7 @@
         "type": "Veranstaltung",
         "name": "Workshop: Wasserwürfel am Fallrohr richtig anschließen",
         "organisation": "LEIPZIG GIESST",
-        "address": "Zentrum-West",
+        "address": "Thomasiusstraße 23",
         "date": "2025-05-14",
         "start": "17:30",
         "end": "19:00",
@@ -39,7 +39,7 @@
           "Workshop-Inhalt: Aufbau des Wasserwürfels, Anschluss am Fallrohr, Pflege und Handhabung, Gestaltung des Ausguss sowie Tipps zum Bäume gießen"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.3605422, 51.3374495] }
+      "geometry": { "type": "Point", "coordinates": [12.367736093253484,51.34017889324707] }
     },
     {
       "type": "Feature",
