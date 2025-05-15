@@ -855,6 +855,22 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.308615920777243, 51.32907480854067] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250514_international_school",
+        "name": "International School",
+        "type": "Wasserspeicher",
+        "address": "Zollschuppen Straße 2d, 04229 Leipzig",
+        "created": "14.05.2025",
+        "hints":[
+          "Auf dem Gelände der International School steht ein Wasserwürfel, daneben sind auch Gießkannen zur freien Nutzung vor Ort.",
+          "Der Würfel steht an der Nordseite des Schulgeländes.", 
+          "Freier Zugang durch das Fußgängertor von Mo-Fr zwischen 15-17 Uhr."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.34500234387743, 51.32500299534738] }
     }
   ]
 }
