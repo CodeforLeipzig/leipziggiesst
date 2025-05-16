@@ -65,7 +65,7 @@ const content: Content = {
     subline:
       'Die Leipziger Straßen- und Parkbäume leiden unter Trockenheit <br class="large" /> und Du kannst ihnen helfen!',
     disclaimer:
-      'Hinweis: Das Laden von etwa 50.000 gießbedürftigen Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop/Notebook-Computer',
+      'Hinweis: Das Laden von über 170.000 gießbedürftigen Bäumen ist ressourcenintensiv und funktioniert aktuell nicht auf allen Mobilgeräten einwandfrei. Wir empfehlen die Nutzung via Desktop/Notebook-Computer',
     description: [
       'Auf dieser Plattform kannst Du Dich über Bäume in Deiner Nachbarschaft und ihren Wasserbedarf informieren. Du kannst für einzelne Bäume eine Gießpatenschaft übernehmen und/oder auch dokumentieren, wieviel erfrischende Kaltgetränke Du ihnen gegeben hast.',
       'Informiere Dich <a target="blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/fragen-antworten-giessen">hier</a> über das richtige Gießen von Bäumen. Wenn Du die Gieß-App von LEIPZIG GIESST regelmäßig nutzen möchtest, solltest Du ein Konto erstellen. Die Karte kannst Du aber auch ohne Konto erkunden.'
@@ -105,7 +105,7 @@ const content: Content = {
   },
   loading: {
     snippets: [
-      'Wir laden gerade etwa 50.000 gießbedürftige Bäume aus dem Leipziger Straßen- und Parkbaumbestand.',
+      'Wir laden gerade über 170.000 gießbedürftige Bäume aus dem Leipziger Straßen- und Parkbaumbestand.',
       'Wenn du diese Seite über das Mobilfunknetz aufrufst, kann es etwas dauern.',
       'Sammle Informationen aller Bäume aus Leizpzigs Straßenbaumkataster.',
       'Schon gewusst? Ein junger Stadtbaum benötigt etwa 70 Liter Wasser in der Woche.',
