@@ -846,6 +846,7 @@
         "address": "Anlegestelle Lindenauer Hafen",
         "created": "30.04.2025",
         "images": [ "lindenauer_hafen_1.jpg", "lindenauer_hafen_2.jpg" ],
+        "inactive": true,
         "hints": [
           "Stadtbäume am Lindenauer Hafen leider unter Trockenheit, obwohl das Wasser des Kanals nur wenige Meter entfernt ist",
           "Um deren Gießen zu erleichern, ist eine Gießkannen mit einem Zahlenschloss an einem der Bäume befestigt.",
@@ -862,7 +863,7 @@
         "id": "20250514_international_school",
         "name": "International School",
         "type": "Wasserspeicher",
-        "address": "Zollschuppen Straße 2d, 04229 Leipzig",
+        "address": "Könneritzstraße 47, 04229 Leipzig",
         "created": "14.05.2025",
         "hints":[
           "Auf dem Gelände der International School steht ein Wasserwürfel, daneben sind auch Gießkannen zur freien Nutzung vor Ort.",
