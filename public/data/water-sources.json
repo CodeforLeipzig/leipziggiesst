@@ -872,6 +872,22 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.34500234387743, 51.32500299534738] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250519_grundschule_portitz",
+        "name": "Grundschule Portitz",
+        "type": "Wasserspeicher",
+        "address": "Göbschelwitzer Weg 1, 04349 Leipzig-Portitz",
+        "created": "19.05.2025",
+        "images": [ "wasserwuerfel_grundschule_portitz.jpg" ],
+        "hints":[
+          "Der Wasserwürfel steht auf dem Schulhof der Grundschule Portitz direkt am Haupt-Eingangstor",
+          "Der Schulhof ist Montags bis Freitags im Zeitraum von 6.00 Uhr bis 17.00 Uhr immer frei zugänglich, an manchen Tagen sogar über 17 Uhr hinaus (außer an Feiertagen o. Ä.)."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.454125, 51.386820] }
     }
   ]
 }
