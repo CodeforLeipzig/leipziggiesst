@@ -46,7 +46,7 @@
       "properties": {
         "id": "20250525_connewitzer_strassenfest",
         "type": "Aktion",
-        "name": "Pumpen-Radtour bei Connewitzer Straßenfest",
+        "name": "ABGESAGT: Pumpen-Radtour bei Connewitzer Straßenfest",
         "organisation": "Leipzig pumpt",
         "address": "Selneckerstraße 2",
         "date": "2025-05-25",
@@ -54,10 +54,35 @@
         "end": "15:00",
         "hints": [          
           "\"Leipzig pumpt\" lädt zur Fahrradtour zu Standorten von Handschwengelpumpen",
-          "Treffpunkt: Selneckerstraße 2 / AOK"
+          "Treffpunkt: Selneckerstraße 2 / AOK",
+          "ACHTUNG: abgesagt wegen Krankenheit"
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.372249441045739, 51.30967443451755] }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.333628440106082,
+          51.33238042906157
+        ]
+      },
+      "properties": {
+        "id": "20250528_teamtreffen",
+        "end": "20:00",
+        "date": "2025-05-28",
+        "name": "Zweiwöchentliches LEIPZIG-GIESST-Team-Treffen",
+        "type": "Teamtreffen",
+        "hints": [
+          "Unser LEIPZIG-GIESST-Team-Treffen zum Planen unserer nächsten Aktionen und Projekte",
+          "Wer bei uns im Team mitmachen möchte, ist herzlich eingeladen"
+        ],
+        "start": "18:00",
+        "address": "\"Zum wilden Heinz\", Hähnelstraße 22",
+        "organisation": "LEIPZIG GIESST"
+      }
     },
     {
       "type": "Feature",
