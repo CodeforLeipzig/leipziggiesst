@@ -65,8 +65,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.333628440106082,
-          51.33238042906157
+          12.341823729664839,
+          51.325258629075876
         ]
       },
       "properties": {
@@ -80,7 +80,7 @@
           "Wer bei uns im Team mitmachen möchte, ist herzlich eingeladen"
         ],
         "start": "18:00",
-        "address": "\"Zum wilden Heinz\", Hähnelstraße 22",
+        "address": "Treffhaltestelle, Industriestraße 25",
         "organisation": "LEIPZIG GIESST"
       }
     },
