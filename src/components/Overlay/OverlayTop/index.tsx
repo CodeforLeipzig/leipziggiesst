@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          <b>7. Juni von 10:30-12 Uhr in Schleußig:</b> Gießen und Pflanzen im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250607_leipziger_umwelttage")}}>hier</a>.
+          <b>15. Juni von 11 bis 19 Uhr im Clara-Park:</b> Trefft uns an unserem Stand im Rahmen der Ökofete. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250615_oekofete")}}>hier</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-        <b>7. Juni von 10:30-12 Uhr in Schleußig:</b> Gießen und Pflanzen im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250607_leipziger_umwelttage")}}>hier</a>.
+          <b>15. Juni von 11 bis 19 Uhr im Clara-Park:</b> Trefft uns an unserem Stand im Rahmen der Ökofete. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250615_oekofete")}}>hier</a>.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}

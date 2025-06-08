@@ -8,105 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250513_team_treffen_mit_giessen",
-        "type": "Veranstaltung",
-        "name": "Zweiwöchentliches Treffen des Lösungsteams",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Lindenauer Hafen",
-        "date": "2025-05-13",
-        "start": "18:00",
-        "end": "20:00",
-        "hints": [
-          "Neben dem ersten Treffen mit Gießaktion für dieses Jahr (ab ca. 19 Uhr) wollen wir außerdem ein paar Videoszenen für ein Werbe-Video für die gemeinsame deutschlandweite Aktion zum Tag der Gießkanne drehen.", 
-          "Für eine Szene brauchen wir ca. 10-15 Leute, damit wir einen Gieß-Flashmob darstellen können. Außerdem werden wir auch Szenen für das Video zum Tag der Gießkanne drehen."        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.308173, 51.329088] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250514_wasserwuerfel_workshop",
-        "type": "Veranstaltung",
-        "name": "Workshop: Wasserwürfel am Fallrohr richtig anschließen",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Thomasiusstraße 23",
-        "date": "2025-05-14",
-        "start": "17:30",
-        "end": "19:00",
-        "url": "https://imginn.com/p/DI3mdzUtjzy/",
-        "hints": [
-          "Anmeldung bitte bis 12.5. an info@leipziggiesst.de",
-          "Workshop-Inhalt: Aufbau des Wasserwürfels, Anschluss am Fallrohr, Pflege und Handhabung, Gestaltung des Ausguss sowie Tipps zum Bäume gießen"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.367736093253484,51.34017889324707] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250525_connewitzer_strassenfest",
-        "type": "Aktion",
-        "name": "ABGESAGT: Pumpen-Radtour bei Connewitzer Straßenfest",
-        "organisation": "Leipzig pumpt",
-        "address": "Selneckerstraße 2",
-        "date": "2025-05-25",
-        "start": "14:00",
-        "end": "15:00",
-        "hints": [          
-          "\"Leipzig pumpt\" lädt zur Fahrradtour zu Standorten von Handschwengelpumpen",
-          "Treffpunkt: Selneckerstraße 2 / AOK",
-          "ACHTUNG: abgesagt wegen Krankenheit"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.372249441045739, 51.30967443451755] }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.341823729664839,
-          51.325258629075876
-        ]
-      },
-      "properties": {
-        "id": "20250528_teamtreffen",
-        "end": "20:00",
-        "date": "2025-05-28",
-        "name": "Zweiwöchentliches LEIPZIG-GIESST-Team-Treffen",
-        "type": "Teamtreffen",
-        "hints": [
-          "Unser LEIPZIG-GIESST-Team-Treffen zum Planen unserer nächsten Aktionen und Projekte",
-          "Wer bei uns im Team mitmachen möchte, ist herzlich eingeladen"
-        ],
-        "start": "18:00",
-        "address": "Treffhaltestelle, Industriestraße 25",
-        "organisation": "LEIPZIG GIESST"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250607_leipziger_umwelttage",
-        "type": "Aktion",
-        "name": "Gießaktion im Rahmen der Leipziger Umwelttage in Kooperation mit dem Ökolöwen Leipzig",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Holbeinstraße 63",
-        "date": "2025-06-07",
-        "start": "10:30",
-        "end": "12:00",
-        "url": "https://www.oekoloewe.de/leipziger-umwelttage.html",
-        "hints": [          
-          "\"Leipzig blüht auf!\" und \"Leipzig gießt\" laden zu einer gemeinsamen Gieß- und Pflanzaktion ein. Eine 8-jährige Kegel-Linde darf sich an dem Tag über eine neu bepflanzte Baumscheibe freuen. Dabei können alle Fragen rund um das Gestalten von Baumscheiben geklärt werden.",
-          "Wir gießen außerdem einige Jungbäume in der Umgebung mit dem Wasser aus der nahegelegenen Weißen Elster - \"Leipzig gießt\" wird dabei die gleichnamige Gieß-App vorstellen! Bringt gerne eure Gießkannen, Eimer oder Wasseranhänger mit - ein paar wenige werden vor Ort vorhanden sein.",
-          "Ort: Kegel-Linde bei <a target=\"_blank\" href=\"https://giessdeinviertel.codeforleipzig.de//tree/id-7628\">Holbeinstraße 63</a>"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.338665673803888, 51.32201995872833] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20250615_oekofete",
         "type": "Aktion",
         "name": "Ökofete",
@@ -114,13 +15,14 @@
         "address": "Clara-Zetkin-Park",
         "date": "2025-06-15",
         "start": "11:00",
-        "end": "18:00",
+        "end": "19:00",
         "url": "https://www.oekoloewe.de/oekofete.html",
         "hints": [
-          "Details folgen"
+          "Trefft uns an unserem Stand zu Stiftung-Ecken-Wecken / LEIPZIG GIESST",
+          "Gewinnt Preise bei unserem Dosenwerfen"
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.358850998005359, 51.33050505] }
+      "geometry": { "type": "Point", "coordinates": [12.360846205851715,51.332010931321605] }
     },
     {
       "type": "Feature",
