@@ -888,6 +888,41 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.454125, 51.386820] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250525_familienzentrum_plagwitz",
+        "name": "Familienzentrum \"Treffpunkt Linde\" Plagwitz",
+        "type": "Wasserspeicher",
+        "address": "Walter Heinze Straße 22, 04229 Leipzig",
+        "created": "25.05.2025",
+        "images": [ "wasserwuerfel_familienzentrum_plagwitz.jpg" ],
+        "url": "https://www.muetterzentrum-leipzig.de/familienzentrum/familienzentrum-plagwitz/",
+        "hints":[
+          "Der Wasserwürfel steht vor dem Familienzentrum im Hinterhof vom Seniorenhof Plagwitz in der Walter Heinze Straße 22", 
+          "Bitte der Beschilderung vom Mütterzentrum folgen",
+          "Der Hof ist täglich von 7.00- 20.00 Uhr zugänglich."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3351862, 51.3301897] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250509_cvjm_leipzig",
+        "name": "CVJM Leipzig e.V",
+        "type": "Wasserspeicher",
+        "address": "Schönefelder Allee 23A, 04347 Leipzig",
+        "created": "09.05.2025",
+        "images": [ "wasserwuerfel_cvjm_leipzig.jpg" ],
+        "url": "https://www.cvjm-leipzig.de/",
+        "hints":[
+          "Der Wasserwürfel steht am CVJM-Haus im Mariannenpark beim linken Eingang (Mietereingang)", 
+          "Er ist jederzeit frei zugänglich"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.405568493517222, 51.35732212934161] }
     }
   ]
 }

@@ -8,25 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250615_oekofete",
-        "type": "Aktion",
-        "name": "Ökofete",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Clara-Zetkin-Park",
-        "date": "2025-06-15",
-        "start": "11:00",
-        "end": "19:00",
-        "url": "https://www.oekoloewe.de/oekofete.html",
-        "hints": [
-          "Trefft uns an unserem Stand zu Stiftung-Ecken-Wecken / LEIPZIG GIESST",
-          "Gewinnt Preise bei unserem Dosenwerfen"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.360846205851715,51.332010931321605] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20250620_linie_ost",
         "type": "Aktion",
         "name": "Linie Ost: Eine Bustour durch den kulturellen Osten – mit der Nachbarschaft auf Entdeckungstour",
@@ -53,16 +34,16 @@
         "type": "Aktion",
         "name": "Tag der Gießkanne",
         "organisation": "LEIPZIG GIESST",
-        "address": "Noch offen",
+        "address": "Klingenstraße 22, 04229 Leipzig",
         "date": "2025-07-04",
-        "start": "17:00",
-        "end": "18:00",
+        "start": "18:00",
+        "end": "19:00",
         "url": "https://germanistik-magazin-jlu.de/2025/03/03/giesskannenmuseum-giessen-wo-alltagskultur-auf-kunst-trifft/",
         "hints": [
           "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen. Details folgen."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.341797382924913, 51.325211499999995] }
+      "geometry": { "type": "Point", "coordinates": [12.32449284309962, 51.32269661494567] }
     }
   ]
 }
