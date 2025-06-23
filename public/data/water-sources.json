@@ -923,6 +923,22 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.405568493517222, 51.35732212934161] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250623_paul_kuestner_str_28",
+        "name": "Paul-Küstner-Str. 28",
+        "type": "Wasserspeicher",
+        "address": "Paul-Küstner-Str. 28, 04177 Leipzig",
+        "created": "23.06.2025",
+        "images": [ "paul_kuestner_str_28_01.jpg", "paul_kuestner_str_28_02.jpg", "paul_kuestner_str_28_03.jpg" ],
+        "hints":[
+          "Der Wasserwürfel steht in der Einfahrt der Paul-Küstner-Str. 28 gleich rechts hinter den Briefkästen, gegenüber der Müllstation.", 
+          "Er ist frei zugänglich. Bitte den Hahn vorsichtig öffnen. Eine Anleitung hängt darüber."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.325256690265263, 51.34410031069228] }
     }
   ]
 }
