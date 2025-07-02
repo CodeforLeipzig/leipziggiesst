@@ -8,24 +8,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250620_linie_ost",
+        "id": "20250703_quizzen_pumpen_giessen",
         "type": "Aktion",
-        "name": "Linie Ost: Eine Bustour durch den kulturellen Osten – mit der Nachbarschaft auf Entdeckungstour",
+        "name": "Ferienprogramm von \"Leipzig pumpt\" und \"Leipzig gießt\": Quizzen, Pumpen und Gießen",
         "organisation": "LEIPZIG GIESST",
-        "address": "Mariannenstraße 1",
-        "date": "2025-06-20",
-        "start": "15:15",
-        "end": "15:45",
-        "url": "http://ig-fortuna.de/linie-ost/",
-        "hints": [          
-          "\"Leipzig gießt\" und \"Leipzig pumpt\" bespielen eine der sechs Stationen der Doppeldecker-Bustour der Linie Ost.", 
-          "Treffpunkt ist die Wasserpumpe \"Delfin\" in der Mariannenstraße. Es kann gepumpt und gegossen werden.",
-          "Wer will kann nur bei unserer Station dabei sein, oder die ganze Tour um Bus mitfahren.", 
-          "Für letzteres braucht es eine Anmeldung!", 
-          "Alle Infos dazu in unserem <a target=\"_blank\" href=\"https://stiftung-ecken-wecken.de/aktuelles/termine\">Kalender</a>" 
+        "address": "Wilhelm-Leuschner-Platz 10-11, 04107, Leipzig-Zentrum",
+        "date": "2025-07-03",
+        "start": "10:00",
+        "end": "13:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/ferienprogramm-von-leipzig-pumpt-und-leipzig-giesst-quizzen-pumpen-und",
+        "hints": [
+          "Treffpunkt: Stadtbibliothek, Raum \"Franz Dominic Grassi\", EG",
+          "Bei unserem Ferienprogramm lernen alle ab 6 Jahre auf spielerische Weise viel Neues über Stadtbäume und die historischen Wasserpumpen in Leipzig!",
+          "Wir spielen gemeinsam das Hörspielquiz \"Der Spatz und die tierischen Wasserpumpen\" und gehen im Anschluss bei einer Wasserpumpe in der Nähe Stadtbäume gießen und stellen unsere Gieß-App vor.", 
+          "Auf unserem Spaziergang schauen wir auch mal genauer hin und erfahren, wie ein kranker und wie ein gesunder Baum zu erkennen ist."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.397752921923171, 51.347298254695176] }
+      "geometry": { "type": "Point", "coordinates": [12.374492808242593, 51.333916564355206] }
     },
     {
       "type": "Feature",
@@ -91,27 +90,6 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.322156, 51.321145] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250703_quizzen_pumpen_giessen",
-        "type": "Aktion",
-        "name": "Ferienprogramm von \"Leipzig pumpt\" und \"Leipzig gießt\": Quizzen, Pumpen und Gießen",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Wilhelm-Leuschner-Platz 10-11, 04107, Leipzig-Zentrum",
-        "date": "2025-07-03",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/ferienprogramm-von-leipzig-pumpt-und-leipzig-giesst-quizzen-pumpen-und",
-        "hints": [
-          "Treffpunkt: Stadtbibliothek, Raum \"Franz Dominic Grassi\", EG",
-          "Bei unserem Ferienprogramm lernen alle ab 6 Jahre auf spielerische Weise viel Neues über Stadtbäume und die historischen Wasserpumpen in Leipzig!",
-          "Wir spielen gemeinsam das Hörspielquiz \"Der Spatz und die tierischen Wasserpumpen\" und gehen im Anschluss bei einer Wasserpumpe in der Nähe Stadtbäume gießen und stellen unsere Gieß-App vor.", 
-          "Auf unserem Spaziergang schauen wir auch mal genauer hin und erfahren, wie ein kranker und wie ein gesunder Baum zu erkennen ist."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.374492808242593, 51.333916564355206] }
     },
     {
       "type": "Feature",
