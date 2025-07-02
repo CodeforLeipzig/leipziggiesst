@@ -54,6 +54,47 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20250704_tag_der_giesskanne_cvjm",
+        "type": "Aktion",
+        "name": "Tag der Gießkanne beim CVJM in Schönefeld",
+        "organisation": "Team der offenen und Mobilen Jugendarbeit des CVJM Leipzig e.V.",
+        "address": "Schönefelder Allee 23A, 04347 Leipzig",
+        "date": "2025-07-04",
+        "start": "16:00",
+        "end": "17:00",
+        "hints": [
+          "Am 04.07. beteiligen auch wir uns zum Tag der Gießkanne mit einer Gießaktion im Mariannenpark.", 
+          "Ab 16 Uhr gießen wir mit Kindern und Jugendlichen aus dem Jugentreff CV im nördlichen Teil des Parks wasserbedürftige Bäume.", 
+          "Als Wasserquelle nutzen wir unseren Wasserwürfel am Haus des CVJM Leipzig e.V.!", 
+          "Komm gern vorbei und mach mit! www.cvjm-leipzig.de",
+          "Bei starkem Regen entfällt die Aktion."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.405772461542227, 51.35732509112307] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250704_tag_der_giesskanne_leipzig_pflanzt",
+        "type": "Aktion",
+        "name": "Tag der Gießkanne mit Leipzig pflanzt",
+        "organisation": "Team der offenen und Mobilen Jugendarbeit des CVJM Leipzig e.V.",
+        "address": "Röckener Straße, 04229 Leipzig",
+        "date": "2025-07-04",
+        "start": "19:30",
+        "end": "21:00",
+        "hints": [
+          "Derzeit versuchen wir unsere Gehölze über die heißen, trockenen Tage zu bringen und haben schon aus eigener Kraft einige Gießaktionen letzte Woche durchgeführt",
+          "Für eine weitere Gießaktion am 04.07., ab 19:30 Uhr, in Plagwitz, auf einer Fläche unterhalb der Antonienbrücke, suchen wir noch Gieß-Helfer*innen.", 
+          "Auf der Fläche steht ein 1000l IBC Container, gefüllt mit Wasser und kann genutzt werden. Zum einen, um mittelst Akku-Pumpe und Schlauch, als auch mit Gießkannen zu gießen.",
+          "Bei starkem Regen entfällt die Aktion."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.322156, 51.321145] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20250703_quizzen_pumpen_giessen",
         "type": "Aktion",
         "name": "Ferienprogramm von \"Leipzig pumpt\" und \"Leipzig gießt\": Quizzen, Pumpen und Gießen",
@@ -70,7 +111,7 @@
           "Auf unserem Spaziergang schauen wir auch mal genauer hin und erfahren, wie ein kranker und wie ein gesunder Baum zu erkennen ist."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.374491532068099, 51.33368025] }
+      "geometry": { "type": "Point", "coordinates": [12.374492808242593, 51.333916564355206] }
     },
     {
       "type": "Feature",
