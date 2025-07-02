@@ -30,30 +30,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250704_tag_der_giesskanne",
-        "type": "Aktion",
-        "name": "Tag der Gießkanne",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Klingenstraße 22, 04229 Leipzig",
-        "date": "2025-07-04",
-        "start": "18:00",
-        "end": "19:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/tag-der-giesskanne-giesse-am-4-juli-einen-stadtbaum",
-        "hints": [
-          "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen.",
-          "Am 4. Juli 2025 wird es nass: Zum ersten Mal findet der bundesweite \"Tag der Gießkanne\" statt!", 
-          "Die Mitmach-Aktion ruft Menschen in ganz Deutschland dazu auf, gemeinsam Stadtbäume zu gießen und sich digital zu vernetzen.", 
-          "Zeig, dass Du dabei bist – und hilf mit, unsere grünen Stadtbewohner zu schützen.",
-          "Das Team von LEIPZIG GIESST lädt deshalb zu einer Gießaktion bei der Manusso-Wasserquelle ein!", 
-          "Bring' Gießkanne oder Eimer mit, wir freuen uns auf Dich - danach gibt's die Möglichkeit auf ein gemeinsames Eisessen! :)",
-          "Bei starkem Regen entfällt die Aktion."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.32449284309962, 51.32269661494567] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20250704_tag_der_giesskanne_cvjm",
         "type": "Aktion",
         "name": "Tag der Gießkanne beim CVJM in Schönefeld",
@@ -71,6 +47,30 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.405772461542227, 51.35732509112307] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250704_tag_der_giesskanne",
+        "type": "Aktion",
+        "name": "Tag der Gießkanne bei Manusso",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Klingenstraße 22, 04229 Leipzig",
+        "date": "2025-07-04",
+        "start": "18:00",
+        "end": "19:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/tag-der-giesskanne-giesse-am-4-juli-einen-stadtbaum",
+        "hints": [
+          "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen.",
+          "Am 4. Juli 2025 wird es nass: Zum ersten Mal findet der bundesweite \"Tag der Gießkanne\" statt!", 
+          "Die Mitmach-Aktion ruft Menschen in ganz Deutschland dazu auf, gemeinsam Stadtbäume zu gießen und sich digital zu vernetzen.", 
+          "Zeig, dass Du dabei bist – und hilf mit, unsere grünen Stadtbewohner zu schützen.",
+          "Das Team von LEIPZIG GIESST lädt deshalb zu einer Gießaktion bei der Manusso-Wasserquelle ein!", 
+          "Bring' Gießkanne oder Eimer mit, wir freuen uns auf Dich - danach gibt's die Möglichkeit auf ein gemeinsames Eisessen! :)",
+          "Bei starkem Regen entfällt die Aktion."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.32449284309962, 51.32269661494567] }
     },
     {
       "type": "Feature",
