@@ -50,6 +50,24 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20250704_tag_der_giesskanne_fridays",
+        "type": "Aktion",
+        "name": "Tag der Gießkanne mit Fridays For Future Leipzig",
+        "organisation": "Fridays For Future Leipzig",
+        "address": "Schönefelder Allee 23A, 04347 Leipzig",
+        "date": "2025-07-04",
+        "start": "17:00",
+        "end": "18:00",
+        "hints": [
+          "Am 04.07. beteiligen auch wir uns zum Tag der Gießkanne mit einer Gießaktion an der Handschwengelpumpe in der Münzgasse", 
+          "Bei starkem Regen entfällt die Aktion."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.37362611548511, 51.3326724594954] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20250704_tag_der_giesskanne",
         "type": "Aktion",
         "name": "Tag der Gießkanne bei Manusso",
