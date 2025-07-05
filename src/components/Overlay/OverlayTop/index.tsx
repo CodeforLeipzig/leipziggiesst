@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          <b>Der 4. Juli ist der Tag der Gießkanne:</b> Gießt den ganzen Tag fleißig Bäume und tragt es in unsere Karte ein. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250704_tag_der_giesskanne")}}>hier</a>.
+          Triff uns am 30. August auf der <b>Klimafair</b>. Mehr Infos folgen <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250830_klimafair")}}>hier</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          <b>Der 4. Juli ist der Tag der Gießkanne:</b> Gießt den ganzen Tag fleißig Bäume und tragt es in unsere Karte ein. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250704_tag_der_giesskanne")}}>hier</a>.
+          Triff uns am 30. August auf der <b>Klimafair</b>. Mehr Infos <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250830_klimafair")}}>hier</a>.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}

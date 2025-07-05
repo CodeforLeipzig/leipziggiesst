@@ -8,89 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250704_tag_der_giesskanne_cvjm",
-        "type": "Aktion",
-        "name": "Tag der Gießkanne beim CVJM in Schönefeld",
-        "organisation": "Team der offenen und Mobilen Jugendarbeit des CVJM Leipzig e.V.",
-        "address": "Schönefelder Allee 23A, 04347 Leipzig",
-        "date": "2025-07-04",
-        "start": "16:00",
-        "end": "17:00",
-        "hints": [
-          "Am 04.07. beteiligen auch wir uns zum Tag der Gießkanne mit einer Gießaktion im Mariannenpark.", 
-          "Ab 16 Uhr gießen wir mit Kindern und Jugendlichen aus dem Jugentreff CV im nördlichen Teil des Parks wasserbedürftige Bäume.", 
-          "Als Wasserquelle nutzen wir unseren Wasserwürfel am Haus des CVJM Leipzig e.V.!", 
-          "Komm gern vorbei und mach mit! www.cvjm-leipzig.de",
-          "Bei starkem Regen entfällt die Aktion."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.405772461542227, 51.35732509112307] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250704_tag_der_giesskanne_fridays",
-        "type": "Aktion",
-        "name": "Tag der Gießkanne mit Fridays For Future Leipzig",
-        "organisation": "Fridays For Future Leipzig",
-        "address": "Schönefelder Allee 23A, 04347 Leipzig",
-        "date": "2025-07-04",
-        "start": "17:00",
-        "end": "18:00",
-        "hints": [
-          "Am 04.07. beteiligen auch wir uns zum Tag der Gießkanne mit einer Gießaktion an der Handschwengelpumpe in der Münzgasse", 
-          "Bei starkem Regen entfällt die Aktion."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.37362611548511, 51.3326724594954] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250704_tag_der_giesskanne",
-        "type": "Aktion",
-        "name": "Tag der Gießkanne bei Manusso",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Klingenstraße 22, 04229 Leipzig",
-        "date": "2025-07-04",
-        "start": "18:00",
-        "end": "19:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/tag-der-giesskanne-giesse-am-4-juli-einen-stadtbaum",
-        "hints": [
-          "Deutschlandweiter Aktionstag koordiniert von LEIPZIG GIESST und dem Gießkannenmuseum Gießen.",
-          "Am 4. Juli 2025 wird es nass: Zum ersten Mal findet der bundesweite \"Tag der Gießkanne\" statt!", 
-          "Die Mitmach-Aktion ruft Menschen in ganz Deutschland dazu auf, gemeinsam Stadtbäume zu gießen und sich digital zu vernetzen.", 
-          "Zeig, dass Du dabei bist – und hilf mit, unsere grünen Stadtbewohner zu schützen.",
-          "Das Team von LEIPZIG GIESST lädt deshalb zu einer Gießaktion bei der Manusso-Wasserquelle ein!", 
-          "Bring' Gießkanne oder Eimer mit, wir freuen uns auf Dich - danach gibt's die Möglichkeit auf ein gemeinsames Eisessen! :)",
-          "Bei starkem Regen entfällt die Aktion."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.32449284309962, 51.32269661494567] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250704_tag_der_giesskanne_leipzig_pflanzt",
-        "type": "Aktion",
-        "name": "Tag der Gießkanne mit Leipzig pflanzt",
-        "organisation": "Team der offenen und Mobilen Jugendarbeit des CVJM Leipzig e.V.",
-        "address": "Röckener Straße, 04229 Leipzig",
-        "date": "2025-07-04",
-        "start": "19:30",
-        "end": "21:00",
-        "hints": [
-          "Derzeit versuchen wir unsere Gehölze über die heißen, trockenen Tage zu bringen und haben schon aus eigener Kraft einige Gießaktionen letzte Woche durchgeführt",
-          "Für eine weitere Gießaktion am 04.07., ab 19:30 Uhr, in Plagwitz, auf einer Fläche unterhalb der Antonienbrücke, suchen wir noch Gieß-Helfer*innen.", 
-          "Auf der Fläche steht ein 1000l IBC Container, gefüllt mit Wasser und kann genutzt werden. Zum einen, um mittelst Akku-Pumpe und Schlauch, als auch mit Gießkannen zu gießen.",
-          "Bei starkem Regen entfällt die Aktion."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.322156, 51.321145] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20250722_quizzen_pumpen_giessen",
         "type": "Aktion",
         "name": "Ferienprogramm von \"Leipzig pumpt\" und \"Leipzig gießt\": Quizzen, Pumpen und Gießen",
@@ -108,6 +25,22 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.374491532068099, 51.33368025] }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250830_klimafair",
+        "type": "Stand",
+        "name": "Stand auf Klimafair",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Markt, 04109, Leipzig-Zentrum",
+        "date": "2025-08-30",
+        "start": "10:00",
+        "end": "22:00",
+        "url": "https://leipzigfuersklima.de/termin/klimafair-2025/",
+        "hints": []
+      },
+      "geometry": { "type": "Point", "coordinates": [12.374721873679164, 51.34026748881362] }
+    }    
   ]
 }
