@@ -939,6 +939,23 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.325256690265263, 51.34410031069228] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250707_rad3",
+        "name": "Rad3",
+        "type": "Wasserspeicher",
+        "address": "Delitzscherstraße 97, 04129 Leipzig",
+        "created": "07.07.2025",
+        "images": [ "rad3_01.jpg", "rad3_02.jpg" ],
+        "hints":[
+          "Der Wasserwürfel steht links neben dem Haupteingang des Lastenradladen \"Rad3\" unter einem Baum.", 
+          "Er ist am Rand des öffentlich zugänglichen Parkplatzes, zwischen den beiden Gebäuden.",
+          "Er kann rund um die Uhr benutzt werden."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.38479122892382, 51.3725503] }
     }
   ]
 }
