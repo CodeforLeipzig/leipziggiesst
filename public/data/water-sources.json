@@ -956,6 +956,24 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.38479122892382, 51.3725503] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250710_buddehaus",
+        "name": "Budde-Haus",
+        "type": "Wasserspeicher",
+        "address": "Lützowstraße 19, 04157 Leipzig",
+        "created": "10.07.2025",
+        "images": [ "buddehaus_01.jpg", "buddehaus_02.jpg", "buddehaus_03.jpg" ],
+        "hints":[
+          "Der Wasserwürfel befindet sich im vorderen Teil des Budde-Haus-Geländes auf den Weg Richtung Biergarten (nach dem Eingangstor der erste Weg links; nach 20 Metern rechts am Fahrradabstellplatz).", 
+          "Der Wasserwürfel ist mit einem Holzzaun eingehaust und beschriftet.", 
+          "Es stehen zwei 10l-Gießkannen zur Wasserentnahme bereit.",
+          "Das Budde-Haus-Gelände ist täglich von 8 bis mdt. 22.30 Uhr zugänglich."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3721539, 51.3645977] }
     }
   ]
 }
