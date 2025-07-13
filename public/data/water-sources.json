@@ -383,13 +383,13 @@
         "name": "Impact Hub Leipzig GmbH",
         "organisation": "Impact Hub Leipzig GmbH",
         "type": "Unternehmen",
-        "address": "Industriestr. 95, Konsumzentrale, Innenhof, 04229 Leipzig",
+        "address": "Naumburger Str. 25, 04229 Leipzig",
         "created": "17.06.2021",
         "hints":[
           "Gern mit Voranmeldung an leipzig@impacthub.net, dann einfach klingeln von Mo. bis Fr. zwischen 9 und 17 Uhr."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.3295596, 51.3281016] }
+      "geometry": { "type": "Point", "coordinates": [12.330088260125564,51.326412654484045] }
     },
     {
       "type": "Feature",
