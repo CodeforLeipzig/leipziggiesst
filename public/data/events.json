@@ -58,6 +58,27 @@
         "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.374721873679164, 51.34026748881362] }
-    }    
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250917_lindenauer_hafen",
+        "type": "Aktion",
+        "name": "Stand auf Klimafair",
+        "organisation": "LEIPZIG GIESST",
+        "address": "Lindenauer Hafen, Anlegestelle am Karl-Heine-Kanal auf Höhe der Hafenstraße 1a, 04179 Leipzig.",
+        "date": "2025-09-17",
+        "start": "19:00",
+        "end": "20:00",
+        "url": "https://stiftung-ecken-wecken.de/17sep25-stadtbaeume-giessen-am-lindenauer-hafen",
+        "hints": [
+          "Zur Woche der Klimaanpassung der Stadt Leipzig laden wir von LEIPZIG GIESST zum Bewässern unserer grünen Nachbarn ein!", 
+          "Viele Jungbäume am Lindenauer Hafen können sich über eine riesen Schluck Wasser aus dem Karl-Heine-Kanal freuen.", 
+          "Dabei stellen wir unser Projekt, unsere gleichnamige Gieß-App und viele Mitmachmöglichkeiten vor.",
+          "Bitte Gießkanne, Eimer oder Wasseranhänger mitbringen! Bei starkem Regen entfällt die Veranstaltung."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.308588, 51.329081] }
+    }
   ]
 }

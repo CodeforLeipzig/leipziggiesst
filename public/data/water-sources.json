@@ -280,6 +280,9 @@
         "created": "17.05.2021",
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09262329",
         "hints": [
+          "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 143",
+          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
           "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
           "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
           "Dazu den Handschwengel etwas höher halten, so ist oben die Öffnung für das Anfüttern größer.",
@@ -486,7 +489,7 @@
         "created": "01.08.2021",
         "hints":[
           "An der Pumpe hängt eine Gießkanne, die zum Gießen einlädt. (Falls nicht, bitte melden!)",
-          "Öffne das Schloss an der Kanne mit dem Zahlencode 189",
+          "Öffne das Schloss an der Kanne mit dem Zahlencode 153",
           "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!",
           "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt.",
           "Unter Umständen muss eine Pumpe erst noch 'angefüttert', d.h. oberhalb der Schwengellagerung etwa 2-5 Liter Wasser hineingegossen werden.",
