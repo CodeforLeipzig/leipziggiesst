@@ -977,6 +977,19 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.3721539, 51.3645977] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250721_inab",
+        "name": "Inab",
+        "type": "Wasserspeicher",
+        "address": "Weißenfelser Straße 71, 04229 Leipzig",
+        "created": "21.07.2025",
+        "url": "https://www.inab-jugend.de/leipzig/",
+        "hints":[]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.326089431301625,51.32829355613137] }
     }
   ]
 }
