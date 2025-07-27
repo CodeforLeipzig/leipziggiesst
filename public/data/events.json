@@ -5,43 +5,20 @@
     "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
   },
   "features": [
-        {
-      "type": "Feature",
-      "properties": {
-        "id": "20250709_taborkirche",
-        "type": "Aktion",
-        "name": "Gießaktion an der Handschwengelpumpe vor der Taborkirche ",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Windorfer Straße 49, 04229 Leipzig",
-        "date": "2025-07-09",
-        "start": "18:00",
-        "end": "19:00",
-        "hints": [
-          "Bringt bitte eure Gießkanne mit."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.327698869226992, 51.31481365299021] }
-    },
     {
       "type": "Feature",
       "properties": {
-        "id": "20250722_quizzen_pumpen_giessen",
+        "id": "20250819_lg_lp_picknick",
         "type": "Aktion",
-        "name": "Ferienprogramm von \"Leipzig pumpt\" und \"Leipzig gießt\": Quizzen, Pumpen und Gießen",
+        "name": "Offenes Mitbringpicknick LEIPZIG GIESST und Leipzig Pumpt",
         "organisation": "LEIPZIG GIESST",
-        "address": "Wilhelm-Leuschner-Platz 10-11, 04107, Leipzig-Zentrum",
-        "date": "2025-07-22",
-        "start": "10:00",
-        "end": "13:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/ferienprogramm-von-leipzig-pumpt-und-leipzig-giesst-quizzen-pumpen-und",
-        "hints": [
-          "Treffpunkt: Stadtbibliothek, Raum \"Franz Dominic Grassi\", EG",
-          "Bei unserem Ferienprogramm lernen alle ab 6 Jahre auf spielerische Weise viel Neues über Stadtbäume und die historischen Wasserpumpen in Leipzig!",
-          "Wir spielen gemeinsam das Hörspielquiz \"Der Spatz und die tierischen Wasserpumpen\" und gehen im Anschluss bei einer Wasserpumpe in der Nähe Stadtbäume gießen und stellen unsere Gieß-App vor.", 
-          "Auf unserem Spaziergang schauen wir auch mal genauer hin und erfahren, wie ein kranker und wie ein gesunder Baum zu erkennen ist."
-        ]
+        "address": "Stephaniplatz, 04317, Leipzig-Zentrum",
+        "date": "2025-08-19",
+        "start": "18:00",
+        "end": "20:00",
+        "hints": []
       },
-      "geometry": { "type": "Point", "coordinates": [12.374491532068099, 51.33368025] }
+      "geometry": { "type": "Point", "coordinates": [12.398771342802121, 51.338734903853066] }
     },
     {
       "type": "Feature",
