@@ -23,6 +23,28 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "20250824_vielfalter",
+        "type": "Aktion",
+        "name": "Schmetterlinge zählen und Bäume gießen",
+        "organisation": "\"VielFalterGarten\" und \"LEIPZIG GIESST\"",
+        "address": "Hildegarten beim Bürgerbahnhof Plagwitz",
+        "date": "2025-08-24",
+        "start": "11:00",
+        "end": "12:30",
+        "hints": [
+          "Stellt euch vor: Es ist Spätsommer, wir sitzen zusammen auf einer blühenden Wildblumenwiese, beobachten farbenfrohe Schmetterlinge und gießen anschließend junge Stadtbäume.", 
+          "Genau dazu laden euch der \"VielFalterGarten\" und \"LEIPZIG GIESST\" am Sonntag, den 24.08.2025, herzlich ein.",
+          "Der \"VielFalterGarten\" setzt sich dafür ein, Schmetterlinge in der Stadt zu schützen und Leipzigs Gärten, Balkone und Parks schmetterlingsfreundlich zu gestalten.", 
+          "Bitte Gießkanne oder Eimer mitbringen. Die Veranstaltung entfällt bei starkem Regen.",
+          "Treffpunkt: Start vor dem Hildegarten beim Bürgerbahnhof Plagwitz.", 
+          "Gezählt und gegossen wird nur wenige Meter entfernt, auf der Wiese südlich des Hildegartens und vor der Antonienbrücke."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.3217437667642, 51.32230436539561] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "20250830_klimafair",
         "type": "Stand",
         "name": "Stand auf Klimafair",
