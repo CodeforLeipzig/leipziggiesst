@@ -16,7 +16,13 @@
         "date": "2025-08-19",
         "start": "18:00",
         "end": "20:00",
-        "hints": []
+        "url": "https://nuudel.digitalcourage.de/JkFUEyjVsxDqoNJ4",
+        "hints": [
+          "Wir treffen uns an der Handschwengelpumpe in der Crusiusstraße, gießen ein paar Bäume in der Umgebung und suchen uns anschließend einen passenden Platz zum Picknicken und zum lockeren Austausch.",
+          "Da wir diesmal im Freien sind und damit kein Geschirr und Besteck anbieten können, bitten wir euch, Teller und Besteck sowie eine Decke mitzubringen.",
+          "Was Ihr zu unserem Mitbring-Picknick beisteuern möchtet, könnt Ihr in dieser Abfrage https://nuudel.digitalcourage.de/JkFUEyjVsxDqoNJ4 eintragen.",
+          "Wer erst später hinzukommen kann, findet uns auf einer der Grünflächen in der Nähe der Handschwengelpumpe."
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.398771342802121, 51.338734903853066] }
     },
