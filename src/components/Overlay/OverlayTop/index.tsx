@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Schmetterlinge zählen und Bäume gießen könnt ihr mit uns am 24.8. im Hildegarten in Plagwitz <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250824_vielfalter")}}>hier</a>.
+          Schmetterlinge zählen und Bäume gießen könnt ihr mit uns am 24.8. auf dem Bürgerbahnhof Plagwitz <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250824_vielfalter")}}>hier</a>.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-         Schmetterlinge zählen und Bäume gießen könnt ihr mit uns am 24.8. im Hildegarten in Plagwitz <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250824_vielfalter")}}>hier</a>.
+         Schmetterlinge zählen und Bäume gießen könnt ihr mit uns am 24.8. auf dem Bürgerbahnhof Plagwitz <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250824_vielfalter")}}>hier</a>.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
