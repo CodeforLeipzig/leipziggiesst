@@ -798,12 +798,7 @@
         "address": "Lauerscher Weg",
         "created": "05.06.2024",
         "images": [ "cossi.jpg" ],
-        "hints": [
-          "Seit kurzem gibt es drei frisch gepflanzte Bäume am Hundestrand.",
-          "Um deren Gießen zu erleichern, sind zwei Gießkannen mit einem Zahlenschloss an einem der Bäume befestigt.",
-          "Öffne das Schloss an der Kanne mit dem Zahlencode 127.",
-          "Verschließe das Schloss nach dem Gießen wieder, indem Du es eng zuziehst und die Zahlenblätter willkürlich drehst. Danke!"
-        ]
+        "hints": []
       },
       "geometry": { "type": "Point", "coordinates": [12.336517068925275,51.284676060989995] }
     },

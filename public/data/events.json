@@ -33,7 +33,7 @@
         "type": "Aktion",
         "name": "Schmetterlinge zählen und Bäume gießen",
         "organisation": "\"VielFalterGarten\" und \"LEIPZIG GIESST\"",
-        "address": "Hildegarten beim Bürgerbahnhof Plagwitz",
+        "address": "Bürgerbahnhof Plagwitz",
         "date": "2025-08-24",
         "start": "11:00",
         "end": "12:30",
@@ -46,7 +46,7 @@
           "Gezählt und gegossen wird nur wenige Meter entfernt, auf der Wiese südlich des Hildegartens und vor der Antonienbrücke."
         ]
       },
-      "geometry": { "type": "Point", "coordinates": [12.3217437667642, 51.32230436539561] }
+      "geometry": { "type": "Point", "coordinates": [12.321951169584509, 51.322058962408164] }
     },
     {
       "type": "Feature",
