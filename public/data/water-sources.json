@@ -844,7 +844,7 @@
         "address": "Anlegestelle Lindenauer Hafen",
         "created": "30.04.2025",
         "images": [ "lindenauer_hafen_1.jpg", "lindenauer_hafen_2.jpg" ],
-        "inactive": true,
+        "inactive": false,
         "hints": [
           "Stadtbäume am Lindenauer Hafen leider unter Trockenheit, obwohl das Wasser des Kanals nur wenige Meter entfernt ist",
           "Um deren Gießen zu erleichern, ist eine Gießkannen mit einem Zahlenschloss an einem der Bäume befestigt.",
