@@ -8,24 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250830_klimafair",
-        "type": "Stand",
-        "name": "Stand auf Klimafair",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Markt, 04109, Leipzig-Zentrum",
-        "date": "2025-08-30",
-        "start": "10:00",
-        "end": "22:00",
-        "url": "https://leipzigfuersklima.de/termin/klimafair-2025/",
-        "hints": [
-          "auch mit Dosenwerfen"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.374721873679164, 51.34026748881362] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20250917_lindenauer_hafen",
         "type": "Aktion",
         "name": "Gießen am Lindenauer Hafen",

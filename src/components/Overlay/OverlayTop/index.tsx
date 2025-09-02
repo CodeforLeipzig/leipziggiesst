@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Trefft uns am Samstag, den 30. August, auf dem Marktplatz, <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250830_klimafair")}}>im Rahmen der Klimafair</a>, und zeigt euer Können beim Dosenwerfen.
+          Schließt euch <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250917_lindenauer_hafen")}}>unserer Gießaktion am Lindenauer Hafen</a> am 17. September als Beitrag zur Woche der Klimaanpassung an.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-         Trefft uns am Samstag, den 30. August, auf dem Marktplatz, <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250830_klimafair")}}>im Rahmen der Klimafair</a>, und zeigt euer Können beim Dosenwerfen.
+          Schließt euch <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250917_lindenauer_hafen")}}>unserer Gießaktion am Lindenauer Hafen</a> am 17. September als Beitrag zur Woche der Klimaanpassung an.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
