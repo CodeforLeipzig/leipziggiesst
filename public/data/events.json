@@ -8,45 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20250917_lindenauer_hafen",
-        "type": "Aktion",
-        "name": "Gießen am Lindenauer Hafen",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Lindenauer Hafen, Anlegestelle am Karl-Heine-Kanal auf Höhe der Hafenstraße 1a, 04179 Leipzig.",
-        "date": "2025-09-17",
-        "start": "19:00",
-        "end": "20:00",
-        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/lindenauer-hafen-abschlussgiessen-fuer-unsere-stadtbaeume-am-170925",
-        "hints": [
-          "Zur Woche der Klimaanpassung der Stadt Leipzig laden wir von LEIPZIG GIESST zum Bewässern unserer grünen Nachbarn ein!", 
-          "Viele Jungbäume am Lindenauer Hafen können sich über eine riesen Schluck Wasser aus dem Karl-Heine-Kanal freuen.", 
-          "Dabei stellen wir unser Projekt, unsere gleichnamige Gieß-App und viele Mitmachmöglichkeiten vor.",
-          "Bitte Gießkanne, Eimer oder Wasseranhänger mitbringen! Bei starkem Regen entfällt die Veranstaltung."
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.308588, 51.329081] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "20250921_meet_and_pflanz",
-        "type": "Konferenz",
-        "name": "MEET & PFLANZ",
-        "organisation": "LEIPZIG pflanzt",
-        "address": "Stadtbüro am Burgplatz 1",
-        "date": "2025-09-21",
-        "start": "15:00",
-        "end": "18:00",
-        "url": "https://rausgegangen.de/events/meet-plfanz-geburtstagsfeier-leipzig-pflanzt-0/",
-        "hints": [
-          "Feiert mit uns 5 Jahre LEIPZIG pflanzt!"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.372660728837332, 51.33706999999984] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20251023_giessabschluss",
         "type": "Treffen",
         "name": "Gemeinsamer Abschluss mit der Gießcommunity",

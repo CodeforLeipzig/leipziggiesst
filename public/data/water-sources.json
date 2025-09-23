@@ -986,13 +986,13 @@
       },
       "geometry": { "type": "Point", "coordinates": [12.326089431301625,51.32829355613137] }
     },
-        {
+    {
       "type": "Feature",
       "properties": {
         "id": "20250909_hsp_246",
         "name": "HSP Nr. 246",
         "type": "Handschwengelpumpe",
-        "address": "Gorkistraße 25, ",
+        "address": "Gorkistraße 25",
         "created": "09.09.2025",
         "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09260098",
         "images": [ "hsp_246_1.jpg", "hsp_246_2.jpg" ],
@@ -1002,7 +1002,23 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.417735897375678,51.35854375704869] }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20250922_hsp_173",
+        "name": "HSP Nr. 173",
+        "type": "Handschwengelpumpe",
+        "address": "Diskaustraße 36",
+        "created": "22.09.2025",
+        "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=09294874",
+        "images": [ "hsp_173_1.jpg", "hsp_173_2.jpg" ],
+        "hints": [
+          "Es kann sein, dass etwa 20 bis 30 Mal gepumpt werden muss, bis das Wasser endlich fließt."
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.326944,51.316971] }
+    }      
   ]
 }
 
