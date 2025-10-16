@@ -61,12 +61,12 @@ const OverlayTop: FC = () => {
         <OverlayTitle size='xxl' title={title} />
         <img style={{ height: 160 }} src='images/leipzig-giesst-logo.png' />
         {!isMobile && (<div style={{ width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Schließt euch <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250917_lindenauer_hafen")}}>unserer Gießaktion am Lindenauer Hafen</a> am 17. September als Beitrag zur Woche der Klimaanpassung an.
+          Die Gießsaison ist vorbei – Zeit, Danke zu sagen! Hinter uns liegt ein Sommer, in dem das städtische Grün wieder viel Durst hatte. <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessauswertung-2025-volle-kannen-volle-power">Hier</a> findest Du das Gießranking 2025 und weitere Zahlen.
         </div>)}
       </Wrapper>
       <OverlayTitle size='small' title={""} />
       {isMobile && (<div style={{ paddingLeft: '40px', paddingBottom: '20px', width: '60%', fontSize: '16pt', fontStyle: 'bold', color: 'blue' }}>
-          Schließt euch <a style={{ cursor: 'pointer', textDecoration: 'underline' }} onClick={() => { history.push("/event/20250917_lindenauer_hafen")}}>unserer Gießaktion am Lindenauer Hafen</a> am 17. September als Beitrag zur Woche der Klimaanpassung an.
+          Die Gießsaison ist vorbei – Zeit, Danke zu sagen! Hinter uns liegt ein Sommer, in dem das städtische Grün wieder viel Durst hatte. <a target="_blank" href="https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/giessauswertung-2025-volle-kannen-volle-power">Hier</a> findest Du das Gießranking 2025 und weitere Zahlen.
         </div>)}
       <OverlayTitle size='xxl' title={subline} />
       {isMobile && <OverlayTitle size='medium' title={disclaimer} />}
