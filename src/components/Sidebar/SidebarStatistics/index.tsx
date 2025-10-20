@@ -21,16 +21,16 @@ const SidebarStatistics: FC = () => {
 
   return (
     <>
-      <SidebarTitle>Gieß-Ranking 2024</SidebarTitle>
+      <SidebarTitle>Gieß-Ranking 2025</SidebarTitle>
       <FlexCol>
         <Paragraph>
-          vom 01.04.2024 bis 30.09.2024
+          vom 01.04.2025 bis 30.09.2025
         </Paragraph>
         {(statisticsJson || []).map(user => (
           <SmallParagraph>{((user.pos < 10) ? '00' : ((user.pos < 100) ? '0' : '')) + user.pos}. {user.username} ({user.liter} Liter)</SmallParagraph>
         ))}
         <Paragraph>
-          Mehr Statistiken gibt es <a target="_blank" href="https://joergreichert.github.io/gdk-opendata-plot/">hier</a> und <a target="_blank" href="https://dashboard.codeforleipzig.de/d/RQFRCgeGk/leipziggiesstpublic?orgId=2&from=1709247600000&to=now">hier</a>.
+          Mehr Statistiken gibt es <a target="_blank" href="https://joergreichert.github.io/gdk-opendata-plot/">hier</a> und <a target="_blank" href="https://dashboard.codeforleipzig.de/d/RQFRCgeGk/leipziggiesstpublic?orgId=2&&from=2025-03-31T22:00:00.000Z&to=2025-09-30T21:59:59.999Z&timezone=Europe%2FBerlin">hier</a>.        
         </Paragraph>
       </FlexCol>
     </>
