@@ -32,9 +32,12 @@
         "organisation": "LEIPZIG GIESST",
         "address": "online",
         "date": "2025-11-27",
-        "start": "TBA",
-        "end": "TBA",
-        "hints": []
+        "start": "16:00",
+        "end": "19:00",
+        "url": "https://stiftung-ecken-wecken.de/projekte/leipzig-giesst/blog/call-workshops-deutschland-giesst-herbst-konferenz-2025",
+        "hints": [
+          "Call for Workshops, bitte uns Workshopskizze bis 22.10.25 senden"
+        ]
       },
       "geometry": { "type": "Point", "coordinates": [12.341741169312911, 51.325202364493265] }
     }
