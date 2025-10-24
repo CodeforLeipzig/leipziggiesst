@@ -8,24 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "20251023_giessabschluss",
-        "type": "Treffen",
-        "name": "Gemeinsamer Abschluss mit der Gießcommunity",
-        "organisation": "LEIPZIG GIESST",
-        "address": "Treffhaltestelle, Industriestraße 25",
-        "date": "2025-10-23",
-        "start": "18:00",
-        "end": "21:00",
-        "hints": [
-          "unter anderem mit Auszeichnung der Top-10 Gießer:innen",
-          "mit Feuer und Suppe"
-        ]
-      },
-      "geometry": { "type": "Point", "coordinates": [12.341805542329524, 51.325256000000195] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "20251127_dg_konferenz",
         "type": "Konferenz",
         "name": "Deutschland-Gießt-Herbst-Konferenz",
