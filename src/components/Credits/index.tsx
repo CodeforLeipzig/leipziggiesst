@@ -13,6 +13,7 @@ const logoLeipzigASG = '/images/leipzig-asg.png';
 const logoDigiPreis = '/images/digitalpreis.jpg';
 const logoDsee = '/images/dsee.svg';
 const logoTransformD = '/images/transformd.png';
+const logoHeidehof = '/images/heidehof-logo.svg';
 
 
 const CreditsContainer = styled.div`
@@ -90,6 +91,12 @@ const DigiPreisLogo = styled.img`
   padding-left: 35px;
 `;
 
+const HeidehofLogo = styled.img`
+  width: 220px;
+  margin: 10px 0 5px 0;
+  padding-left: 35px;
+`;
+
 const DseeLogo = styled.img`
   width: 220px;
   margin: 10px 0 5px 0;
@@ -140,6 +147,10 @@ const Credits: FC = () => {
         <div className={'clickable'} onClick={() => window.open("https://www.digitales.sachsen.de/DigiPreis22.html")}>
           <span className="project">Gewinner von:</span>
           <DigiPreisLogo src={logoDigiPreis} alt='Logo Digitalpreis' />
+        </div>
+        <div className={'clickable'} onClick={() => window.open("https://www.heidehof-stiftung.de")}>
+          <span className="project">Gefördert von:</span>
+          <HeidehofLogo src={logoHeidehof} alt='Logo Heidehof Stiftung' />
         </div>
         <div className={'clickable'} onClick={() => window.open("https://www.deutsche-stiftung-engagement-und-ehrenamt.de")}>
           <span className="project">Gefördert von:</span>
