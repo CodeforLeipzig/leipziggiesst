@@ -1018,7 +1018,23 @@
         ]
       },
       "geometry": { "type": "Point", "coordinates": [12.326944,51.316971] }
-    }      
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20260305_schoenerhausen",
+        "name": "Wohnprojekt Schöner Hausen",
+        "type": "Wasserspeicher",
+        "address": "Eisenbahnstraße 178, 04229 Leipzig",
+        "created": "21.07.2025",
+        "url": "https://schoenerhausen.org",
+        "hints":[
+          "Der Wasserwürfel ist Dienstags bis Sonntags über das Hoftor erreichbar", 
+          "Bei Rückfragen bitte E-Mail an: info@schoenerhausen.org"
+        ]
+      },
+      "geometry": { "type": "Point", "coordinates": [12.422439636375454,51.344495102744226] }
+    }
   ]
 }
 
